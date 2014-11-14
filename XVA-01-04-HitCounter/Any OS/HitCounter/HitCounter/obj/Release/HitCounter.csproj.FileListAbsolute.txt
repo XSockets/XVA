@@ -1,0 +1,81 @@
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\HitCounter.dll.config
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\HitCounter.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\HitCounter.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Logger.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Server.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Server.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Controllers.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Common.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Communication.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.CustomProtocol.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Enterprise.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Logger.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Protocol.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Serialization.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\bin\XSockets.Server.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\HitCounter.dll.config
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\HitCounter.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\HitCounter.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Logger.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Server.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\bin\XSockets.Server.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter\Any OS\HitCounter\HitCounter\obj\Release\HitCounter.pdb

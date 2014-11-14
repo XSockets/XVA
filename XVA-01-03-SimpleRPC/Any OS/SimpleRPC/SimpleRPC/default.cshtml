@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XSockets - Simple RPC</title>
+</head>
+<body>
+    <label>Username</label><br />
+    <input type="text" id="username" value="Steve" /><br />
+    <label>Message</label><br />
+    <input type="text" value="Hello World" id="message" /><button id="send">send</button>
+    <hr />
+    <div data-bind="foreach:messages">
+        <div>
+            <span data-bind="text:username"></span>: <span data-bind="text:message"></span>
+        </div>
+    </div>
+
+    <script src="/Scripts/XSockets.latest.min.js" type="text/javascript"></script>
+    <script src="/Scripts/knockout-3.2.0.js"></script>
+    <script type="text/javascript">
+        //VM
+        var vm = { messages: ko.observableArray([]) };
+        ko.applyBindings(vm);
+
+        //Connect to the built in "Generic" controller
+        var conn = new XSockets.WebSocket('ws://localhost:4502', ['chat']);
+        var controller = conn.controller('chat');
+
+        //Handle the "chatmessage" event
+        controller.chatmessage = function (d) {
+            vm.messages.unshift(d);
+        };
+
+        //The above method can also be written as
+        //controller.on('chatmessage', function (d) {
+        //    vm.messages.unshift(d);
+        //});
+
+        //When button is clicked, send a message
+        document.querySelector("#send").onclick = function () {
+            var u = document.querySelector('#username').value;
+            var m = document.querySelector('#message').value;
+            controller.invoke('chatmessage', { username: u, message: m });
+        };
+    </script>
+</body>
+</html>

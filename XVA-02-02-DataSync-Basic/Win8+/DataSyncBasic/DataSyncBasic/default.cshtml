@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XVA DataSync Basic</title>
+</head>
+<body>
+    <div>
+        Open up several browser windows to see data-sync in action.
+    </div>
+    <h4>New Item</h4>
+    <input type="text" id="input-new-item" /><button data-bind="click:tryAdd">Add</button>
+    <hr />
+    <h4>Items</h4>
+    <div data-bind="foreach:items">
+        <div>
+            <input type="text" data-bind="value:Object.name" />
+            <button data-bind="click:function(){$root.tryUpdate($data)}">Update</button>
+            <button data-bind="click:function(){$root.tryRemove($data)}">Remove</button>
+        </div>
+    </div>
+    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/knockout-3.2.0.js"></script>
+    <script src="/Scripts/viewmodel.js"></script>
+    <script>
+        // RealTime connection
+        var conn;
+        //Controller name
+        var syncName = 'simplelist';
+
+        //Enable knockoutjs
+        ko.applyBindings(vm);
+
+        //Open a full-duplex connection to the data-sync controller and pass in the topics (only one here, but could be several)
+        conn = new XSockets.WebSocket('ws://'+location.host, [syncName], { topics: syncName });
+
+        //Loads oll persisted data when connected
+        conn.controller(syncName).on("init:" + syncName, function (d) {
+            for (var i = 0; i < d.length; i++) {
+                vm.updatedItem(d[i]);
+            }
+        });
+
+        //Sync from server
+
+        //Updated object
+        conn.controller(syncName).subscribe("update:" + syncName, function (d) {
+            vm.updatedItem(d);
+        });
+        //Added object
+        conn.controller(syncName).subscribe("add:" + syncName, function (d) {
+            vm.updatedItem(d);
+        });
+        //Deleted object
+        conn.controller(syncName).subscribe("delete:" + syncName, function (d) {
+            vm.deletedItem(d);
+        });
+
+        //Sync to server
+
+        var addItem = function (f) {
+            conn.controller(syncName).invoke('update', { Topic: syncName, Object: f });
+        };
+        var updateItem = function (f) {
+            conn.controller(syncName).invoke('update', f);
+        };
+        var deleteItem = function (f) {
+            conn.controller(syncName).invoke('delete', { Id: f.Id });
+        };
+    </script>
+</body>
+</html>

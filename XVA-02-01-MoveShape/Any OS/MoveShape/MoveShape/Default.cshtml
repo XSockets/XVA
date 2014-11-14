@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />    
+    <title>XVA - MoveShape</title>
+    <style type="text/css">
+        #shape {
+            width: 200px;
+            height: 200px;
+            background-color: #f00;
+            position: absolute;
+            display: block;
+        }
+    </style>
+</head>
+<body onmousemove="onMove(event)">
+    <div id="status">Disconnected</div>
+    <div id="shape"></div>
+
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery-ui-1.10.4.js"></script>
+    <script src="Scripts/XSockets.latest.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var shape = $("#shape");
+
+            var conn = new XSockets.WebSocket('ws://localhost:4502', ['moveshape']);
+            var controller = conn.controller('moveshape');
+
+            controller.onopen = function () {
+                $('#status').text("Connected");
+            };
+
+            controller.on("move", function (d) {
+                shape.css("left", d.x);
+                shape.css("top", d.y);
+                shape.text(d.x + ',' + d.y);
+            });
+
+            shape.draggable({
+                drag: function () {
+                    var self = $(this),
+                        x = this.offsetLeft,
+                        y = this.offsetTop;
+                    self.text(x + ',' + y);
+                    controller.invoke("move", { x: x, y: y });
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

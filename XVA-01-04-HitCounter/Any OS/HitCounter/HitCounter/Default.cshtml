@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HitCounter</title>
+</head>
+<body>
+    <div id="counter" style="margin: auto; font-size:220px; font-family:'Segoe UI Light';"></div>
+
+    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script type="text/javascript">
+        // create a xsockets connection
+        var conn = new XSockets.WebSocket('ws://localhost:4502', ['hitcounter']);
+
+        //Get the controller for the hitcounter
+        var controller = conn.controller('hitcounter');
+
+        // an event handler for the 'receiveHit' message from the hitcounter controller
+        controller.on('updateCount', function (count) {
+            document.querySelector('#counter').innerText = count;
+        });
+    </script>
+</body>
+</html>

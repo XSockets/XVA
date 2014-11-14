@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XSockets.Protocol</name>
+    </assembly>
+    <members>
+        <member name="T:XSockets.Protocol.XSocketInternalProtocol">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XSockets.Protocol.XSocketProtocol">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.CanDoHeartbeat">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.SetUri">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.SetHeaders">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.SetQueryString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Available">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.DoHandshake">
+            <summary>
+            Override this and implement all things for your protocol.
+            Validate if needed and also parse out Controller, Fields etc
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Ping(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Pong(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.GetHostResponse">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Read">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Disconnect(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="communicate"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Opened">
+            <summary>
+            Will be called before receive starts.
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.SetStorageGuid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Receive">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.IncomingMessage(XSockets.Core.Common.Socket.Event.Interface.IMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.VerifyController(XSockets.Core.Common.Socket.Event.Interface.IMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.OnIncomingFrame(System.Collections.Generic.IList{System.Byte},XSockets.Core.Common.Socket.Event.Arguments.MessageType)">
+            <summary>
+            
+            </summary>
+            <param name="payload"></param>
+            <param name="messageType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.OnOutgoingFrame(XSockets.Core.Common.Socket.Event.Interface.IMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.NewInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Create(System.Action{System.Collections.Generic.IList{System.Byte},XSockets.Core.Common.Protocol.FrameType})">
+            <summary>
+            
+            </summary>
+            <param name="onCompleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.ReceiveData(System.ArraySegment{System.Byte},XSockets.Core.Common.Protocol.IReadState,System.Action{XSockets.Core.Common.Protocol.FrameType,System.Collections.Generic.IList{System.Byte}})">
+            <summary>
+            
+            </summary>
+            <param name="segment"></param>
+            <param name="readState"></param>
+            <param name="processFrame"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.ProcessFrame(XSockets.Core.Common.Protocol.FrameType,System.Collections.Generic.IList{System.Byte},System.Action{System.Collections.Generic.IList{System.Byte},XSockets.Core.Common.Protocol.FrameType})">
+            <summary>
+            
+            </summary>
+            <param name="frameType"></param>
+            <param name="data"></param>
+            <param name="completed"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Receive(System.Byte[],System.Action{System.Int32},System.Action{System.Exception},System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="callback"></param>
+            <param name="error"></param>
+            <param name="offset"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Send(System.Byte[],System.AsyncCallback)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="callback"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Send(System.Byte[],System.Action,System.Action{System.Exception})">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="callback"></param>
+            <param name="error"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Close(System.Int32,System.Action,System.Action{System.Exception})">
+            <summary>
+            
+            </summary>
+            <param name="reason"></param>
+            <param name="callback"></param>
+            <param name="error"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.InvokeMessageInterceptors(XSockets.Core.Common.Protocol.MessageDirection,XSockets.Core.Common.Socket.Event.Interface.IMessage)">
+            <summary>
+            
+            </summary>
+            <param name="direction"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.InvokeErrorInterceptors(System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="ex"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.Heartbeat(System.Int64,System.Action{XSockets.Core.Common.Protocol.HeartbeatCloseReason})">
+            <summary>
+            
+            </summary>
+            <param name="millisecondsInterval"></param>
+            <param name="action"></param>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.FatalError(System.Exception)">
+            <summary>
+            Send an error message to the client and then disconnects
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:XSockets.Protocol.XSocketProtocol.OnPong">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:XSockets.Protocol.XSocketProtocol.OnPing">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ConfigurationSetting">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ConnectionContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.XSocketPipeline">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.JsonSerializer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ServerContainer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ScaleOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.InterceptorsOn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.Socket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.FrameHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ProtocolIdentifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.ProtocolPattern">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.HostResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.Handshake">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.BufferSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.AllowedOrigins">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.DefaultController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketProtocol.Controllers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketInternalProtocol.DoHandshake">
+            <summary>
+            Perform any extra logic for handshake, build a hostresponse etc
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketInternalProtocol.CanDoHeartbeat">
+            <summary>
+            Set to true if your clients connected to this protocol will return pong on ping.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.XSocketInternalProtocol.NewInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketInternalProtocol.GetPathRegex">
+            <summary>
+            Extract the path (controller name) from the handshake
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketInternalProtocol.ProtocolIdentifier">
+            <summary>
+            A simple identifier fot the protocol since the ProtocolPattern might be complex or unfriendly to read.
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketInternalProtocol.HostResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.XSocketInternalProtocol.ProtocolPattern">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XSockets.Protocol.Rfc6455Protocol">
+            <summary>
+            RFC6455 implementation http://tools.ietf.org/html/rfc6455
+            </summary>
+        </member>
+        <member name="T:XSockets.Protocol.XWebSocketProtocol">
+            <summary>
+            Base protocol for implementations of websocket protocols
+            </summary>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.CanDoHeartbeat">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.OnOutgoingFrame(XSockets.Core.Common.Socket.Event.Interface.IMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.GetFrame(XSockets.Core.Common.Socket.Event.Interface.IMessage,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="isMasked"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.Ping(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.Pong(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.DoHandshake">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.Create(System.Action{System.Collections.Generic.IList{System.Byte},XSockets.Core.Common.Protocol.FrameType})">
+            <summary>
+            
+            </summary>
+            <param name="onCompleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.ReceiveData(System.ArraySegment{System.Byte},XSockets.Core.Common.Protocol.IReadState,System.Action{XSockets.Core.Common.Protocol.FrameType,System.Collections.Generic.IList{System.Byte}})">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="readState"></param>
+            <param name="processFrame"></param>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.ProcessFrame(XSockets.Core.Common.Protocol.FrameType,System.Collections.Generic.IList{System.Byte},System.Action{System.Collections.Generic.IList{System.Byte},XSockets.Core.Common.Protocol.FrameType})">
+            <summary>
+            
+            </summary>
+            <param name="frameType"></param>
+            <param name="data"></param>
+            <param name="completed"></param>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.Close(System.Int32,System.Action,System.Action{System.Exception})">
+            <summary>
+            
+            </summary>
+            <param name="reason"></param>
+            <param name="callback"></param>
+            <param name="error"></param>
+        </member>
+        <member name="M:XSockets.Protocol.Rfc6455Protocol.NewInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:XSockets.Protocol.Rfc6455Protocol.HostResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.Rfc6455Protocol.ProtocolPattern">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Protocol.Rfc6455Protocol.ProtocolIdentifier">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

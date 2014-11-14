@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XVA - State RPC</title>
+</head>
+<body>
+    <label>City</label><br />
+    <select id="cities" onchange="changeCity()">
+        <option value="Stockholm">Stockholm</option>
+        <option value="London">London</option>
+        <option value="Oslo">Oslo</option>
+    </select><br />
+    <label>Gender</label><br />
+    <select id="gender" onchange="changeGender()">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+    </select><br />
+    <label>Message</label><br />
+    <input type="text" value="Hello World" id="message" /><button id="send">send</button>
+    <hr />
+    <div data-bind="foreach:messages">
+        <div>
+            <span data-bind="text:City"></span>/<span data-bind="text:Gender"></span><br />
+            <span data-bind="text:Message"></span>
+        </div>
+    </div>
+    <script src="/Scripts/XSockets.latest.js"></script> 
+    <script src="/Scripts/knockout-3.2.0.js"></script>
+    <script type="text/javascript">
+            //VM
+            var vm = { messages: ko.observableArray([]) };
+            ko.applyBindings(vm);
+
+            //Connect to the built in "Generic" controller
+            var defaultProperties = { gender: document.querySelector('#gender').value, city: document.querySelector('#cities').value };
+            var conn = new XSockets.WebSocket('ws://localhost:4502', ['chat'], defaultProperties);
+            var controller = conn.controller('chat');
+
+            //Setup a event for the topic "message"
+            controller.on('message', function (d) {
+                vm.messages.unshift(d);
+            });
+
+            //When button is clicked, send a message
+            document.querySelector("#send").onclick = function () {
+                var m = document.querySelector('#message').value;
+                controller.invoke('message', { message: m });
+            };
+
+            var changeGender = function() {
+                var g = document.querySelector('#gender').value;
+                controller.setEnum('gender', g);
+            };
+            var changeCity = function () {
+                var c = document.querySelector('#cities').value;
+                controller.setProperty('city', c);
+            };
+    </script>
+</body>
+</html>
