@@ -12,6 +12,8 @@ There are two versions of every sample, one for any operating system running .NE
 
 All samples was built with Visual Studio 2013 and .NET 4.5. However all code in the "Any OS" folders will be compatible down to .NET 4.0.
 
-/Team XSockets
+/Team XSockets.NET
+
+
 
 
