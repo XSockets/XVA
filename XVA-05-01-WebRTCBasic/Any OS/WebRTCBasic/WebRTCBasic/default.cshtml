@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>XVA - WebRTC Basic </title>
+    <style>
+        #localVideo {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+        }
+
+            #localVideo video {
+                max-width: 320px;
+            }
+
+        #remoteVideos {
+            background: #fafada;
+            border: 1px solid #dadada;
+            padding: 10px;
+        }
+
+            #remoteVideos video {
+                max-width: 320px;
+                float: left;
+                margin-right: 10px;
+            }
+    </style>
+</head>
+<body>
+    <h1>XVA - WebRTC Basic</h1>
+    <div id="remoteVideos">
+        <h2>No remote peers connected</h2>
+    </div>
+    <div id="localVideo">
+        <video autoplay muted></video>
+    </div>
+    <!-- Get the nessassary JavaScript libraries -->
+    <script src="//rawgit.com/XSockets/XSockets.Clients/master/src/XSockets.Clients/XSockets.JavaScript/XSockets.latest.js"></script>
+    <script src="//rawgit.com/XSockets/XSockets.WebRTC/master/src/js/XSockets.WebRTC.latest.js"></script>
+    <!-- XVA - WebRTC Basic -->
+    <script>
+        function $(selector, el) {
+            if (!el) {
+                el = document;
+            }
+            return el.querySelector(selector);
+        }
+        var brokerController, context, ws, webRTC;
+        document.addEventListener("DOMContentLoaded", function () {
+            // connect to the server using a predefined context (a.k.a room )
+            // we pass a 'static' guid as a parameters , see ctx below
+            context = '1c743b9b-f19f-4b74-a472-4081dbc14f43';
+            ws = new XSockets.WebSocket("ws://127.0.0.1:4502", ["connectionbroker"], {
+                ctx: context
+            });
+            ws.onconnected = function () {
+                console.log("connected to to broker");
+                brokerController = ws.controller("connectionbroker"); // get the 'connectionBroker'
+                // create an WebRTC instance using the connectionBroker
+                webRTC = new XSockets.WebRTC(brokerController);
+                // okey, we are connected, prompt and get a mediaSteam (video, qvga )
+                var gumConstraints = webRTC.userMediaConstraints.qvga(false); // to get sound, pass true
+                webRTC.getUserMedia(gumConstraints, function (peer) {
+                    console.log("Got a media stream, onlocalvideo will fire..");
+                }, function (ex) {
+                    console.error("failed to getUserMedia", ex);
+                });
+                // localMediaStream
+                webRTC.onlocalstream = function (stream) {
+                    window.attachMediaStream($("#localVideo video"), stream);
+                    // when i got a local mediastream , connect to others.
+                    webRTC.connectToContext();
+                };
+                // remoteMediaStream will fire for each of the remote peerConnections
+                webRTC.onremotestream = function (remote) {
+                    var removteVideo = document.createElement("video");
+                    removteVideo.setAttribute("autoplay", "true");
+                    removteVideo.setAttribute("data-streamid", remote.stream.id);
+                    $("#remoteVideos").appendChild(removteVideo);
+                    window.attachMediaStream(removteVideo, remote.stream);
+                };
+                // onremovestream will fire when a remote peer is no longer available
+                webRTC.onremotestreamlost = function (evt) {
+                    $("#remoteVideos").removeChild($("video[data-streamid='" + evt.stream.id + "']"));
+                };
+                webRTC.oncontextcreated = function (ctx) {
+                    console.log("Connected to the broker on the following context", ctx.Context);
+                };
+            };
+        });
+    </script>
+</body>
+</html>
