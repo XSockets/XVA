@@ -6,7 +6,7 @@ using XSockets.Plugin.Framework.Attributes;
 namespace angularJSBasic
 {
     /// <summary>
-    /// Implement/Override your custom actionmethods, events etc in this real-time MVC controller
+    /// Implement/Override your custom actionmethods, events etc in this real-time controller
     /// </summary>
     [XSocketMetadata("chat")]
     public class ChatController : XSocketController

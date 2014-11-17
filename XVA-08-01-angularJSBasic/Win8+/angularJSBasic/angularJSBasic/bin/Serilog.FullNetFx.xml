@@ -105,6 +105,17 @@
             <returns>A token that must be disposed, in order, to pop properties back off the stack.</returns>
             <exception cref="T:System.ArgumentNullException"></exception>
         </member>
+        <member name="M:Serilog.Context.LogContext.Suspend">
+            <summary>
+            Remove all data from the context so that
+            cross-<see cref="T:System.AppDomain"/> calls can be made without requiring
+            Serilog assemblies to be present in the remote domain.
+            </summary>
+            <returns>A token that will restore the suspended log context data, if any.</returns>
+            <remarks>The <see cref="T:Serilog.Context.LogContext"/> should not be manipulated further
+            until the return value from this method has been disposed.</remarks>
+            <returns></returns>
+        </member>
         <member name="T:Serilog.LoggerConfigurationFullNetFxExtensions">
             <summary>
             Extends <see cref="T:Serilog.LoggerConfiguration"/> to add Full .NET Framework 
@@ -252,6 +263,24 @@
             resetting unmanaged resources.
             </summary>
         </member>
+        <member name="T:Serilog.Sinks.PeriodicBatching.BatchedConnectionStatus">
+            <summary>
+            Manages reconnection period and transient fault response for <see cref="T:Serilog.Sinks.PeriodicBatching.PeriodicBatchingSink"/>.
+            During normal operation an object of this type will simply echo the configured batch transmission
+            period. When availabilty fluctuates, the class tracks the number of failed attempts, each time
+            increasing the interval before reconnection is attempted (up to a set maximum) and at predefined
+            points indicating that either the current batch, or entire waiting queue, should be dropped. This
+            Serves two purposes - first, a loaded receiver may need a temporary reduction in traffic while coming
+            back online. Second, the sender needs to account for both bad batches (the first fault response) and
+            also overproduction (the second, queue-dropping response). In combination these should provide a
+            reasonable delivery effort but ultimately protect the sender from memory exhaustion.
+            </summary>
+            <remarks>
+            Currently used only by <see cref="T:Serilog.Sinks.PeriodicBatching.PeriodicBatchingSink"/>, but may
+            provide the basis for a "smart" exponential backoff timer. There are other factors to consider
+            including the desire to send batches "when full" rather than continuing to buffer, and so-on.
+            </remarks>
+        </member>
         <member name="T:Serilog.Sinks.PeriodicBatching.PeriodicBatchingSink">
             <summary>
             Base class for sinks that log events in batches. Batching is
@@ -312,6 +341,14 @@
             completed at the time of sink disposal will be flushed (or attempted to,
             depending on app domain state).
             </remarks>
+        </member>
+        <member name="M:Serilog.Sinks.PeriodicBatching.PeriodicBatchingSink.CanInclude(Serilog.Events.LogEvent)">
+            <summary>
+            Determine whether a queued log event should be included in the batch. If
+            an override returns false, the event will be dropped.
+            </summary>
+            <param name="evt"></param>
+            <returns></returns>
         </member>
         <member name="T:Serilog.Sinks.RollingFile.RollingFileSink">
             <summary>

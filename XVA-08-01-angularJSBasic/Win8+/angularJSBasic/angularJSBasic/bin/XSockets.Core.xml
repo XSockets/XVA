@@ -510,7 +510,7 @@
             
             </summary>
         </member>
-        <member name="P:XSockets.Core.Utility.Protocol.Readers.ReadState.MaskedBytes">
+        <member name="P:XSockets.Core.Utility.Protocol.Readers.ReadState.FrameBytes">
             <summary>
             
             </summary>
@@ -533,6 +533,11 @@
         <member name="P:XSockets.Core.Utility.Protocol.Readers.ReadState.IsFinal">
             <summary>
             
+            </summary>
+        </member>
+        <member name="T:XSockets.Core.Utility.Protocol.Readers.Rfc6455ReadState">
+            <summary>
+            RFC6455 specific readstate
             </summary>
         </member>
         <member name="T:XSockets.Core.Utility.Protocol.Readers.XFrameHandler">
@@ -1920,7 +1925,8 @@
         </member>
         <member name="M:XSockets.Core.XSocket.XSocketController.Close(System.Boolean)">
             <summary>
-            Call this to terminate the connection
+            Call this to close the controller.
+            If communicate is set to true a "closed" message will be sent to the client.        
             </summary>
         </member>
         <member name="M:XSockets.Core.XSocket.XSocketController.Open">
@@ -1952,6 +1958,27 @@
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
+        </member>
+        <member name="M:XSockets.Core.XSocket.XSocketController.OnOpened">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.XSocket.XSocketController.OnReopened">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.XSocket.XSocketController.OnClosed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.XSocket.XSocketController.OnAuthorizationFailure(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="methodName"></param>
         </member>
         <member name="M:XSockets.Core.XSocket.XSocketController.GetSubscribers``1(System.String)">
             <summary>

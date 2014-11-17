@@ -212,6 +212,12 @@
             <param name="millisecondsInterval"></param>
             <param name="action"></param>
         </member>
+        <member name="M:XSockets.Protocol.XSocketProtocol.FatalError(System.Exception)">
+            <summary>
+            Send an error message to the client and then disconnects
+            </summary>
+            <param name="e"></param>
+        </member>
         <member name="E:XSockets.Protocol.XSocketProtocol.OnPong">
             <summary>
             
