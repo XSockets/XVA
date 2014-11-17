@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading;
 using WebRTCBasic.RealtimeControllers.Constants;
 using WebRTCBasic.RealtimeControllers.Models;
-using XSockets.Core.Common.Socket.Event.Arguments;
 using XSockets.Core.Common.Socket.Event.Attributes;
 using XSockets.Core.Common.Socket.Event.Interface;
 using XSockets.Core.Common.Utility.Logging;
@@ -45,22 +44,16 @@ namespace WebRTCBasic.RealtimeControllers
         /// </summary>
         public ConnectionBroker()
         {
-            Connections = new List<IPeerConnection>();
-
-            this.OnClose += _OnClose;
-
-            this.OnOpen += _OnOpen;
+            Connections = new List<IPeerConnection>();            
         }
 
         #endregion
 
-        #region Private Methods & Events
+        #region Overrides & Events
         /// <summary>
         /// When a client connects create a new PeerConnection and send the information the the client
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="onClientConnectArgs"></param>
-        private void _OnOpen(object sender, OnClientConnectArgs onClientConnectArgs)
+        public override void OnOpened()
         {
             IPresence user = new Presence {Online = true, UserName = "Unknown", Id = this.PersistentId};
             //Update user
@@ -101,9 +94,7 @@ namespace WebRTCBasic.RealtimeControllers
         /// <summary>
         /// When a client disconnects tell the other clients about the Peer being lost
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="onClientDisConnectArgs"></param>
-        private void _OnClose(object sender, OnClientDisconnectArgs onClientDisConnectArgs)
+        public override void OnClosed()
         {
             this.NotifyPeerLost();
             Thread.Sleep(1000);
