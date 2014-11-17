@@ -28,6 +28,12 @@
             vm.messages.unshift(d);
         };
 
+        ////Classic simple messaging using "onmessage", will get object, topic and controller as parameters
+        //controller.onmessage = function(o,t,c) {
+        //    if(t == 'simple')
+        //        vm.messages.unshift(o);
+        //};
+
         //When button is clicked, send a message
         document.querySelector("#send").onclick = function() {
             var m = document.querySelector('#message').value;
