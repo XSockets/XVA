@@ -1,6 +1,7 @@
+﻿using System.Web;
 using XSockets.Core.Common.Socket;
 
-[assembly: System.Web.PreApplicationStartMethod(typeof(SimpleMessaging.Startup), "Start")]
+[assembly: PreApplicationStartMethod(typeof(SimpleMessaging.Startup), "Start")]
 namespace SimpleMessaging
 {
     public static class Startup
@@ -10,6 +11,6 @@ namespace SimpleMessaging
         {
             container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>();
             container.Start();
-        }
+        }        
     }
 }

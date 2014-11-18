@@ -34,7 +34,10 @@
             ko.applyBindings(vm);
 
             //Connect to the built in "Generic" controller
-            var defaultProperties = { gender: document.querySelector('#gender').value, city: document.querySelector('#cities').value };
+            var defaultProperties = {
+                gender: document.querySelector('#gender').value,
+                city: document.querySelector('#cities').value
+            };
             var conn = new XSockets.WebSocket('ws://localhost:4502', ['chat'], defaultProperties);
             var controller = conn.controller('chat');
 

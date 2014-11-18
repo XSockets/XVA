@@ -30,7 +30,8 @@ namespace StateRPC
         public void Message(string message)
         {
             //Send to clients in the same city and with the same gender
-            this.InvokeTo(p => p.City == this.City && p.Gender == this.Gender, new { Message = message, City, Gender = this.Gender.ToString() }, "message");
+            this.InvokeTo(p => p.City == this.City && p.Gender == this.Gender, 
+                new { Message = message, City, Gender = this.Gender.ToString() }, "message");
         }
     }
 }
