@@ -6,18 +6,15 @@ using XSockets.Plugin.Framework.Attributes;
 namespace BinaryMessages
 {
     /// <summary>
-    /// Implement/Override your custom actionmethods, events etc in this real-time MVC controller
+    /// Implement/Override your custom actionmethods, events etc in this real-time controller
     /// </summary>
     [XSocketMetadata("fileshare")]
     public class FileShareController : XSocketController
     {
-
         public void FileShare(IMessage message)
         {
       
             this.InvokeToAll(message);
-
         }
-
     }
 }

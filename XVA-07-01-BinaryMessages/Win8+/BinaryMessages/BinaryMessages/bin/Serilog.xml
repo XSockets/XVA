@@ -129,6 +129,13 @@
             <param name="minimumLevel">The minimum level to set.</param>
             <returns>Configuration object allowing method chaining.</returns>
         </member>
+        <member name="M:Serilog.Configuration.LoggerMinimumLevelConfiguration.ControlledBy(Serilog.Core.LoggingLevelSwitch)">
+            <summary>
+            Sets the minimum level to be dynamically controlled by the provided switch.
+            </summary>
+            <param name="levelSwitch">The switch.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+        </member>
         <member name="M:Serilog.Configuration.LoggerMinimumLevelConfiguration.Verbose">
             <summary>
             Anything and everything you might want to know about
@@ -221,6 +228,24 @@
             events passed through the sink.</param>
             <returns>Configuration object allowing method chaining.</returns>
         </member>
+        <member name="T:Serilog.Core.LoggingLevelSwitch">
+            <summary>
+            Dynamically controls logging level.
+            </summary>
+        </member>
+        <member name="M:Serilog.Core.LoggingLevelSwitch.#ctor(Serilog.Events.LogEventLevel)">
+            <summary>
+            Create a <see cref="T:Serilog.Core.LoggingLevelSwitch"/> at the initial
+            minimum level.
+            </summary>
+            <param name="initialMinimumLevel">The initial level to which the switch is set.</param>
+        </member>
+        <member name="P:Serilog.Core.LoggingLevelSwitch.MinimumLevel">
+            <summary>
+            The current minimum level, below which no events
+            should be generated.
+            </summary>
+        </member>
         <member name="T:Serilog.Core.Constants">
             <summary>
             Constants used in the core logging pipeline and associated types.
@@ -284,6 +309,38 @@
             <param name="propertyValueFactory">Recursively apply policies to convert additional values.</param>
             <param name="result">The converted value, or null.</param>
             <returns>True if the value could be converted under this policy.</returns>
+        </member>
+        <member name="T:Serilog.Core.MessageTemplateFormatMethodAttribute">
+            <summary>
+            Indicates that the marked method logs data using a message template and (optional) arguments.
+            The name of the parameter which contains the message template should be given in the constructor.
+            </summary>
+            <example>
+            <code>
+            [LoggerMethod("messageTemplate")]
+            public void Information(string messageTemplate, params object[] propertyValues)
+            {
+                // Do something
+            }
+            
+            public void Foo()
+            {
+                Information("Hello, {Name}!") // Warning: Non-existing argument in message template.
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Serilog.Core.MessageTemplateFormatMethodAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Serilog.Core.MessageTemplateFormatMethodAttribute"/> class.
+            </summary>
+            <param name="messageTemplateParameterName">Name of the message template parameter.</param>
+        </member>
+        <member name="P:Serilog.Core.MessageTemplateFormatMethodAttribute.MessageTemplateParameterName">
+            <summary>
+            Gets the name of the message template parameter.
+            </summary>
+            <value>The name of the message template parameter.</value>
         </member>
         <member name="T:Serilog.Core.Sinks.CopyingSink">
             <summary>
@@ -366,6 +423,18 @@
             then the value will be converted to a structure; otherwise, unknown types will
             be converted to scalars, which are generally stored as strings.</param>
             <returns>The value.</returns>
+        </member>
+        <member name="T:Serilog.Debugging.LoggingFailedException">
+            <summary>
+            May be thrown by log event sinks when a failure occurs. Should not be used in cases
+            where the exception would propagate out to callers.
+            </summary>
+        </member>
+        <member name="M:Serilog.Debugging.LoggingFailedException.#ctor(System.String)">
+            <summary>
+            Construct a <see cref="T:Serilog.Debugging.LoggingFailedException"/> to communicate a logging failure.
+            </summary>
+            <param name="message">A message describing the logging failure.</param>
         </member>
         <member name="T:Serilog.Events.DictionaryValue">
             <summary>
@@ -1490,6 +1559,12 @@
             An element parsed from a message template string.
             </summary>
         </member>
+        <member name="M:Serilog.Parsing.MessageTemplateToken.#ctor(System.Int32)">
+            <summary>
+            Construct a <see cref="T:Serilog.Parsing.MessageTemplateToken"/>.
+            </summary>
+            <param name="startIndex">The token's start index in the template.</param>
+        </member>
         <member name="M:Serilog.Parsing.MessageTemplateToken.Render(System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter,System.IFormatProvider)">
             <summary>
             Render the token to the output.
@@ -1497,6 +1572,16 @@
             <param name="properties">Properties that may be represented by the token.</param>
             <param name="output">Output for the rendered string.</param>
             <param name="formatProvider">Supplies culture-specific formatting information, or null.</param>
+        </member>
+        <member name="P:Serilog.Parsing.MessageTemplateToken.StartIndex">
+            <summary>
+            The token's start index in the template.
+            </summary>
+        </member>
+        <member name="P:Serilog.Parsing.MessageTemplateToken.Length">
+            <summary>
+            The token's length.
+            </summary>
         </member>
         <member name="M:Serilog.Parsing.PropertyToken.#ctor(System.String,System.String,System.String,Serilog.Parsing.Destructuring)">
             <summary>
@@ -1508,7 +1593,7 @@
             <param name="destructuringObsolete">The destructuring strategy applied to the property, if any.</param>
             <exception cref="T:System.ArgumentNullException"></exception>
         </member>
-        <member name="M:Serilog.Parsing.PropertyToken.#ctor(System.String,System.String,System.String,System.Nullable{Serilog.Parsing.Alignment},Serilog.Parsing.Destructuring)">
+        <member name="M:Serilog.Parsing.PropertyToken.#ctor(System.String,System.String,System.String,System.Nullable{Serilog.Parsing.Alignment},Serilog.Parsing.Destructuring,System.Int32)">
             <summary>
             Construct a <see cref="T:Serilog.Parsing.PropertyToken"/>.
             </summary>
@@ -1517,6 +1602,7 @@
             <param name="format">The format applied to the property, if any.</param>
             <param name="alignment">The alignment applied to the property, if any.</param>
             <param name="destructuring">The destructuring strategy applied to the property, if any.</param>
+            <param name="startIndex">The token's start index in the template.</param>
             <exception cref="T:System.ArgumentNullException"></exception>
         </member>
         <member name="M:Serilog.Parsing.PropertyToken.Render(System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter,System.IFormatProvider)">
@@ -1560,6 +1646,11 @@
             A string that represents the current object.
             </returns>
             <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Serilog.Parsing.PropertyToken.Length">
+            <summary>
+            The token's length.
+            </summary>
         </member>
         <member name="P:Serilog.Parsing.PropertyToken.PropertyName">
             <summary>
@@ -1607,11 +1698,12 @@
             A message template token representing literal text.
             </summary>
         </member>
-        <member name="M:Serilog.Parsing.TextToken.#ctor(System.String)">
+        <member name="M:Serilog.Parsing.TextToken.#ctor(System.String,System.Int32)">
             <summary>
             Construct a <see cref="T:Serilog.Parsing.TextToken"/>.
             </summary>
             <param name="text">The text of the token.</param>
+            <param name="startIndex">The token's start index in the template.</param>
             <exception cref="T:System.ArgumentNullException"></exception>
         </member>
         <member name="M:Serilog.Parsing.TextToken.Render(System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter,System.IFormatProvider)">
@@ -1648,6 +1740,11 @@
             A string that represents the current object.
             </returns>
             <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:Serilog.Parsing.TextToken.Length">
+            <summary>
+            The token's length.
+            </summary>
         </member>
         <member name="P:Serilog.Parsing.TextToken.Text">
             <summary>

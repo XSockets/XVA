@@ -667,6 +667,12 @@
             </summary>
             <param name="ex"></param>
         </member>
+        <member name="M:XSockets.Core.Common.Protocol.IXSocketProtocol.FatalError(System.Exception)">
+            <summary>
+            Will send error data to the client and then close the connection
+            </summary>       
+            <param name="e"></param>
+        </member>
         <member name="E:XSockets.Core.Common.Protocol.IXSocketProtocol.OnPong">
             <summary>
             Fires when a pong is received
@@ -951,9 +957,9 @@
             Type of frame
             </summary>
         </member>
-        <member name="P:XSockets.Core.Common.Protocol.IReadState.MaskedBytes">
+        <member name="P:XSockets.Core.Common.Protocol.IReadState.FrameBytes">
             <summary>
-            Masking bytes
+            Reading continous frames etc
             </summary>
         </member>
         <member name="P:XSockets.Core.Common.Protocol.IReadState.IsFinal">
@@ -1269,7 +1275,7 @@
         </member>
         <member name="P:XSockets.Core.Common.Socket.Event.Interface.IPluginCustomEventInfo.ParameterInfo">
             <summary>
-            Information about parameters ón the method
+            Information about parameters on the method
             </summary>
         </member>
         <member name="P:XSockets.Core.Common.Socket.Event.Interface.IPluginCustomEventInfo.Order">
@@ -1653,6 +1659,27 @@
             <summary>
             Invoked internally
             </summary>
+        </member>
+        <member name="M:XSockets.Core.Common.Socket.IXSocketController.OnOpened">
+            <summary>
+            Will be called when the controller is opened
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.Common.Socket.IXSocketController.OnClosed">
+            <summary>
+            Will be called when the controller is closed
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.Common.Socket.IXSocketController.OnReopened">
+            <summary>
+            Will be called when the controller is reopened
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.Common.Socket.IXSocketController.OnAuthorizationFailure(System.String)">
+            <summary>
+            Will be called when a call to a method fails due to bad credentials
+            </summary>
+            <param name="methodName"></param>
         </member>
         <member name="M:XSockets.Core.Common.Socket.IXSocketController.Send(System.Byte[])">
             <summary>
