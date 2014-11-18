@@ -1,0 +1,99 @@
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.csprojResolveAssemblyReference.cache
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\BinaryMessages.dll.config
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\BinaryMessages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\BinaryMessages.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Newtonsoft.Json.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.Helpers.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.Razor.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Razor.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Controllers.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.Common.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.Communication.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.CustomProtocol.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Enterprise.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Logger.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Plugin.Framework.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Protocol.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Serialization.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Server.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Newtonsoft.Json.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.Helpers.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.Razor.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Razor.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Controllers.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.Common.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Core.Communication.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.CustomProtocol.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Enterprise.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Plugin.Framework.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Protocol.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Serialization.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\bin\XSockets.Server.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Any OS\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\BinaryMessages.dll.config
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\BinaryMessages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\BinaryMessages.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Microsoft.Owin.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Newtonsoft.Json.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Owin.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.Helpers.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.Razor.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Razor.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Controllers.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.Common.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.Communication.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.CustomProtocol.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Enterprise.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Logger.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Owin.Host.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Plugin.Framework.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Protocol.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Serialization.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Server.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Microsoft.Owin.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Newtonsoft.Json.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.pdb
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\Serilog.FullNetFx.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.Helpers.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.Razor.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\System.Web.WebPages.Razor.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Controllers.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.Common.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Core.Communication.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.CustomProtocol.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Enterprise.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Owin.Host.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Plugin.Framework.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Protocol.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Serialization.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\bin\XSockets.Server.xml
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.csprojResolveAssemblyReference.cache
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.dll
+C:\Projects\XVA\XVA-07-01-BinaryMessages\Win8+\BinaryMessages\BinaryMessages\obj\Debug\BinaryMessages.pdb

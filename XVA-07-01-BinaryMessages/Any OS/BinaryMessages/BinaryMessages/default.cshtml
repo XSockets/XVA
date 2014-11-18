@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BinaryMessaegs</title>
+</head>
+<body>
+    <h1>BinaryMessages - Simple fileshare</h1>
+    <p>
+        Simple file share application. Pass 1-n files with MetaData to all connected clients. This example limited to 'image/*|text/*'
+    </p>
+    <label>Select file(s): <input type="file" id="files" multiple accept="image/*|text/*" /></label>
+    <h3>Received files</h3>
+    <div id="list-files">
+
+    </div>
+
+    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script>
+        function $(selector, el) {
+            if (!el) {
+                el = document;
+            }
+            return el.querySelector(selector);
+        }
+
+        // get file as arrayBuffer
+        var ReadFile = (function () {
+            var file = function () {
+                this.read = function (f, fn) {
+                    var reader = new FileReader();
+                    reader.onload = (function (tf) {
+                        return function (e) {
+                            fn(tf, e.target.result);
+                        };
+                    })(f);
+                    reader.readAsArrayBuffer(f);
+                }
+            }
+            return file;
+        }());
+
+        var ws, binaryController;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            ws = new XSockets.WebSocket("ws://127.0.0.1:4502", ["fileshare"]);
+            binaryController = ws.controller("fileshare"); // get the controller instance.
+            // when connected to the controller
+            binaryController.onopen = function () {
+                binaryController.on("fileShare", function (binaryMessage) {
+                    var fileInfo = binaryMessage.data;
+                    var blob = new Blob([binaryMessage.binary], { type: fileInfo.mimeType });
+                    var blobUrl = window.URL.createObjectURL(blob);
+                    // check if the file is an image, if show it, otherwise, create a download link
+                    if (fileInfo.mimeType.indexOf("image/") > -1) {
+                        var img = document.createElement("img");
+                        img.setAttribute("src", blobUrl);
+                        img.setAttribute("alt", fileInfo.name);
+                        $("#list-files").appendChild(img);
+                    } else {
+                        var downloadLink = document.createElement("a");
+                        downloadLink.innerText = fileInfo.name;
+                        downloadLink.setAttribute("download", fileInfo.name);
+                        downloadLink.setAttribute("href", blobUrl);
+                        downloadLink.setAttribute("title", "size:" + fileInfo.size);
+                        $("#list-files").appendChild(downloadLink);
+                    }
+                });
+            };
+            $('#files').addEventListener('change', function (evt) {
+                for (var i = 0; i < evt.target.files.length; i++) {
+                    var r = new ReadFile();
+                    var file = evt.target.files[i];
+                    r.read(file, function (result, arrayBuffer) {
+                        binaryController.invokeBinary("fileShare", arrayBuffer, {
+                            name: result.name,
+                            mimeType: result.type,
+                            size: result.size
+                        });
+                    });
+                }
+            }, false);
+        });
+    </script>
+
+</body>
+</html>
