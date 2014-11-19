@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XSockets CrossProtocol (basic) Communication</title>    
+</head>
+<body>
+    <input type="text" value="Hello CrossProtocol" id="message" /><button id="send">send</button>
+    <div data-bind="foreach:messages">
+        <div data-bind="text:$data"></div>
+    </div>
+
+    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/knockout-3.2.0.js"></script>
+    <script>
+        //so that we can use $ instead of document.querySelector
+        function $(selector, el) {
+            if (!el) el = document;
+            return el.querySelector(selector);
+        }
+
+        //ViewModel
+        var vm = { messages: ko.observableArray([]) };
+        ko.applyBindings(vm);
+
+        //Open XSockets connection over websockets to foo controller.
+        var conn = new XSockets.WebSocket('ws://localhost:4502', ['foo']);
+        var foo = conn.controller('foo');
+
+        //subscribe to "bar"
+        foo.subscribe('bar', function (d) {
+            vm.messages.unshift(d);
+        });
+
+        //Call the bar method on foo controller
+        $('#send').onclick = function() {
+            foo.publish('bar', $('#message').value);
+        };
+    </script>
+</body>
+</html>
