@@ -8,9 +8,11 @@
     <script src="/Scripts/XSockets.latest.min.js"></script>
     <script>
         var conn = new XSockets.WebSocket('ws://'+location.host, ['clock']);
-        conn.controller('clock').on('tick', function(t) {
+        var clock = conn.controller('clock');
+
+        clock.tick = function (t) {
             document.querySelector('#clock').innerText = t;
-        });
+        };
     </script>
 </body>
 </html>
