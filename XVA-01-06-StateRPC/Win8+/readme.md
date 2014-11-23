@@ -21,3 +21,6 @@ TBD
 /Team XSockets
 
 
+
+### Video
+[http://xsockets.net/academy/xva-01-06-staterpc](http://xsockets.net/academy/xva-01-06-staterpc)

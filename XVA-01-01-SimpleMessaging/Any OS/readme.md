@@ -22,3 +22,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-01-01-simplemessaging](http://xsockets.net/academy/xva-01-01-simplemessaging)

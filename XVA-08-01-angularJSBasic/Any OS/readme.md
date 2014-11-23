@@ -21,3 +21,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-08-01-angularjs-basic](http://xsockets.net/academy/xva-08-01-angularjs-basic)

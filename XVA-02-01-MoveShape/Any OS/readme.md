@@ -21,3 +21,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-02-01-moveshape](http://xsockets.net/academy/xva-02-01-moveshape)

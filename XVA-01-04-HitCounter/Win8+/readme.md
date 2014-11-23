@@ -18,3 +18,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-01-04-hitcounter](http://xsockets.net/academy/xva-01-04-hitcounter)

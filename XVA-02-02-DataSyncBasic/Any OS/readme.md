@@ -27,3 +27,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-02-02-datasyncbasic](http://xsockets.net/academy/xva-02-02-datasyncbasic)

@@ -21,3 +21,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-01-05-statepubsub](http://xsockets.net/academy/xva-01-05-statepubsub)

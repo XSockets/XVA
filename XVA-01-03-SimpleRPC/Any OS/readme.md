@@ -19,3 +19,7 @@ TBD
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-01-03-simplerpc](http://xsockets.net/academy/xva-01-03-simplerpc)

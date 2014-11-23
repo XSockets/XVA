@@ -16,3 +16,7 @@ So we will have the browser talking RFC6455 (websockets) while the other clients
 /Team XSockets
 
 
+
+### Video
+
+[http://xsockets.net/academy/xva-05-02-customprotocol](http://xsockets.net/academy/xva-05-02-customprotocol)
