@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using DataSyncBasic.Persistence;
 using XSockets.Core.Common.Socket;
-using XSockets.Core.Common.Socket.Event.Arguments;
 using XSockets.Core.Utility.Storage;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
@@ -18,6 +18,10 @@ namespace DataSyncBasic.DataSync
     public abstract class XSocketsDataSyncController<T> : XSocketController where T : class, IXSocketController
     {
         private T _controller;
+
+        readonly IKeyValueStore<Guid, DataSyncStructure> _store 
+            = KeyValueStoreFactory.Create<Guid, DataSyncStructure>();
+
         /// <summary>
         /// To get the correct controller type, cant use abstract class when sending data
         /// </summary>
@@ -36,7 +40,7 @@ namespace DataSyncBasic.DataSync
             {
                 foreach (var topic in this.GetParameter("topics").Split(','))
                 {
-                    var persistentData = Repository<Guid, DataSyncStructure>.Find(p => p.Topic == topic);
+                    var persistentData = _store.Find(p => p.Topic == topic);
                     InitalData(persistentData, topic);
                 }
             }
@@ -68,7 +72,7 @@ namespace DataSyncBasic.DataSync
                 command = DataSyncCommand.Add;
             }
 
-            model = Repository<Guid, DataSyncStructure>.AddOrUpdate(model.Id, model);
+            model = _store.AddOrUpdate(model.Id, model);
             Sync(command, model);
         }
 
@@ -80,10 +84,10 @@ namespace DataSyncBasic.DataSync
         /// <param name="model"></param>
         public virtual void Delete(DataSyncStructure model)
         {
-            model = Repository<Guid, DataSyncStructure>.GetById(model.Id);
+            model = _store.GetByKey(model.Id);
             if (model != null)
             {
-                Repository<Guid, DataSyncStructure>.Remove(model.Id);
+                _store.Remove(model.Id);
                 Sync(DataSyncCommand.Delete, model);
             }
         }
