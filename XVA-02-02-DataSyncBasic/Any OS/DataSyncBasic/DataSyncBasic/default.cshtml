@@ -35,7 +35,7 @@
         //Open a full-duplex connection to the data-sync controller and pass in the topics (only one here, but could be several)
         conn = new XSockets.WebSocket('ws://localhost:4502', [syncName], { topics: syncName });
 
-        //Loads all persisted data when connected
+        //Loads oll persisted data when connected
         conn.controller(syncName).on("init:" + syncName, function (d) {
             for (var i = 0; i < d.length; i++) {
                 vm.updatedItem(d[i]);
