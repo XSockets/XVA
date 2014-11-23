@@ -42,6 +42,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="OrigoDB.Core">
+      <HintPath>..\packages\OrigoDB.Core.0.17.1\lib\net40\OrigoDB.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>..\packages\Serilog.1.4.15\lib\net45\Serilog.dll</HintPath>
     </Reference>
@@ -120,11 +123,16 @@
   <ItemGroup>
     <Compile Include="DataSync\DataSyncCommand.cs" />
     <Compile Include="DataSync\DataSyncStructure.cs" />
+    <Compile Include="Persistence\IKeyValueStore.cs" />
+    <Compile Include="Persistence\KeyValueStoreFactory.cs" />
+    <Compile Include="Persistence\OrigoKeyValueStore.cs" />
     <Compile Include="DataSync\XSocketsDataSyncController.cs" />
+    <Compile Include="Persistence\XSocketsRepositoryAdapter.cs" />
     <Compile Include="SimpleListController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

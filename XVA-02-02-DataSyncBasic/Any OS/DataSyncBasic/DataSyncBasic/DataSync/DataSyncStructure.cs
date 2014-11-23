@@ -1,10 +1,16 @@
 ﻿using System;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace DataSyncBasic.DataSync
 {
+
+
+
     /// <summary>
     /// Used for passing around objects to synchronize
     /// </summary>
+    [Serializable]
     public class DataSyncStructure
     {
         /// <summary>
@@ -15,9 +21,16 @@ namespace DataSyncBasic.DataSync
         /// Identifier for the topic
         /// </summary>
         public string Topic { get; set; }
+
         /// <summary>
         /// The actual object (anything serializable)
         /// </summary>
-        public object Object { get; set; }        
+
+        private string _json;
+
+        public object Object {
+            get { return _json != null ? JObject.Parse(_json) : null; }
+            set { _json = value != null ? ((JObject) value).ToString(Formatting.None) : null; } 
+        }        
     }
 }
