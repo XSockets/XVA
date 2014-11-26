@@ -9,6 +9,7 @@ var gameInput = {
     ap: [-10, -1]
 };
 
+
 var startGame = function (evt) {
     switch (evt.charCode || evt.keyCode) {
         case 32:
@@ -22,11 +23,15 @@ var startGame = function (evt) {
 };
 $(function () {
 
-    ws = new XSockets.WebSocket("ws://" + location.host, ["game"]);
+    var host = location.hostname;
+    var port = location.port === "" ? "80" : location.port;
+    var wsUrl = host + ":" + port;
+
+    ws = new XSockets.WebSocket("ws://" + wsUrl, ["game"]);
     gameEngine = new Noc.Engine("#surface", document.querySelector("selection"));
     audio = new Noc.Audio();
     gameController = ws.controller("game");
-    // load some sprites, blue & red start ships.
+    // load some sprites, blue & red starships.
     assets = new Noc.Assets({
         images: ['/assets/sprites/blue_ship.png', '/assets/sprites/red_ship.png', '/assets/images/xfighter.png', '/assets/images/xsockets.png', '/assets/images/presents.png', '/assets/images/game over.png', '/assets/images/press space.png']
     });
@@ -38,14 +43,17 @@ $(function () {
     };
     audio.load("music", "/assets/audio/CZ Tunes - Intro (Jeroen Tel) (extract).mp3");
 
+
+
     gameController.on("move", function (data) {
+
         gameEngine.entities[data.p].state.speed = data.v;
         gameEngine.entities[data.p].state.angle = data.a;
-    });
 
+    });
     gameController.on("fire", function (data) {
         var o = gameEngine.entities[data.p].state;
-        var ray = new Ray(data.a, 5, o.x, o.y);
+        var ray = new Ray(data.a, 1, o.x, o.y);
         gameEngine.addEntity(ray);
     });
     gameController.on("hit", function (data) {
@@ -69,6 +77,7 @@ $(function () {
         $(document).unbind("keydown");
         var player = new Player("friend", data.ConnectionId, assets.getImage("/assets/sprites/blue_ship.png"), data);
         player.onRender = function (state) {
+            if (Math.round(gameEngine.timeElapsed) % 3 === 0) return;
             gameController.invoke("update", {
                 a: state.angle,
                 v: state.speed,
@@ -78,19 +87,24 @@ $(function () {
         };
         player.changeAngle = function () {
             this.state.angle = gameInput.a;
-          
+            gameController.invoke("move", { a: this.state.angle, v: this.state.speed });
+
         };
         player.speedUp = function () {
-            if (this.state.speed > 5) return;
+            if (this.state.speed > 3) return;
             this.state.speed += 1;
-          
+            gameController.invoke("move", { a: this.state.angle, v: this.state.speed });
+
         };
         player.slowDown = function () {
-            if (this.state.speed < -5) return;
+            if (this.state.speed < -3) return;
             this.state.speed -= 1;
+            gameController.invoke("move", { a: this.state.angle, v: this.state.speed });
+
         };
         player.fire = function () {
-            var ray = new Ray(this.state.angle, 5, this.state.x, this.state.y);
+            var ray = new Ray(this.state.angle, 1, this.state.x, this.state.y);
+
             gameEngine.addEntity(ray);
             gameController.invoke("fire", {
                 a: this.state.angle,
@@ -206,8 +220,6 @@ $(function () {
     }
     // wait for game to be started?
     document.addEventListener("keydown", startGame);
-
-
 
     gameEngine.addEntity(starfield);
     gameEngine.addEntity(launchGame);

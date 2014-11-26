@@ -10,14 +10,16 @@
 
         if (this.state.x < w || this.state.x > vp.width - w) {
             this.state.angle = 180 - this.state.angle;
+            gameInput.a = this.state.angle;
         }
 
         if (this.state.y < h || this.state.y > vp.height - h) {
             this.state.angle = 360 - this.state.angle;
+            gameInput.a = this.state.angle;
         }
         gameInput.p[0] = this.state.x;
         gameInput.p[1] = this.state.y;
-        gameInput.a = this.state.angle;
+
 
         gameInput.ap = [(gameInput.p[0] - (vp.width / 2)) / 25, (gameInput.p[1] - (vp.height / 2)) / 25];
         ctx.save();
@@ -69,7 +71,7 @@ var Ray = function (angle, speed, x, y) {
             x: cx,
             y: cy,
             angle: a,
-            speed: 5,
+            speed: 7,
             radius: r
         }
     })(x, y, angle, 5));

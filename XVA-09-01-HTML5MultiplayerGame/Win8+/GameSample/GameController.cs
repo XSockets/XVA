@@ -27,10 +27,12 @@ namespace GameSample
             this.Player.y = y;
             this.Player.a = a;
             this.Player.v = v;
-            this.InvokeToOthers(new { a = this.Player.a, v = this.Player.v, p = this.ConnectionId }, "move");
+            //this.InvokeToOthers(new { a = this.Player.a, v = this.Player.v, p = this.ConnectionId }, "move");
         }
-
-
+        public void Move(double a, double v)
+        {
+            this.InvokeTo(this.OpponentConnections(), new { a = a, v = v, p = this.ConnectionId }, "move");
+        }
         public void Fire(double a, double v)
         {
             // Thell the others i fired the cannon ;-)
