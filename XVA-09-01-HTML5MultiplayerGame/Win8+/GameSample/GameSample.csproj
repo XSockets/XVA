@@ -150,6 +150,7 @@
     <Content Include="assets\sprites\red_ship.png" />
     <Content Include="packages.config" />
     <Content Include="default.cshtml" />
+    <Content Include="Scripts\game.entities.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\Noc.beta.min.js">
       <DependentUpon>Noc.beta.js</DependentUpon>
