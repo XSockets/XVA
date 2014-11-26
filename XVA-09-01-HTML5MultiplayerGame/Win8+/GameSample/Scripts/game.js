@@ -153,14 +153,11 @@ $(function () {
     };
     audio.load("music", "/assets/audio/CZ Tunes - Intro (Jeroen Tel) (extract).mp3");
 
-
-    var move = function () {
-        gameController.invoke("move");
-    };
     gameController.on("move", function (data) {
         gameEngine.entities[data.p].state.speed = data.v;
         gameEngine.entities[data.p].state.angle = data.a;
     });
+
     gameController.on("fire", function (data) {
         var o = gameEngine.entities[data.p].state;
         var ray = new Ray(data.a, 5, o.x, o.y);
@@ -196,17 +193,16 @@ $(function () {
         };
         player.changeAngle = function () {
             this.state.angle = gameInput.a;
-            move();
+          
         };
         player.speedUp = function () {
             if (this.state.speed > 5) return;
             this.state.speed += 1;
-            move();
+          
         };
         player.slowDown = function () {
             if (this.state.speed < -5) return;
             this.state.speed -= 1;
-            move();
         };
         player.fire = function () {
             var ray = new Ray(this.state.angle, 5, this.state.x, this.state.y);

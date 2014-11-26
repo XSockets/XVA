@@ -27,13 +27,8 @@ namespace GameSample
             this.Player.y = y;
             this.Player.a = a;
             this.Player.v = v;
+            this.InvokeToOthers(new { a = this.Player.a, v = this.Player.v, p = this.ConnectionId }, "move");
         }
-        public void Move()
-        {
-            // just tell others what my direction is amd the velocity
-            this.InvokeToOthers(new {a = this.Player.a, v =this.Player.v ,p=this.ConnectionId},"move");
-        }
-
         public void Fire(double a, double v)
         {
             // Thell the others i fired the cannon ;-)
@@ -57,6 +52,9 @@ namespace GameSample
 
             this.Player.x = random.Next(100, 1100);
             this.Player.y = random.Next(100, 500);
+            this.Player.v = 0;
+            this.Player.a = 0;
+            
 
             this.Player.IsReady = true;
             this.Player.Respawns++;
