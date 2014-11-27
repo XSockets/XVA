@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Serilog.Sinks.XSockets</name>
+    </assembly>
+    <members>
+        <member name="T:Serilog.LoggerConfigurationXSocketsExtensions">
+            <summary>
+            Adds the WriteTo.XSockets() extension method to <see cref="T:Serilog.LoggerConfiguration"/>.
+            </summary>
+        </member>
+        <member name="M:Serilog.LoggerConfigurationXSocketsExtensions.XSockets(Serilog.Configuration.LoggerSinkConfiguration,Serilog.Events.LogEventLevel,System.IFormatProvider)">
+            <summary>
+            Adds a sink that writes log events as messages to filtered XSockets clients
+            </summary>
+            <param name="loggerConfiguration">The logger configuration.</param>        
+            <param name="restrictedToMinimumLevel">The minimum log event level required in order to write an event to the sink.</param>        
+            <param name="formatProvider">Supplies culture-specific formatting information, or null.</param>
+            <returns>Logger configuration, allowing configuration to continue.</returns>
+            <exception cref="T:System.ArgumentNullException">A required parameter is null.</exception>
+        </member>
+        <member name="T:Serilog.Sinks.XSockets.Data.LogEventWrapper">
+            <summary>
+            A wrapper class for <see cref="T:Serilog.Events.LogEvent"/> that is sent as a message to XSockets clients.
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.Data.LogEventWrapper.#ctor">
+            <summary>
+            Construct a new <see cref="T:Serilog.Sinks.XSockets.Data.LogEventWrapper"/>.
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.Data.LogEventWrapper.#ctor(Serilog.Events.LogEvent,System.String)">
+            <summary>
+            Construct a new <see cref="T:Serilog.Sinks.XSockets.Data.LogEventWrapper"/>.
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.Timestamp">
+            <summary>
+            The time at which the event occurred.
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.MessageTemplate">
+            <summary>
+            The template that was used for the log message.
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.Level">
+            <summary>
+            The level of the log.
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.Exception">
+            <summary>
+            A string representation of the exception that was attached to the log (if any).
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.RenderedMessage">
+            <summary>
+            The rendered log message.
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.Data.LogEventWrapper.Properties">
+            <summary>
+            Properties associated with the event, including those presented in <see cref="P:Serilog.Events.LogEvent.MessageTemplate"/>.
+            </summary>
+        </member>
+        <member name="T:Serilog.Sinks.XSockets.LogController">
+            <summary>
+            The XSockets controller used for dispatching loginformation
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.LogController.#ctor">
+            <summary>
+            Ctor - By default LogEventLevel will be "Information"
+            </summary>
+        </member>
+        <member name="P:Serilog.Sinks.XSockets.LogController.LogEventLevel">
+            <summary>
+            Each client can set the LogEventLevel of interest.
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.XSocketsPropertyFormatter.Simplify(Serilog.Events.LogEventPropertyValue)">
+            <summary>
+            Simplify the object so as to make handling the serialized
+            representation easier.
+            </summary>
+            <param name="value">The value to simplify (possibly null).</param>
+            <returns>A simplified representation.</returns>
+        </member>
+        <member name="T:Serilog.Sinks.XSockets.XSocketsSink">
+            <summary>
+            Sends log events as messages to filtered clients.
+            </summary>
+        </member>
+        <member name="F:Serilog.Sinks.XSockets.XSocketsSink.DefaultBatchPostingLimit">
+            <summary>
+            Set to a high number after recomendation from N Blumhardt
+            </summary>
+        </member>
+        <member name="F:Serilog.Sinks.XSockets.XSocketsSink.DefaultPeriod">
+            <summary>
+            Set to a low number after recomendation from N Blumhardt
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.XSocketsSink.#ctor(System.Int32,System.TimeSpan,System.IFormatProvider)">
+            <summary>
+            Construct a sink posting to the specified database.
+            </summary>        
+            <param name="batchPostingLimit">The maximium number of events to post in a single batch.</param>
+            <param name="period">The time to wait between checking for event batches.</param>
+            <param name="formatProvider">Supplies culture-specific formatting information, or null.</param>
+        </member>
+        <member name="M:Serilog.Sinks.XSockets.XSocketsSink.EmitBatch(System.Collections.Generic.IEnumerable{Serilog.Events.LogEvent})">
+            <summary>
+            Will send the message to the clients that has the LogEventLevel equal to or lower than the level for each LogEvent
+            
+            Example: 
+            If the client has set the level to "Information" it will only receive messages for LogEvents where level is "Information" or higher.
+            </summary>
+            <param name="events"></param>
+        </member>
+    </members>
+</doc>
