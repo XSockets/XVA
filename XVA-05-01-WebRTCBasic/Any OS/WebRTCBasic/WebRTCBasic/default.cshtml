@@ -9,28 +9,24 @@
             right: 10px;
         }
 
-            #localVideo video {
-                max-width: 320px;
-            }
-
-        #remoteVideos {
-            background: #fafada;
-            border: 1px solid #dadada;
-            padding: 10px;
+        #localVideo video {
+            max-width: 120px;
         }
-
-            #remoteVideos video {
-                max-width: 320px;
-                float: left;
-                margin-right: 10px;
-            }
+       
+        #remoteVideos video {
+            max-width: 320px;
+            float: left;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>XVA - WebRTC Basic</h1>
+    <h3>Remote Videos</h3>
     <div id="remoteVideos">        
     </div>
     <div id="localVideo">
+        <h3>Me</h3>
         <video autoplay muted></video>
     </div>
     <!-- Get the nessassary JavaScript libraries -->
@@ -59,17 +55,20 @@
                 webRTC = new XSockets.WebRTC(brokerController);
                 // okey, we are connected, prompt and get a mediaSteam (video, qvga )
                 var gumConstraints = webRTC.userMediaConstraints.qvga(false); // to get sound, pass true
+                
                 webRTC.getUserMedia(gumConstraints, function (peer) {
                     console.log("Got a media stream, onlocalvideo will fire..");
                 }, function (ex) {
                     console.error("failed to getUserMedia", ex);
                 });
+
                 // localMediaStream
                 webRTC.onlocalstream = function (stream) {
                     window.attachMediaStream($("#localVideo video"), stream);
                     // when i got a local mediastream , connect to others.
                     webRTC.connectToContext();
                 };
+
                 // remoteMediaStream will fire for each of the remote peerConnections
                 webRTC.onremotestream = function (remote) {
                     var removteVideo = document.createElement("video");
@@ -78,10 +77,13 @@
                     $("#remoteVideos").appendChild(removteVideo);
                     window.attachMediaStream(removteVideo, remote.stream);
                 };
+
                 // onremovestream will fire when a remote peer is no longer available
                 webRTC.onremotestreamlost = function (evt) {
                     $("#remoteVideos").removeChild($("video[data-streamid='" + evt.stream.id + "']"));
                 };
+
+                //Only for showing/logging the event
                 webRTC.oncontextcreated = function (ctx) {
                     console.log("Connected to the broker on the following context", ctx.Context);
                 };

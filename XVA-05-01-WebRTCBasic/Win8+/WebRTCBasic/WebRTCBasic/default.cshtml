@@ -9,31 +9,24 @@
             right: 10px;
         }
 
-            #localVideo video {
-                max-width: 320px;
-            }
-
-        #remoteVideos {
-            background: #fafada;
-            border: 1px solid #dadada;
-            padding: 10px;
+        #localVideo video {
+            max-width: 120px;
         }
 
-            #remoteVideos video {
-                max-width: 320px;
-                float: left;
-                margin-right: 10px;
-            }
+        #remoteVideos video {
+            max-width: 320px;
+            float: left;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>XVA - WebRTC Basic</h1>
-
+    <h3>Remote Videos</h3>
     <div id="remoteVideos">
-        
     </div>
-
     <div id="localVideo">
+        <h3>Me</h3>
         <video autoplay muted></video>
     </div>
     <!-- Get the nessassary JavaScript libraries -->
@@ -92,12 +85,5 @@
             };
         });
     </script>
-
-
 </body>
-
-
-
-
-
 </html>

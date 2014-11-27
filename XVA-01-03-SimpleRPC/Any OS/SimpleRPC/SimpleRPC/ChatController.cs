@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+using XSockets.Core.Common.Socket;
 using XSockets.Core.Common.Socket.Event.Interface;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
@@ -13,7 +16,7 @@ namespace SimpleRPC
         /// </summary>
         /// <param name="message"></param>
         public override void OnMessage(IMessage message)
-        {
+        {            
             this.InvokeToAll(message);
         }
     }

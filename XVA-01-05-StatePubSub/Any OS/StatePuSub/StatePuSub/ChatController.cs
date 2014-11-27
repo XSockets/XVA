@@ -1,3 +1,4 @@
+using XSockets.Core.Common.Socket.Event.Attributes;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
 using XSockets.Plugin.Framework.Attributes;
@@ -30,7 +31,9 @@ namespace StatePuSub
         public void Message(string message)
         {            
             //Publish to clients in the same city and with the same gender
-            this.PublishTo(p => p.City == this.City && p.Gender == this.Gender, new {Message = message, City, Gender = this.Gender.ToString()}, "message");
+            this.PublishTo(p => p.City == this.City && p.Gender == this.Gender,
+                new {Message = message, City, Gender = this.Gender.ToString()}, 
+                "message");
         }
     }
 }

@@ -127,6 +127,14 @@ namespace WebRTCBasic.RealtimeControllers
             this.InvokeTo<ConnectionBroker>(f => f.ConnectionId == signalingModel.Recipient, signalingModel, Events.Context.Signal);
         }
 
+        public void ConnectToContext()
+        {
+            // Pass the client a list of Peers to Connect
+            this.Invoke(this.GetConnections(this.Peer)
+                       .Where(q => !q.Connections.Contains(this.Peer)).
+                        Select(p => p.Peer).AsMessage(Events.Context.Connect));
+        }
+
         /// <summary>
         /// Leave a context
         /// </summary>
@@ -203,14 +211,7 @@ namespace WebRTCBasic.RealtimeControllers
                     StreamId = streamId,
                     Description = description
                 }, Events.Stream.Add);
-        }
-        public void ConnectToContext()
-        {
-            // Pass the client a list of Peers to Connect
-            this.Invoke(this.GetConnections(this.Peer)
-                       .Where(q => !q.Connections.Contains(this.Peer)).
-                        Select(p => p.Peer).AsMessage(Events.Context.Connect));
-        }
+        }        
 
         private IEnumerable<ConnectionBroker> GetConnections(IPeerConnection peerConnection)
         {

@@ -13,8 +13,8 @@ namespace SimplePubSub
         /// </summary>
         /// <param name="message"></param>
         public override void OnMessage(IMessage message)
-        {
+        {            
             this.PublishToAll(message);
-        }
+        }        
     }
 }
