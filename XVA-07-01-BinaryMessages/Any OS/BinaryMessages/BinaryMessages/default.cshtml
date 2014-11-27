@@ -42,6 +42,7 @@
         var ws, binaryController;
 
         document.addEventListener("DOMContentLoaded", function () {
+
             ws = new XSockets.WebSocket("ws://127.0.0.1:4502", ["fileshare"]);
             binaryController = ws.controller("fileshare"); // get the controller instance.
             // when connected to the controller

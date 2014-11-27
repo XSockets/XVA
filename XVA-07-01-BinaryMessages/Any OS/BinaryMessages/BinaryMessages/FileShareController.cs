@@ -12,8 +12,7 @@ namespace BinaryMessages
     public class FileShareController : XSocketController
     {
         public void FileShare(IMessage message)
-        {
-      
+        {      
             this.InvokeToAll(message);
         }
     }
