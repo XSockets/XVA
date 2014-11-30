@@ -6,6 +6,11 @@ using XSockets.Plugin.Framework;
 
 namespace MessagePipeline
 {
+    /// <summary>
+    /// Override the default pipeline to interrupt messages going in/out
+    /// 
+    /// We only write the messages (in/out) to the custom logger
+    /// </summary>
     public class MyPipeline : XSocketPipeline
     {
         public override void OnIncomingMessage(IXSocketController controller, IMessage e)
