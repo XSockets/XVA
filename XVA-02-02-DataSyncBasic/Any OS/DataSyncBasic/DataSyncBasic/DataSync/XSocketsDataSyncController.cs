@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using XSockets.Core.Common.Socket;
-using XSockets.Core.Common.Socket.Event.Arguments;
 using XSockets.Core.Utility.Storage;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;

@@ -141,7 +141,7 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="AnimalController.cs" />
-    <Compile Include="DataSync\DataSyncStructure.cs" />
+    <Compile Include="DataSync\IDataSyncObject.cs" />
     <Compile Include="DataSync\DataSyncCommand.cs" />
     <Compile Include="DataSync\XSocketsDataSyncController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
