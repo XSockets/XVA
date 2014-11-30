@@ -15,4 +15,4 @@ On the server side a simple data sync controller, but this time a little bit mor
 
 ### Video
 
-[http://tbd](http://tbd)
+[http://xsockets.net/academy/xva-02-04-datasyncbasic-v2](http://xsockets.net/academy/xva-02-04-datasyncbasic-v2)
