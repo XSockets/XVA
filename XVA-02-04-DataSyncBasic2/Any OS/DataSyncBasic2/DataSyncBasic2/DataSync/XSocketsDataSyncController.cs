@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using XSockets.Core.Common.Socket;
-using XSockets.Core.Common.Utility.Logging;
 using XSockets.Core.Utility.Storage;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
@@ -58,7 +57,6 @@ namespace DataSyncBasic2.DataSync
         /// <param name="model"></param>
         public virtual void Update(TV model)
         {
-            Composable.GetExport<IXLogger>().Information("AddOrUpdate {@m}", model);
             var command = DataSyncCommand.Update;
             if (model.Id == Guid.Empty)
             {
