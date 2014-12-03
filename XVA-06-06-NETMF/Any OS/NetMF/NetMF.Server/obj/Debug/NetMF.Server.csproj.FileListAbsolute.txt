@@ -33,3 +33,37 @@ C:\Users\Uffe\Desktop\NetMF\NetMF.Server\bin\Debug\XSockets.Server.xml
 C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.exe
 C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.exe.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.FullNetFx.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Controllers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.Common.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.Communication.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Enterprise.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Logger.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Protocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Serialization.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Controllers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.Common.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Core.Communication.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Enterprise.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Protocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Serialization.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Server.xml

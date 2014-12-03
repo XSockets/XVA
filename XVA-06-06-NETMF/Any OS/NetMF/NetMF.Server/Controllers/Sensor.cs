@@ -1,5 +1,4 @@
 using NetMF.Server.Model;
-using XSockets.Core.Common.Socket.Event.Interface;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
 
@@ -18,15 +17,10 @@ namespace NetMF.Server.Controllers
         /// 
         /// The message sent out will haev the topic "ChangeArduino" for example
         /// </summary>
-        /// <param name="message"></param>
-        public void Change(IMessage message)
-        {
-            try
-            {
-                var v = message.Extract<int>();
-                this.InvokeTo<Monitor>(p => v <= p.Threshold, v, "Change" + Hardware);
-            }
-            catch { }
+        /// <param name="v"></param>
+        public void Change(int v)
+        {         
+            this.InvokeTo<Monitor>(p => v <= p.Threshold, v, "Change" + Hardware);            
         }
     }
 }
