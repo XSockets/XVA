@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XVA-06-06 NETMF</title>
+</head>
+<body>
+    <h4>
+        NETMF Distance Meter - Current Value
+    </h4>
+    <div>
+        The data from the distance sensor if within threshold range.
+    </div>
+    <progress id="sensor-value" value="0" max="50" style="width: 300px;"></progress><label id="sensor-label-value">0</label>
+    <h4>
+        NETMF Distance Meter - Threshold
+    </h4>
+    <div>
+        Will set the threshold on the NETMF device so that it will not send data outside the range.
+    </div>
+    <input id="sensor-threshold" value="25" type="range" min="0" max="50" style="width: 300px;" /><label id="label-sensor-threshold">25</label>
+    <h4>
+        Private Threshold
+    </h4>
+    <div>
+        Will set the my private threshold on the XSockets controller so that I will not get data outside this range.
+    </div>
+    <input id="private-threshold" value="25" type="range" min="0" max="50" style="width: 300px;" /><label id="label-private-threshold">25</label>
+
+    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script>
+        var $ = function (selector, ctx) {
+            if (arguments.length === 0) return document;
+            if (!ctx) ctx = document;
+            return ctx.querySelector(selector);
+        };
+
+        var conn = new XSockets.WebSocket('ws://127.0.0.1:4502', ['monitor'], { threshold: document.querySelector('#private-threshold').value });
+        var monitor = conn.controller('monitor');
+
+        // Notification about arduino threshold changed (by someone)
+        monitor.on('thresholdnetduino', function (d) {
+            $('#sensor-threshold').value = d;
+            $('#label-sensor-threshold').innerText = d;
+        });
+
+        // The hardware sensor sent a new value
+        monitor.on('changenetduino', function (d) {
+            $('#sensor-value').value = d;
+            $('#sensor-label-value').innerText = d;
+        });
+
+        //Hardware Threshold changed by user
+        $('#sensor-threshold').onchange = function () {
+            $('#label-sensor-threshold').innerText = this.value;
+            //Send change to hardware
+            monitor.invoke('SetThreshold', { Hardware: 'Netduino', Threshold: this.value });
+        };
+
+        //Private Threshold changed by user
+        $('#private-threshold').onchange = function () {
+            $('#label-private-threshold').innerText = this.value;
+            //Send change to XSockets server
+            monitor.setProperty('Threshold', this.value);
+        };
+    </script>
+</body>
+</html>

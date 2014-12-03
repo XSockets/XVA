@@ -35,7 +35,7 @@
             return ctx.querySelector(selector);
         };
 
-        var conn = new XSockets.WebSocket('ws://192.168.1.3:4502', ['monitor'],{threshold:document.querySelector('#private-threshold').value});
+        var conn = new XSockets.WebSocket('ws://127.0.0.1:4502', ['monitor'],{threshold:document.querySelector('#private-threshold').value});
         var monitor = conn.controller('monitor');
 
         // Notification about arduino threshold changed (by someone)
