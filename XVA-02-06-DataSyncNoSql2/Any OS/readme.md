@@ -15,7 +15,7 @@ This sample also has a new DataSync controller that uses the model to sync inste
 ### Description
 
 
-Phil Leggetter, a respected authority in the world of rea-time development has divided real-time communication into 4 areas.
+Phil Leggetter, a respected authority in the world of real-time development has divided real-time communication into 4 areas.
 
 
 - Simple messages (as shown in XVA-01-01)

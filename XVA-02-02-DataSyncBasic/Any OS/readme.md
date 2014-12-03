@@ -9,7 +9,7 @@
 
 ### Description
 
-Phil Leggetter, a respected authority in the world of rea-time development has divided real-time communication into 4 areas.
+Phil Leggetter, a respected authority in the world of real-time development has divided real-time communication into 4 areas.
 
 - Simple messages (as shown in XVA-01-01)
 - Publish Subscribe (as shown in XVA-01.02)
