@@ -15,7 +15,7 @@ namespace NetMF.Server.Controllers
         /// <summary>
         /// In this case the hardware talk a very basic text protocol, so we have to extract the value from the IMessage.
         /// 
-        /// The message sent out will haev the topic "ChangeArduino" for example
+        /// The message sent out will have the topic "ChangeArduino" for example
         /// </summary>
         /// <param name="v"></param>
         public void Change(int v)
