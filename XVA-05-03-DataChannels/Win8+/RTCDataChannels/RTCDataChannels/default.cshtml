@@ -14,7 +14,6 @@
 </head>
 <body>
     <h1>RTCDataChannel - Fileshare</h1>
-    <div>Open up 2 (or more) browsers (ctrl+shift+n) with this link to share files between them</div>
     <input type="file" id="share" />
     <progress value="0" max="0" id="prg-send"></progress>
     <hr />
@@ -52,7 +51,7 @@
                 download.setAttribute("download", file.fileName);
                 var url = window.URL.createObjectURL(blob);
                 download.setAttribute("href", url);
-                $("#" + share).appendChild(download);                
+                $("#" + share).appendChild(download);
             }
             fs.onstarted = function (f) {
                 var fileEl = document.createElement("li");
