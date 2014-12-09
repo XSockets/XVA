@@ -15,4 +15,4 @@ You can setup one or more endpoints for the server to use.
 
 ### Video
 
-[tbd](tbd)
+[http://xsockets.net/academy/xva-03-06-azureworkerrole](http://xsockets.net/academy/xva-03-06-azureworkerrole)
