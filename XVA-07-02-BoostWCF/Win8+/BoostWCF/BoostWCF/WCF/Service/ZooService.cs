@@ -14,7 +14,8 @@ namespace BoostWCF.WCF.Service
     {
         public string Say(string message)
         {
-            this.SendToAll(new { message = "I was sent over websockets: " + message }, "say", "zoo");
+            //Only sending a string here, but anything serializable can be sent
+            this.SendToAll("I was sent with xsockets: " + message, "say", "zoo");
 
             //Do your WCF regular stuff whatever it might be... and then return
             return string.Format("I was returned from WCF: " + message);
@@ -27,5 +28,4 @@ namespace BoostWCF.WCF.Service
             ClientPool.GetInstance(location , "http://localhost").Send(obj, topic, controller);
         }
     }
-
 }

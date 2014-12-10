@@ -7,15 +7,10 @@
 </head>
 <body>
     <div>
-        <strong>
-            Open a few windows to make it more fun! You will then see the messages sent from one WCF request dispatched to all clients.
-        </strong>
+         Open a few windows to make it more fun! You will then see the messages sent from one WCF request dispatched to all clients.        
     </div>
-
     <input type="text" placeholder="Message here..." value="Zebras are nice" id="message" />
-
     <button id="send">Click me to send a message from the WCF over websockets</button>
-
     <div id="info"></div>
 
     <script src="/Scripts/jquery-2.1.1.min.js"></script>
@@ -37,7 +32,6 @@
                 $('#info').prepend($("<p>").text(d));
             });
         });
-
     </script>
 </body>
 </html>

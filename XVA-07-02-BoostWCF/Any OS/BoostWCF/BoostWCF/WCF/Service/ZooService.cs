@@ -12,8 +12,9 @@ namespace BoostWCF.WCF.Service
     public class ZooService : IZooService
     {               
         public string Say(string message)
-        {            
-            this.SendToAll(new { message = "I was sent over websockets: " + message }, "say","zoo");
+        {     
+            //Only sending a string here, but anything serializable can be sent
+            this.SendToAll("I was sent with xsockets: " + message, "say","zoo");
 
             //Do your WCF regular stuff whatever it might be... and then return
             return string.Format("I was returned from WCF: " + message);
@@ -22,7 +23,7 @@ namespace BoostWCF.WCF.Service
         private void SendToAll(object obj, string topic, string controller)
         {
             //Get existing or create a new instance, then call the controller
-            ClientPool.GetInstance("ws://127.0.0.1:4502", "http://localhost").Send(obj, topic, controller);            
+            ClientPool.GetInstance("ws://127.0.0.1:4502", "http://localhost").Send(obj, topic, controller);
         }
     }
 

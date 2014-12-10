@@ -14,4 +14,4 @@ In this sample we show a very simple way of boosting a WCF to realtime with a si
 
 ### Video
 
-[tbd](tbd)
+[http://xsockets.net/academy/xva-07-02-boostwcf](http://xsockets.net/academy/xva-07-02-boostwcf)

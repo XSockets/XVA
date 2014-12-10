@@ -17,5 +17,10 @@ namespace BoostWCF
         {
             this.InvokeToAll(message);
         }
+
+        //public void Say(string message)
+        //{
+        //    this.InvokeToAll(message, "say");
+        //}
     }
 }
