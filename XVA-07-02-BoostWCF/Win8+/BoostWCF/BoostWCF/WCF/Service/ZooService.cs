@@ -1,6 +1,7 @@
 ﻿using System.ServiceModel.Activation;
+using System.Web;
 using BoostWCF.WCF.Contract;
-using XSockets.Core.XSocket.Helpers;
+using XSockets.Client40;
 
 namespace BoostWCF.WCF.Service
 {
@@ -10,16 +11,20 @@ namespace BoostWCF.WCF.Service
     /// </summary>
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class ZooService : IZooService
-    {       
-        
+    {
         public string Say(string message)
         {
-            //Use a new instance of the ZooController to broadcast to all client connected to ZooController
-            //Note that this way only works when XSockets is hosted inside teh same context (web in this case)
-            new ZooController().InvokeToAll(new { message = "I was sent over websockets: " + message }, "say");
+            this.SendToAll(new { message = "I was sent over websockets: " + message }, "say", "zoo");
 
             //Do your WCF regular stuff whatever it might be... and then return
             return string.Format("I was returned from WCF: " + message);
+        }
+
+        private void SendToAll(object obj, string topic, string controller)
+        {
+            //Get existing or create a new instance, then call the controller
+            var location = string.Format("ws://{0}:{1}", HttpContext.Current.Request.Url.Host,HttpContext.Current.Request.Url.Port);
+            ClientPool.GetInstance(location , "http://localhost").Send(obj, topic, controller);
         }
     }
 

@@ -21,7 +21,6 @@ C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\XS
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\XSockets.Server.dll
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Microsoft.Owin.xml
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Newtonsoft.Json.xml
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Serilog.pdb
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Serilog.xml
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\Serilog.FullNetFx.pdb
@@ -40,3 +39,4 @@ C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\XS
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\obj\Debug\BoostWCF.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\obj\Debug\BoostWCF.dll
 C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\obj\Debug\BoostWCF.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-02-BoostWCF\Win8+\BoostWCF\BoostWCF\bin\XSockets.Client40.dll
