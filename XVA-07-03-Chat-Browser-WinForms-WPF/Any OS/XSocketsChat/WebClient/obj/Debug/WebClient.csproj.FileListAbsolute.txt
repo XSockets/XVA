@@ -1,0 +1,6 @@
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.dll.config
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\obj\Debug\WebClient.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\obj\Debug\WebClient.pdb

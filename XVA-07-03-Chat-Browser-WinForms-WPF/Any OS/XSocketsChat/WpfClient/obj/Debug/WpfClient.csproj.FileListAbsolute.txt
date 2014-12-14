@@ -1,0 +1,15 @@
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\bin\Debug\WpfClient.exe.config
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\bin\Debug\WpfClient.exe
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\bin\Debug\WpfClient.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\MainWindow.baml
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\MainWindow.g.cs
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\App.g.cs
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient_MarkupCompile.cache
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.g.resources
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.Properties.Resources.resources
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.csproj.GenerateResource.Cache
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.exe
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\obj\Debug\WpfClient.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WpfClient\bin\Debug\XSockets.Client40.dll
