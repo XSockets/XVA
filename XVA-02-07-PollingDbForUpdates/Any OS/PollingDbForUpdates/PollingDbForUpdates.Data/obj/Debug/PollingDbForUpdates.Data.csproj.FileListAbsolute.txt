@@ -1,0 +1,12 @@
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\PollingDbForUpdates.Data.dll.config
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\PollingDbForUpdates.Data.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\PollingDbForUpdates.Data.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\EntityFramework.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\PollingDbForUpdates.Core.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\PollingDbForUpdates.Core.pdb
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\EntityFramework.xml
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\obj\Debug\PollingDbForUpdates.Data.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\obj\Debug\PollingDbForUpdates.Data.dll
+C:\Users\Uffe\Dropbox\Docs\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingDbForUpdates\PollingDbForUpdates.Data\obj\Debug\PollingDbForUpdates.Data.pdb

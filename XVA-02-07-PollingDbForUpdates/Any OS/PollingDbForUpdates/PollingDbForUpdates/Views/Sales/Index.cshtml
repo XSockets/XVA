@@ -1,0 +1,196 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts
+{
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--jQuery - Need 1.7.1 to be able to run both bootstrap and wijmo-->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/Resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>
+
+    <!--Wijmo Widgets JavaScript-->
+    <script src="http://cdn.wijmo.com/jquery.wijmo-open.all.2.3.4.min.js"
+            type="text/javascript"></script>
+    <script src="http://cdn.wijmo.com/jquery.wijmo-complete.all.2.3.4.min.js"
+            type="text/javascript"></script>
+    <!--Knockout JS Library-->
+    <script src="http://cdn.wijmo.com/external/knockout-2.0.0.js" type="text/javascript"></script>
+    <!--Wijmo Knockout Integration Library-->
+    <script src="http://cdn.wijmo.com/external/knockout.wijmo.js" type="text/javascript"></script>
+
+    <!-- JXSOCKETS JS //-->
+    <script src="/Scripts/XSockets.latest.js"></script>
+    <script>
+
+        function randomFromInterval(from, to) {
+            return Math.floor(Math.random() * (to - from + 1) + from);
+        }
+
+        var barchartSettings = {
+            stacked: true,
+            is100Percent: true,
+            axis: {
+                y: {
+                    text: "Total Sales"
+                },
+                x: {
+                    text: ""
+                }
+            },
+            hint: {
+                content: function () {
+                    return this.data.label + '\n ' + this.y + '';
+                }
+            },
+            header: {
+                text: "Sale Wars"
+            },
+            seriesStyles: [{
+                fill: "#8ede43", stroke: "#7fc73c", opacity: 0.8
+            }, {
+                fill: "#6aaba7", stroke: "#5f9996", opacity: 0.8
+            }, {
+                fill: "#466a85", stroke: "#3e5f77", opacity: 0.8
+            }],
+            seriesHoverStyles: [{
+                "stroke-width": "1.5", opacity: 1
+            }, {
+                "stroke-width": "1.5", opacity: 1
+            }, {
+                "stroke-width": "1.5", opacity: 1
+            }]
+        };
+
+        var barchartViewModel = {
+
+            rawData: [],
+            randomData: function () {
+                var rndData = [];
+
+                barchartViewModel.rawData.forEach(function (item, ix) {
+                    rndData.push(item);
+                    rndData[ix].Hardware = randomFromInterval(10, 500);
+                    rndData[ix].Software = randomFromInterval(10, 500);
+                    rndData[ix].Services = randomFromInterval(10, 500);
+                });
+                debugger;
+                return rndData;
+            },
+            lastupdated: ko.observable(),
+            seriesList: ko.observableArray([]),
+
+            setSeries: function (data) {
+                barchartViewModel.seriesList([]);
+
+                barchartViewModel.rawData = data;
+
+                var countries = [];
+                var hardware = [];
+                var software = [];
+                var services = [];
+
+                console.log(data);
+
+                data.forEach(function (item) {
+                    countries.push(item.Country);
+                    hardware.push(item.Hardware);
+                    software.push(item.Software);
+                    services.push(item.Services);
+                });
+
+                barchartViewModel.seriesList.push({
+                    label: "Hardware",
+                    legendEntry: true,
+                    data: { x: countries, y: hardware }
+                });
+
+                barchartViewModel.seriesList.push({
+                    label: "Software",
+                    legendEntry: true,
+                    data: { x: countries, y: software }
+                });
+
+                barchartViewModel.seriesList.push({
+                    label: "Services",
+                    legendEntry: true,
+                    data: { x: countries, y: services }
+                });
+
+            },
+
+            settings: barchartSettings
+        };
+
+        var ws = null;
+        var sales = null;
+        $(function () {
+
+            ko.applyBindings(barchartViewModel);
+
+            ws = new XSockets.WebSocket("ws://localhost:4502", ['sales']);
+            sales = ws.controller('sales');
+
+            sales.on('sales-updated', function (d) {
+                debugger;
+                console.log(d);
+                barchartViewModel.setSeries(d.Sales);
+                barchartViewModel.lastupdated(d.Updated);
+            });
+
+            //GUI events
+            $('#btn-change-values-ws').live('mouseenter', function () {
+                $(this).popover('show');
+            }).live('mouseleave', function () {
+                $(this).popover('hide');
+            });
+            $('#btn-change-values-ajax').live('mouseenter', function () {
+                $(this).popover('show');
+            }).live('mouseleave', function () {
+                $(this).popover('hide');
+            });
+
+            //set random data with websockets
+            $('#btn-change-values-ws').bind('click', function () {
+                sales.invoke('updatesales', { sales: barchartViewModel.randomData() });
+            });
+            //set random data with AJAX, then the longrunning controller will detect changes and notify clients with websokcet... You´ll see the delay
+            $('#btn-change-values-ajax').bind('click', function () {
+                $.ajax({
+                    async: false,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    url: '/Sales/Update',
+                    data: JSON.stringify({
+                        sales: barchartViewModel.randomData()
+                    }),
+                    success: function (result) {
+                        console.log(result);
+                    }
+                });
+            });
+        });
+    </script>
+}
+<div class="jumbotron">
+    <h1>Live changes...!</h1>
+    <p class="lead">Your sales-charts will change when the legacy database get changed...</p>
+</div>
+<hr>
+<div class="row-fluid marketing">
+    <div class="span12">
+        <button class="btn bt-small btn-primary" id="btn-change-values-ws" rel="popover" data-placement="top" data-content="This will update the clients instantly, since we use websockets!" data-original-title="WebSockets">Change Values With WebSockets</button>
+        <button class="btn bt-small btn-primary" id="btn-change-values-ajax" rel="popover" data-placement="top" data-content="This will update data by AJAX, client might have to wait a few seconds to get the data" data-original-title="AJAX">Change Values With AJAX</button>
+    </div>
+</div>
+<div class="row-fluid marketing">
+    <div class="span12">
+        <h5 data-bind="text:lastupdated"></h5>
+        <div data-bind="wijbarchart: {seriesList:seriesList, axis: settings.axis, stacked:settings.stacked, is100Percent:settings.is100Percent, hint:settings.hint, header:settings.header,seriesStyles:settings.seriesStyles, seriesHoverStyles: settings.seriesHoverStyles }" class="ui-widget ui-widget-content ui-corner-all" style="width: 600px; height: 400px">
+        </div>
+    </div>
+</div>

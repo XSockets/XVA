@@ -43,16 +43,11 @@ var FileShare = (function () {
     fileshare.prototype.oncomplete = function () {
 
     };
-
-
     fileshare.prototype.onreceive = function (f) {
 
     };
-
     fileshare.prototype.onstarted = function () {
-
     }
-
     fileshare.prototype.getFileShares = function () {
         return buffers;
     }

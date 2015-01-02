@@ -5,7 +5,7 @@
 - XSockets.Owin.Host
 
 
-### Javascript API's
+### Javascript API's from GitHub
 
 - XSockets JsAPI
 - XSockets WebRTC JsAPI
@@ -23,7 +23,6 @@ Tested with latest version of the following webbrowsers
 - Chrome
 - Firefox
 - Opera
-
 
 ### Video
 

@@ -4,7 +4,7 @@
 
 - XSockets
 
-### Javascript API's
+### Javascript API's from GitHub
 
 - XSockets JsAPI
 - XSockets WebRTC JsAPI
