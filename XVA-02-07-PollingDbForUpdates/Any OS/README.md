@@ -17,6 +17,8 @@ Other resources
 
 ### Description
 
+Note that example https://github.com/XSockets/XVA/tree/master/XVA-02-04-DataSyncBasic2 is a good alternative or possible to combine with this technique.
+
 
 
 
@@ -33,10 +35,9 @@ as a realtime backend.
 
 
 ##Screenshot
-!
-[XSockets.NET - Demo](https://raw.githubusercontent.com/XSockets/XVA/master/XVA-02-07-PollingDbForUpdates/Any%20OS/screenshot.PNG "Screenshot...")
 
 
+![DbPolling Sample](https://raw.githubusercontent.com/XSockets/XVA/master/XVA-02-07-PollingDbForUpdates/Any%20OS/screenshot.PNG)
 
 ### Video
 
