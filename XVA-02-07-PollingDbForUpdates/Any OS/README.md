@@ -1,4 +1,4 @@
-##XVA-02-07 State PubSub
+##XVA-02-07 Polling Legacy Database
 
 
 
@@ -17,6 +17,8 @@ Other resources
 
 ### Description
 
+Polling is ugly, but if you do not control a database or service your self you may have to do it... It is better to have one resource doing polling and then notify users when anything has happend instead of having hundreds or thousands of clients polling the same resource.
+
 Note that example https://github.com/XSockets/XVA/tree/master/XVA-02-04-DataSyncBasic2 is a good alternative or possible to combine with this technique.
 
 
@@ -26,7 +28,7 @@ A realtime communication demo based on XSockets.NET, Wijmo, KnockoutJS, Bootstra
 
 
 
-This sample was built a back in January 2013 as an answer to a quesiton on SO, but was updated recently to XSockets 4
+This sample was built a back in January 2013 as an answer to a question on SO, but was updated recently to XSockets 4
 Stackoverflow: http://stackoverflow.com/questions/14319758/signalr-polling-database-for-updates/14326800#14326800
 
 
