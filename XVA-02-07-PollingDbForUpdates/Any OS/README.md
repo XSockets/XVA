@@ -34,7 +34,7 @@ as a realtime backend.
 
 ##Screenshot
 !
-[XSockets.NET - Demo](https://raw.github.com/xsockets/XVA/master/screenshot.PNG "Screenshot...")
+[XSockets.NET - Demo](https://raw.githubusercontent.com/XSockets/XVA/master/XVA-02-07-PollingDbForUpdates/Any%20OS/screenshot.PNG "Screenshot...")
 
 
 
