@@ -64,6 +64,7 @@
 
                 // localMediaStream
                 webRTC.onlocalstream = function (stream) {
+                    console.log('New Local Stream');
                     window.attachMediaStream($("#localVideo video"), stream);
                     // when i got a local mediastream , connect to others.
                     webRTC.connectToContext();
@@ -71,6 +72,7 @@
 
                 // remoteMediaStream will fire for each of the remote peerConnections
                 webRTC.onremotestream = function (remote) {
+                    console.log('New Remote Stream');
                     var removteVideo = document.createElement("video");
                     removteVideo.setAttribute("autoplay", "true");
                     removteVideo.setAttribute("data-streamid", remote.stream.id);
@@ -79,7 +81,8 @@
                 };
 
                 // onremovestream will fire when a remote peer is no longer available
-                webRTC.onremotestreamlost = function (evt) {
+                webRTC.onremotestreamlost = function (evt) {                    
+                    console.log('Remote Stream Lost');
                     $("#remoteVideos").removeChild($("video[data-streamid='" + evt.stream.id + "']"));
                 };
 

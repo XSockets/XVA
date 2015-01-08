@@ -1,7 +1,7 @@
 using Serilog;
 using XSockets.Logger;
 
-namespace Logging
+namespace Logging.Modules
 {
     /// <summary>
     /// Custom plugin that will override the default logger.

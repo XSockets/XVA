@@ -1,16 +1,13 @@
 using System;
 using XSockets.Core.Common.Utility.Logging;
 using XSockets.Core.XSocket;
-using XSockets.Core.XSocket.Helpers;
-using XSockets.Core.Common.Socket.Event.Interface;
 using XSockets.Plugin.Framework;
+using XSockets.Plugin.Framework.Attributes;
 
-namespace Logging
+namespace Logging.Modules
 {
-    /// <summary>
-    /// Implement/Override your custom actionmethods, events etc in this real-time controller
-    /// </summary>
-    public class Simple : XSocketController
+    [XSocketMetadata("Simple")]
+    public class SimpleController : XSocketController
     {
         /// <summary>
         /// Log the incomming data and send it back to the caller only
@@ -21,13 +18,13 @@ namespace Logging
             try
             {
                 //Get the logger and write with level information
-                Composable.GetExport<IXLogger>().Information("LogTest: {now}, {@model}", DateTime.Now, model); 
+                Composable.GetExport<IXLogger>().Information("LogTest: {@model}", model); 
                 //And... throw...
                 throw new Exception("Ohh crap!");
             }
             catch (Exception ex)
             {
-                Composable.GetExport<IXLogger>().Error("LogTest: {now}, {message}", DateTime.Now, ex.Message);
+                Composable.GetExport<IXLogger>().Error("LogTest: {@ex}", ex);
             }
         }
     }
