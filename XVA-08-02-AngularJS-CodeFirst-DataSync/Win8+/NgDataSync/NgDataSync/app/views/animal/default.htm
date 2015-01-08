@@ -1,0 +1,31 @@
+<style>
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+</style>
+<h1>Animal</h1>
+<button ng-click="add()">Add new Animal</button>
+<hr/>
+<table style="width: 100%">
+    <tbody>
+        <tr ng-repeat="entity in animals">
+							<td>{{entity.Name}}</td>
+							<td>{{entity.Age}}</td>
+			            <td>
+                <button ng-click="edit(entity)">Edit</button>                
+            </td>            
+            <td>
+                <button ng-click="delete(entity)">Delete</button>
+            </td>
+        </tr>
+    </tbody>    
+</table>
+<hr/>
+<form>
+	<label>Name</label>
+    <input type="text" ng-model="current.Name" />
+	<label>Age</label>
+    <input type="text" ng-model="current.Age" />
+	<button ng-click="addOrUpdate()">Save</button>
+</form>

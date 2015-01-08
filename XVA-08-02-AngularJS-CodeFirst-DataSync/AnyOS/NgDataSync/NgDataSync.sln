@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgDataSync", "NgDataSync\NgDataSync.csproj", "{AADA538F-74F8-4B7C-B163-137A60F43F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgDataSync.Core", "NgDataSync.Core\NgDataSync.Core.csproj", "{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgDataSync.Data", "NgDataSync.Data\NgDataSync.Data.csproj", "{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgDataSync.Service", "NgDataSync.Service\NgDataSync.Service.csproj", "{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AADA538F-74F8-4B7C-B163-137A60F43F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADA538F-74F8-4B7C-B163-137A60F43F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADA538F-74F8-4B7C-B163-137A60F43F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADA538F-74F8-4B7C-B163-137A60F43F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AADA538F-74F8-4B7C-B163-137A60F43F63}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NgDataSync</RootNamespace>
+    <AssemblyName>NgDataSync</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\packages\Serilog.1.4.15\lib\net45\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.FullNetFx">
+      <HintPath>..\packages\Serilog.1.4.15\lib\net45\Serilog.FullNetFx.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="XSockets.Controllers">
+      <HintPath>..\packages\XSockets.Server.4.0.1\lib\net40\XSockets.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Core">
+      <HintPath>..\packages\XSockets.Core.4.0.1\lib\net40\XSockets.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Core.Common">
+      <HintPath>..\packages\XSockets.Core.4.0.1\lib\net40\XSockets.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Core.Communication">
+      <HintPath>..\packages\XSockets.Server.4.0.1\lib\net40\XSockets.Core.Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.CustomProtocol">
+      <HintPath>..\packages\XSockets.Core.4.0.1\lib\net40\XSockets.CustomProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Enterprise">
+      <HintPath>..\packages\XSockets.Server.4.0.1\lib\net40\XSockets.Enterprise.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Logger">
+      <HintPath>..\packages\XSockets.Server.4.0.1\lib\net40\XSockets.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Owin.Host">
+      <HintPath>..\packages\XSockets.Owin.Host.4.0.1\lib\net45\XSockets.Owin.Host.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Plugin.Framework">
+      <HintPath>..\packages\XSockets.Plugin.Framework.4.0.1\lib\net40\XSockets.Plugin.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Protocol">
+      <HintPath>..\packages\XSockets.Core.4.0.1\lib\net40\XSockets.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Serialization">
+      <HintPath>..\packages\XSockets.Core.4.0.1\lib\net40\XSockets.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Server">
+      <HintPath>..\packages\XSockets.Server.4.0.1\lib\net40\XSockets.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSyncController.For\NinjectServiceModule.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSyncController.For\DataSyncController.For.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSyncController.For\DataSyncController.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSyncController.For\Bob.XSockets.DataSyncController.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSync.AngularJS.For\view.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSync.AngularJS.For\controller.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSync.AngularJS.For\container.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSync.AngularJS.For\Bob.XSockets.DataSync.AngularJS.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\XSockets\Bob.XSockets.DataSync.AngularJS.For\app.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Web\WebAPI\Bob.WebAPI.Controllers.All\Bob.WebAPI.Controllers.All.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\WebAPI\Bob.WebAPI.Controller.For\WebAPI.Controller.For.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Web\WebAPI\Bob.WebAPI.Controller.For\Bob.WebAPI.Controller.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\WebAPI\Bob.WebAPI.BaseApiController\Bob.WebAPI.BaseApiController.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\WebAPI\Bob.WebAPI.BaseApiController\BaseApiController.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Web\MVC\Bob.MVC.Controllers.All\Bob.MVC.Controllers.All.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\MVC\Bob.MVC.Controller.For\MVC.Controller.For.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Web\MVC\Bob.MVC.Controller.For\Bob.MVC.Controller.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\MVC\Bob.MVC.BaseController\Bob.MVC.BaseController.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Web\MVC\Bob.MVC.BaseController\BaseController.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\IoC\Ninject\Bob.Ninject.ThreadScope\Bob.Ninject.ThreadScope.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\IoC\Ninject\Bob.Ninject.RequestScope\Bob.Ninject.RequestScope.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\IoC\Ninject\Bob.Ninject.Module\Bob.Ninject.Module.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Service\Bob.Services\Bob.Services.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Service\Bob.Services\BaseService.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Service\Bob.Services.For\Service.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Service\Bob.Services.For\IService.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Service\Bob.Services.For\Bob.Services.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Misc\Bob.ScaffoldBackend\Bob.ScaffoldBackend.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Misc\Bob.ScaffoldBackend.For\Bob.ScaffoldBackend.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Misc\Bob.Architecture\Bob.Architecture.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Misc\Bob.AddClass\Bob.AddClass.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Misc\Bob.AddClass\AddClass.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\UnitOfWork.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\DataContext.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\DataBaseHelpers.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\DatabaseFactory.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\Bob.Data.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data\BaseRepository.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data.Repository.For\Repository.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data.Repository.For\IRepository.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Data\Bob.Data.Repository.For\Bob.Data.Repository.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.ViewModels.All\Bob.ViewModels.All.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.ViewModel.For\ViewModel.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.ViewModel.For\Bob.ViewModel.For.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\ValidationEngine.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\ValidationContainer.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\PersistentEntity.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\Page.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\IValidationContainer.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\IPage.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\Bob.Core.Model.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Model\BaseViewModel.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IUnitOfWork.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IService.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IRepository.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IDataContext.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IDatabaseFactory.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\Bob.Core.Interfaces.ps1" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\controllers\animalcontroller.js" />
+    <Content Include="app\myApp.js" />
+    <Content Include="app\views\animal\default.htm" />
+    <Content Include="myApp.htm" />
+    <Content Include="Web.config" />
+    <Content Include="XSocketsNET\ServerExample\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NinjectModules\ServiceModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="XSocketsModules\AnimalController.cs" />
+    <Compile Include="XSocketsModules\XSocketsDataSyncController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NgDataSync.Core\NgDataSync.Core.csproj">
+      <Project>{7033DFA6-3EDA-489E-A3B0-90F1B3D18090}</Project>
+      <Name>NgDataSync.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NgDataSync.Data\NgDataSync.Data.csproj">
+      <Project>{DB53C86B-D6A8-4DC6-AB9D-3C46F1B576BE}</Project>
+      <Name>NgDataSync.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NgDataSync.Service\NgDataSync.Service.csproj">
+      <Project>{60BC0A21-798C-4CC8-9C4A-6CA99D03D8D6}</Project>
+      <Name>NgDataSync.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16718</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:16194/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
