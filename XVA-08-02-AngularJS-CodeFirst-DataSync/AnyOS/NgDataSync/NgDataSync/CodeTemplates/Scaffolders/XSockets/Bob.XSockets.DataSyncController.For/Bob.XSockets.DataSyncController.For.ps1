@@ -142,12 +142,12 @@ if((Get-ProjectItem "DataSyncController.cs" -Project $ProjectName) -eq $null){
 # Create the controller class for datasync if it does not exist
 ##############################################################
 
-$ximports = $coreProjectName + ".Model," + $coreProjectName + ".ViewModel," + $rootNamespace + ".Service," + $rootNamespace + ".XSocketsModules"
+$ximports = $coreProjectName + ".Model," + $coreProjectName + ".ViewModel," + $rootNamespace + ".Service"
 $outputPath = "XSocketsModules\$($foundModelType.Name)Controller"
 
 Add-ProjectItemViaTemplate $outputPath -Template DataSyncController.For `
 -Model @{ 	
-Namespace = $namespace;
+Namespace = "$($namespace).XSocketsModules";
 DataTypeName = $foundModelType.Name;
 ExtraUsings = $ximports
 } `
