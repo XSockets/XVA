@@ -15,5 +15,10 @@ namespace BinaryMessages
         {      
             this.InvokeToAll(message);
         }
+
+        public void FIleShareChunked(IMessage message)
+        {
+            this.InvokeToAll(message);
+        }
     }
 }

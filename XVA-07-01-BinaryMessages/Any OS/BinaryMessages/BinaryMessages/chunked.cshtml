@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BinaryMessages</title>
+</head>
+<body>
+    <h1>BinaryMessages - Simple fileshare (Chunked)<small id="inbound"></small></h1>
+    <p>
+        Simple file share application. Pass 1-n files with MetaData to all connected clients. This example limited to 'image/*|text/*', This example using chunks.
+    </p>
+    <label>Select file(s): <input type="file" id="files" multiple accept="image/*|text/*" /></label>
+    <h3>Received files</h3>
+    <div id="list-files">
+
+    </div>
+
+    <script src="//rawgit.com/XSockets/XSockets.Clients/master/src/XSockets.Clients/XSockets.JavaScript/XSockets.latest.js"></script>
+
+    <script>
+        function $(selector, el) {
+            if (!el) {
+                el = document;
+            }
+            return el.querySelector(selector);
+        }
+
+        var ws, binaryController;
+
+
+        var chunkBuffer = new ArrayBuffer();
+
+        function appendBuffer(buffer1, buffer2) {
+            var tmp = new Uint8Array(buffer1.byteLength + buffer2.byteLength);
+            tmp.set(new Uint8Array(buffer1), 0);
+            tmp.set(new Uint8Array(buffer2), buffer1.byteLength);
+            return tmp.buffer;
+        }
+      
+
+        document.addEventListener("DOMContentLoaded", function () {
+            ws = new XSockets.WebSocket("ws://127.0.0.1:4502", ["fileshare"]);
+            binaryController = ws.controller("fileshare"); // get the controller instance.
+            // when connected to the controller
+            binaryController.onopen = function () {
+                binaryController.on("fileShareChunked", function(binaryMessage) {
+                    var fileInfo = binaryMessage.data;
+                    chunkBuffer = appendBuffer(chunkBuffer, binaryMessage.binary);
+                    $("#inbound").innerText = chunkBuffer.byteLength + " bytes received";
+                    if (chunkBuffer.byteLength === fileInfo.size) {
+                        var blob = new Blob([chunkBuffer], { type: fileInfo.mimeType });
+                        var blobUrl = window.URL.createObjectURL(blob);
+                        // check if the file is an image, if show it, otherwise, create a download link
+                        if (fileInfo.mimeType.indexOf("image/") > -1) {
+                            var img = document.createElement("img");
+                            img.setAttribute("src", blobUrl);
+                            img.setAttribute("alt", fileInfo.name);
+                            $("#list-files").appendChild(img);
+                        } else {
+                            var downloadLink = document.createElement("a");
+                            downloadLink.innerText = fileInfo.name;
+                            downloadLink.setAttribute("download", fileInfo.name);
+                            downloadLink.setAttribute("href", blobUrl);
+                            downloadLink.setAttribute("title", "size:" + fileInfo.size);
+                            $("#list-files").appendChild(downloadLink);
+
+                        }
+                        chunkBuffer = new ArrayBuffer();
+                    }
+
+                });
+
+
+            };
+            $('#files').addEventListener('change', function (evt) {
+                for (var i = 0; i < evt.target.files.length; i++) {
+                    var r = new XSockets.ReadFile();
+                    var file = evt.target.files[i];
+                    // read file as 32768 byte long frames
+                    r.readChunks(file, (32*1024), function (result, arrayBuffer) {
+                        binaryController.invokeBinary("FIleShareChunked", arrayBuffer, {
+                                name: result.name,
+                                mimeType: result.type,
+                                size: result.size
+                            });
+                    });
+                }
+            }, false);
+        });
+    </script>
+
+</body>
+</html>

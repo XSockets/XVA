@@ -141,6 +141,7 @@
     <Content Include="Scripts\XSockets.latest.js" />
     <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="Scripts\XSockets.latest.min.js.map" />
+    <Content Include="chunked.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
