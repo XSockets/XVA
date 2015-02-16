@@ -95,13 +95,6 @@
             </summary>
             <param name="socket">The socket connection</param>
         </member>
-        <member name="M:XSockets.Server.XSocketServer.Shaker_OnHandshakeComplete(System.Object,XSockets.Core.Common.Socket.Event.Arguments.OnHandshakeCompleteArgs)">
-            <summary>
-            Successful connection/handshake
-            </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
-        </member>
         <member name="P:XSockets.Server.XSocketServer.ConfigurationSetting">
             <summary>
             The configuration for this server instance

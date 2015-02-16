@@ -94,3 +94,45 @@ C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter 
 C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Win8+\HitCounter\HitCounter\obj\Debug\HitCounter.dll
 C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Win8+\HitCounter\HitCounter\obj\Debug\HitCounter.pdb
 C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-04-HitCounter - ONHOLD\Win8+\HitCounter\HitCounter\bin\XSockets.Owin.Host.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\HitCounter.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\HitCounter.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\HitCounter.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Microsoft.Owin.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Owin.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Logger.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Owin.Host.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Microsoft.Owin.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Owin.Host.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\bin\XSockets.Server.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\obj\Debug\HitCounter.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\obj\Debug\HitCounter.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Win8+\HitCounter\HitCounter\obj\Debug\HitCounter.pdb
