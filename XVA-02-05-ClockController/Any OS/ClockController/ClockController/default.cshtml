@@ -9,9 +9,9 @@
     <script>
         var conn = new XSockets.WebSocket('ws://localhost:4502', ['clock']);
         var clock = conn.controller('clock');
-        clock.tick = function (t) {
+        clock.on('tick', function (t) {
             document.querySelector('#clock').innerText = t;
-        };
+        });
     </script>
 </body>
 </html>

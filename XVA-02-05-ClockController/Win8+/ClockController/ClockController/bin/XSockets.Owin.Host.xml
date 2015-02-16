@@ -16,6 +16,42 @@
             <param name="app"></param>
             <param name="withInterceptors"></param>
         </member>
+        <member name="M:XSockets.Owin.Host.AppBuilderExtensions.UseXSockets(Owin.IAppBuilder,XSockets.Owin.Host.OwinHostConfiguration)">
+            <summary>
+            Register XSockets Middleware in Owin and enables cross-protocol communication
+            </summary>
+            <param name="app"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="T:XSockets.Owin.Host.OwinHostConfiguration">
+            <summary>
+            For configure 
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.OwinHostConfiguration.#ctor(System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="withInterceptors"></param>
+            <param name="withXSocketsEndpoint"></param>
+            <param name="useLoopBack"></param>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.WithInterceptors">
+            <summary>
+            Will enable interceptors for Connections, Errors and Messages
+            </summary>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.WithXSocketsEndpoint">
+            <summary>
+            Will enable cross-protocol communication between websockets and any protocol plugged into XSockets
+            This will  
+            </summary>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.UseLoopBack">
+            <summary>
+            If WithXSocketsEndpoint is true you can choose to enable loopback
+            </summary>
+        </member>
         <member name="T:XSockets.Owin.Host.OwinProtocol">
             <summary>
             Custom XSocketsProtocol for Owin
