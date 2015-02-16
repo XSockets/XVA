@@ -1,1 +1,0 @@
-Custom protocols will (right now) only work when XSockets is the host, not Owin. 

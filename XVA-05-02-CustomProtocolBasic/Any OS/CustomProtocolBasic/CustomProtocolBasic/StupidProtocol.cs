@@ -128,7 +128,7 @@ namespace CustomProtocolBasic
         public override bool CanDoHeartbeat()
         {
             return false;
-        }
+        }        
 
         public override IXSocketProtocol NewInstance()
         {
