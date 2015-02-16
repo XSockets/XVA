@@ -9,3 +9,14 @@ C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Service\bin\Debug\EntityFramework.xm
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.dll
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Service.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Service.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Data.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\EntityFramework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Core.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\NgDataSync.Data.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\bin\Debug\EntityFramework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\AnyOS\NgDataSync\NgDataSync.Service\obj\Debug\NgDataSync.Service.pdb

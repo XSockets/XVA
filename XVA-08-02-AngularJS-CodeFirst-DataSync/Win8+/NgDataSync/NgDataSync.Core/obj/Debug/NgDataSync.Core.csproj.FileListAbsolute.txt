@@ -8,3 +8,13 @@ C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Core\bin\Debug\EntityFramework.SqlSe
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.dll
 C:\Users\Uffe\Desktop\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\NgDataSync.Core.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\NgDataSync.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\NgDataSync.Core.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\EntityFramework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\EntityFramework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-08-02-AngularJS-CodeFirst-DataSync\Win8+\NgDataSync\NgDataSync.Core\obj\Debug\NgDataSync.Core.pdb

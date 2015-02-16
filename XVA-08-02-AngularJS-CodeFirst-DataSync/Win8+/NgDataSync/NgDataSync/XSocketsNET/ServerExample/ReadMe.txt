@@ -12,7 +12,7 @@ using XSockets.Core.Common.Socket;
 //Create class for the server instance
 public static class XSocketsBootstrap
 {
-    private static IXSocketServerContainer wss;
+    private static IXSocketServerContainer container;
     public static void Start()
     {
         container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>();
