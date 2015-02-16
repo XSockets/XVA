@@ -58,8 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.cshtml" />
-    <Content Include="Scripts\XSockets.latest.min.js.map" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\XSockets.latest.js" />
+    <Content Include="Scripts\XSockets.latest.min.js" />
+    <Content Include="Scripts\XSockets.latest.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -73,8 +75,6 @@
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\knockout-3.2.0.debug.js" />
     <Content Include="Scripts\knockout-3.2.0.js" />
-    <Content Include="Scripts\XSockets.latest.js" />
-    <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
   </ItemGroup>
