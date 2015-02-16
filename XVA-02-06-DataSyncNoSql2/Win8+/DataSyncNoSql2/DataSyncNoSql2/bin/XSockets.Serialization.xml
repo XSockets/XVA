@@ -10,6 +10,11 @@
             To have your custom serializer implement IXSocketJsonSerializer
             </summary>    
         </member>
+        <member name="M:XSockets.Serialization.XSocketJsonSerializer.#cctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
         <member name="M:XSockets.Serialization.XSocketJsonSerializer.SerializeToString``1(``0)">
             <summary>
             Serialize a object of type T to a JSON string
