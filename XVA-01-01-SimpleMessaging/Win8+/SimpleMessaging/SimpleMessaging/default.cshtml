@@ -24,9 +24,9 @@
         var controller = conn.controller('generic');
 
         //Method that will be invoked when a message with topic "simple" is sent
-        controller.simple = function(d) {
+        controller.on('simple', function(d) {
             vm.messages.unshift(d);
-        };
+        });
 
         ////Classic simple messaging using "onmessage", will get object, topic and controller as parameters
         //controller.onmessage = function(o,t,c) {
