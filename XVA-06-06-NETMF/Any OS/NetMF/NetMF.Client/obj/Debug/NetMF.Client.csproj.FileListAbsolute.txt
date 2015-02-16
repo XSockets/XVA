@@ -50,6 +50,7 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\bin
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\bin\Debug\BE\XSockets.ClientMF42.pdbx
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\bin\Debug\Json.NetMF.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\bin\Debug\XSockets.ClientMF42.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\obj\Debug\NetMF.Client.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\obj\Debug\TinyCLR_DebugReferences.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\obj\Debug\NetMF.Client.Resources.resources
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Client\obj\Debug\NetMF.Client.csproj.GenerateResource.Cache

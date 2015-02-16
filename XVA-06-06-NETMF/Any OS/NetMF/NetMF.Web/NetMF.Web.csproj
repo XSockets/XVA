@@ -57,9 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="default.cshtml" />
+    <Content Include="Scripts\XSockets.latest.js" />
+    <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="Scripts\XSockets.latest.min.js.map" />
     <Content Include="packages.config" />
-    <Content Include="default.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,8 +70,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\XSockets.latest.js" />
-    <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

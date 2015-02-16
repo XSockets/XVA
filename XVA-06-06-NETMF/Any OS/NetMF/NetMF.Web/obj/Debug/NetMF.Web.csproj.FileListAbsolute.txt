@@ -7,5 +7,6 @@ C:\Users\Uffe\Desktop\NetMF\NetMF.Web\obj\Debug\NetMF.Web.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\bin\NetMF.Web.dll.config
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\bin\NetMF.Web.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\bin\NetMF.Web.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\obj\Debug\NetMF.Web.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\obj\Debug\NetMF.Web.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Web\obj\Debug\NetMF.Web.pdb

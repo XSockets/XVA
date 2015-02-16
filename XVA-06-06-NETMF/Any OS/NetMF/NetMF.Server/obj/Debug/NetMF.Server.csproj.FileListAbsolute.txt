@@ -34,8 +34,6 @@ C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.csprojResolveAss
 C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.exe
 C:\Users\Uffe\Desktop\NetMF\NetMF.Server\obj\Debug\NetMF.Server.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.exe.config
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.exe
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.exe
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\NetMF.Server.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\Newtonsoft.Json.dll
@@ -68,3 +66,5 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Serialization.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\bin\Debug\XSockets.Server.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-06-06-NETMF\Any OS\NetMF\NetMF.Server\obj\Debug\NetMF.Server.pdb
