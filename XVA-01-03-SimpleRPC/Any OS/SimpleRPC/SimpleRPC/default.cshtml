@@ -29,9 +29,9 @@
         var controller = conn.controller('chat');
 
         //Handle the "chatmessage" event
-        controller.chatmessage = function (d) {
+        controller.on('chatmessage', function (d) {
             vm.messages.unshift(d);
-        };
+        });
 
         //The above method can also be written as
         //controller.on('chatmessage', function (d) {
