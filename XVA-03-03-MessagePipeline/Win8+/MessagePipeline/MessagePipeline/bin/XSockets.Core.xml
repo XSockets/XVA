@@ -105,6 +105,21 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="P:XSockets.Core.Configuration.ConfigurationSetting.BacklogSize">
+            <summary>
+            Size of backlog for listener socket
+            </summary>
+        </member>
+        <member name="P:XSockets.Core.Configuration.ConfigurationSetting.ThreadPoolSize">
+            <summary>
+            Size of pool handling incoming connections
+            </summary>
+        </member>
+        <member name="P:XSockets.Core.Configuration.ConfigurationSetting.CompletionPortThreads">
+            <summary>
+            The minimum number of asynchronous I/O threads that the thread pool creates on demand.
+            </summary>
+        </member>
         <member name="P:XSockets.Core.Configuration.ConfigurationSetting.CertificateSubjectDistinguishedName">
             <summary>
             The subject of the X509 certificate
@@ -727,6 +742,11 @@
             </summary>
             <param name="key"></param>
             <returns></returns>
+        </member>
+        <member name="T:XSockets.Core.XSocket.AuthorizationModule">
+            <summary>
+            The default module for authorization of calls to controllers/methods
+            </summary>
         </member>
         <member name="T:XSockets.Core.XSocket.ConnectionContext">
             <summary>
@@ -2318,7 +2338,7 @@
             Handles the handshaking between the client and the host, when a new connection is created
             </summary>
         </member>
-        <member name="M:XSockets.Core.XSocket.ProtocolHandshakeHandler.Shake(XSockets.Core.Common.Socket.ISocketWrapper)">
+        <member name="M:XSockets.Core.XSocket.ProtocolHandshakeHandler.Init(XSockets.Core.Common.Socket.ISocketWrapper)">
             <summary>
             Handshakes with the connecting socket
             </summary>
@@ -2625,20 +2645,6 @@
             Ctor
             </summary>
             <param name="socket"></param>
-        </member>
-        <member name="M:XSockets.Core.XSocket.Wrapper.SocketWrapper.#ctor(System.Net.Sockets.Socket,System.Security.Cryptography.X509Certificates.X509Certificate2)">
-            <summary>
-            Ctor for SSL
-            </summary>
-            <param name="socket"></param>
-            <param name="certificate2"></param>
-        </member>
-        <member name="M:XSockets.Core.XSocket.Wrapper.SocketWrapper.AuthenticateAsClient(System.Security.Cryptography.X509Certificates.X509Certificate2)">
-            <summary>
-            
-            </summary>
-            <param name="certificate"></param>
-            <returns></returns>
         </member>
         <member name="M:XSockets.Core.XSocket.Wrapper.SocketWrapper.EndSend(System.IAsyncResult)">
             <summary>

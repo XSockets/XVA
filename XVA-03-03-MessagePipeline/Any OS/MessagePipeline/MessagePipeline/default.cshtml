@@ -19,9 +19,9 @@
             var conn = new XSockets.WebSocket('ws://127.0.0.1:4502', ['generic']);
             var generic = conn.controller('generic');
 
-            generic.message = function(d) {
+            generic.on('message', function(d) {
                 vm.messages.unshift(d);
-            };
+            });
 
             document.querySelector('#send').onclick = function() {
                 generic.invoke('message', {text:document.querySelector('#message').value});
