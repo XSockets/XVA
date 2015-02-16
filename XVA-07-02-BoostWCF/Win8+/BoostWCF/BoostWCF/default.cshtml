@@ -21,7 +21,7 @@
 
         //When XSockets distributes the messages from WCF to all clients...
         zoo.on('say', function(data) {
-            $('#info').prepend($("<p>").text(data.message));
+            $('#info').prepend($("<p>").text(data));
         });
 
         //AJAX call to WCF, then the WCF will call the XSocket-server

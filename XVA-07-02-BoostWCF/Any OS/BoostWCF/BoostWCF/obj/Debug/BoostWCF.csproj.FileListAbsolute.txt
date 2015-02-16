@@ -68,3 +68,4 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-02-BoostWCF\Any OS\BoostWCF\BoostWCF\b
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-02-BoostWCF\Any OS\BoostWCF\BoostWCF\obj\Debug\BoostWCF.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-02-BoostWCF\Any OS\BoostWCF\BoostWCF\obj\Debug\BoostWCF.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-02-BoostWCF\Any OS\BoostWCF\BoostWCF\obj\Debug\BoostWCF.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-02-BoostWCF\Any OS\BoostWCF\BoostWCF\bin\Newtonsoft.Json.xml
