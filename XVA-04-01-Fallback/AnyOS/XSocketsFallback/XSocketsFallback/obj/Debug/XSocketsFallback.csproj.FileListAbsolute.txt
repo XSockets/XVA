@@ -39,7 +39,6 @@ C:\Users\Uffe\Desktop\XSocketsFallback\XSocketsFallback\bin\XSockets.CustomProto
 C:\Users\Uffe\Desktop\XSocketsFallback\XSocketsFallback\bin\XSockets.Enterprise.xml
 C:\Users\Uffe\Desktop\XSocketsFallback\XSocketsFallback\bin\XSockets.Serialization.xml
 C:\Users\Uffe\Desktop\XSocketsFallback\XSocketsFallback\bin\XSockets.Server.xml
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSocketsFallback.dll.config
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSocketsFallback.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSocketsFallback.pdb
@@ -49,6 +48,7 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSo
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\System.Net.Http.Formatting.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\System.Web.Http.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\System.Web.Http.WebHost.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Client40.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Controllers.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Core.Common.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Core.Communication.dll
@@ -60,6 +60,7 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSo
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Protocol.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Serialization.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.WebAPI.Fallback.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\Newtonsoft.Json.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\Serilog.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\Serilog.xml
@@ -76,7 +77,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSo
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Enterprise.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Serialization.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Server.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.pdb
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Client40.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.WebAPI.Fallback.dll
