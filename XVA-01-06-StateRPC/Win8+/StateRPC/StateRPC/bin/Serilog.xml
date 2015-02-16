@@ -50,6 +50,16 @@
             <returns>Configuration object allowing method chaining.</returns>
             <exception cref="T:System.ArgumentNullException"></exception>
         </member>
+        <member name="M:Serilog.Configuration.LoggerDestructuringConfiguration.ToMaximumDepth(System.Int32)">
+            <summary>
+            When destructuring objects, depth will be limited to 5 property traversals deep to
+            guard against ballooning space when recursive/cyclic structures are accidentally passed. To
+            increase this limit pass a higher value.
+            </summary>
+            <param name="maximumDestructuringDepth">The maximum depth to use.</param>
+            <returns>Configuration object allowing method chaining.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
         <member name="T:Serilog.Configuration.LoggerFilterConfiguration">
             <summary>
             Controls filter configuration.
@@ -941,6 +951,78 @@
             </summary>
             <param name="logEvent">The event to format.</param>
             <param name="output">The output.</param>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteRenderings(System.Linq.IGrouping{System.String,Serilog.Parsing.PropertyToken}[],System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
+            <summary>
+            Writes out individual renderings of attached properties
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteRenderingsValues(System.Linq.IGrouping{System.String,Serilog.Parsing.PropertyToken}[],System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
+            <summary>
+            Writes out the values of individual renderings of attached properties
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteProperties(System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
+            <summary>
+            Writes out the attached properties
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WritePropertiesValues(System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
+            <summary>
+            Writes out the attached properties values
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteException(System.Exception,System.String@,System.IO.TextWriter)">
+            <summary>
+            Writes out the attached exception
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteRenderedMessage(System.String,System.String@,System.IO.TextWriter)">
+            <summary>
+            (Optionally) writes out the rendered message
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteMessageTemplate(System.String,System.String@,System.IO.TextWriter)">
+            <summary>
+            Writes out the message template for the logevent.
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteLevel(Serilog.Events.LogEventLevel,System.String@,System.IO.TextWriter)">
+            <summary>
+            Writes out the log level
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteTimestamp(System.DateTimeOffset,System.String@,System.IO.TextWriter)">
+            <summary>
+            Writes out the log timestamp
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteStructure(System.String,System.Collections.Generic.IEnumerable{Serilog.Events.LogEventProperty},System.IO.TextWriter)">
+            <summary>
+            Writes out a structure property
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteSequence(System.Collections.IEnumerable,System.IO.TextWriter)">
+            <summary>
+            Writes out a sequence property
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteDictionary(System.Collections.Generic.IReadOnlyDictionary{Serilog.Events.ScalarValue,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
+            <summary>
+            Writes out a dictionary 
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteJsonProperty(System.String,System.Object,System.String@,System.IO.TextWriter)">
+            <summary>
+            Writes out a json property with the specified value on output writer
+            </summary>
+        </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteLiteralValue(System.Object,System.IO.TextWriter)">
+            <summary>
+            Allows a subclass to write out objects that have no configured literal writer.
+            </summary>
+            <param name="value">The value to be written as a json construct</param>
+            <param name="output">The writer to write on</param>
         </member>
         <member name="M:Serilog.Formatting.Json.JsonFormatter.Escape(System.String)">
             <summary>
