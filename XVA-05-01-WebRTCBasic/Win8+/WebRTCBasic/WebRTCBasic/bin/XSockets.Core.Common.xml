@@ -9,6 +9,21 @@
             Describes a XSockets server configuration
             </summary>
         </member>
+        <member name="P:XSockets.Core.Common.Configuration.IConfigurationSetting.BacklogSize">
+            <summary>
+            Backlog size for listening socket
+            </summary>
+        </member>
+        <member name="P:XSockets.Core.Common.Configuration.IConfigurationSetting.ThreadPoolSize">
+            <summary>
+            The minimum number of worker threads that the thread pool creates on demand.
+            </summary>
+        </member>
+        <member name="P:XSockets.Core.Common.Configuration.IConfigurationSetting.CompletionPortThreads">
+            <summary>
+            The minimum number of asynchronous I/O threads that the thread pool creates on demand.
+            </summary>
+        </member>
         <member name="P:XSockets.Core.Common.Configuration.IConfigurationSetting.Uri">
             <summary>
             The configuration endpoint, if having both public and private endpoints this represents the public endpoint
@@ -141,14 +156,6 @@
             <param name="protocol">protocol to add</param>
             <param name="configurationSetting">configuration for server</param>
             <returns>true if success, else false</returns>
-        </member>
-        <member name="M:XSockets.Core.Common.Factories.IXSocketProtocolFactory.GetProtocolInstance(System.String,XSockets.Core.Common.Socket.ISocketWrapper)">
-            <summary>
-            Return a protocol that matched the handshake pattern
-            </summary>
-            <param name="rawHandshake">the handshake sent from the client</param>
-            <param name="socketWrapper">Socket wrapper for communication</param>
-            <returns></returns>
         </member>
         <member name="P:XSockets.Core.Common.Factories.IXSocketProtocolFactory.Protocols">
             <summary>
@@ -533,6 +540,13 @@
             </summary>
             <returns>Returns true for valid, and false for invalid</returns>
         </member>
+        <member name="M:XSockets.Core.Common.Protocol.IXSocketProtocol.Match(System.Collections.Generic.IList{System.Byte})">
+            <summary>
+            To identify what protocol to use.
+            </summary>
+            <param name="handshake"></param>
+            <returns></returns>
+        </member>
         <member name="M:XSockets.Core.Common.Protocol.IXSocketProtocol.Validate">
             <summary>
             Is called from the DoHandshake and performs Origin control etc
@@ -759,6 +773,11 @@
             Origins allowed, comes from the configuration settings
             </summary>
         </member>
+        <member name="P:XSockets.Core.Common.Protocol.IXSocketProtocol.RawHandshake">
+            <summary>
+            The raw hadnshake sent from the client
+            </summary>
+        </member>
         <member name="P:XSockets.Core.Common.Protocol.IXSocketProtocol.Handshake">
             <summary>
             The initial handshake sent from the client
@@ -976,6 +995,19 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="T:XSockets.Core.Common.Security.IAuthorizationModule">
+            <summary>
+            The default plugin for handling authorizaiton on controller/method level    
+            </summary>
+        </member>
+        <member name="M:XSockets.Core.Common.Security.IAuthorizationModule.IsAuthorized(XSockets.Core.Common.Socket.IXSocketController,XSockets.Core.Common.Socket.Attributes.IAuthorizeAttribute)">
+            <summary>
+            Checks if the current user can access this controller/method
+            </summary>
+            <param name="controller"></param>
+            <param name="authorizeAttribute"></param>
+            <returns></returns>
         </member>
         <member name="T:XSockets.Core.Common.Socket.Attributes.AllowAnonymousAttribute">
             <summary>
@@ -1411,11 +1443,17 @@
             Handles the handshake when a client connects
             </summary>
         </member>
-        <member name="M:XSockets.Core.Common.Socket.IProtocolHandshakeHandler.Shake(XSockets.Core.Common.Socket.ISocketWrapper)">
+        <member name="M:XSockets.Core.Common.Socket.IProtocolHandshakeHandler.Init(XSockets.Core.Common.Socket.ISocketWrapper)">
             <summary>
             Do handsahke with the connecting socket
             </summary>
             <param name="socket">The socket to send the handshake to</param>
+        </member>
+        <member name="M:XSockets.Core.Common.Socket.IProtocolHandshakeHandler.HandShake(System.Collections.Generic.IList{System.Byte})">
+            <summary>
+            
+            </summary>
+            <param name="ar"></param>
         </member>
         <member name="P:XSockets.Core.Common.Socket.IProtocolHandshakeHandler.XSocketFactory">
             <summary>

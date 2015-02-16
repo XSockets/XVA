@@ -72,14 +72,6 @@
             <param name="configurationSetting"></param>
             <returns></returns>
         </member>
-        <member name="M:XSockets.Core.Communication.Helpers.Factories.XSocketProtocolFactory.GetProtocolInstance(System.String,XSockets.Core.Common.Socket.ISocketWrapper)">
-            <summary>
-            Return a protocol that matched the handshake pattern
-            </summary>
-            <param name="rawHandshake">the handshake sent from the client</param>
-            <param name="socketWrapper">Socket wrapper for communication</param>
-            <returns></returns>
-        </member>
         <member name="P:XSockets.Core.Communication.Helpers.Factories.XSocketProtocolFactory.Protocols">
             <summary>
             Protocols loaded in the factory
