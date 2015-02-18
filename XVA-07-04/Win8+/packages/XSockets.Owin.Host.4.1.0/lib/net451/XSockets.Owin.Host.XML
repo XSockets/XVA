@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XSockets.Owin.Host</name>
+    </assembly>
+    <members>
+        <member name="T:XSockets.Owin.Host.AppBuilderExtensions">
+            <summary>
+            Helper for getting XSockets running in Owin
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.AppBuilderExtensions.UseXSockets(Owin.IAppBuilder,System.Boolean)">
+            <summary>
+            Registers XSockets Middleware in Owin
+            </summary>
+            <param name="app"></param>
+            <param name="withInterceptors"></param>
+        </member>
+        <member name="M:XSockets.Owin.Host.AppBuilderExtensions.UseXSockets(Owin.IAppBuilder,XSockets.Owin.Host.OwinHostConfiguration)">
+            <summary>
+            Register XSockets Middleware in Owin and enables cross-protocol communication
+            </summary>
+            <param name="app"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="T:XSockets.Owin.Host.OwinHostConfiguration">
+            <summary>
+            For configure 
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.OwinHostConfiguration.#ctor(System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="withInterceptors"></param>
+            <param name="withXSocketsEndpoint"></param>
+            <param name="useLoopBack"></param>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.WithInterceptors">
+            <summary>
+            Will enable interceptors for Connections, Errors and Messages
+            </summary>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.WithXSocketsEndpoint">
+            <summary>
+            Will enable cross-protocol communication between websockets and any protocol plugged into XSockets
+            This will  
+            </summary>
+        </member>
+        <member name="P:XSockets.Owin.Host.OwinHostConfiguration.UseLoopBack">
+            <summary>
+            If WithXSocketsEndpoint is true you can choose to enable loopback
+            </summary>
+        </member>
+        <member name="T:XSockets.Owin.Host.OwinProtocol">
+            <summary>
+            Custom XSocketsProtocol for Owin
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.OwinProtocol.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.OwinProtocol.CanDoHeartbeat">
+            <summary>
+            Can the protocol handle ping/pong control frames
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Owin.Host.OwinProtocol.NewInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:XSockets.Owin.Host.XSocketsMiddleware">
+            <summary>
+            XSockets Middleware for Owin
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.XSocketsMiddleware.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.XSocketsMiddleware.Next(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Owin.Host.XSocketsMiddleware.#ctor(System.Func{System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.Tasks.Task},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+            <param name="withInterceptors"></param>
+        </member>
+        <member name="M:XSockets.Owin.Host.XSocketsMiddleware.Invoke(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+            <returns></returns>
+        </member>
+        <member name="P:XSockets.Owin.Host.XSocketsMiddleware.Container">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XSockets.Owin.Host.WebSocketMessage">
+            <summary>
+            Owin wbesocket message
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketMessage.EmptyTextMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketMessage.EmptyBinaryMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketMessage.CloseMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketMessage.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketMessage.MessageType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketMessage.#ctor(System.Object,System.Net.WebSockets.WebSocketMessageType)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="data"></param>
+            <param name="messageType"></param>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketMessage.ToBytes">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketMessage.SerializeToByteArray">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:XSockets.Owin.Host.WebSocketWrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketWrapper.Close">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketWrapper.SendAsync">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketWrapper._ReceiveAsync">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XSockets.Owin.Host.WebSocketWrapper.CloseAsync">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketWrapper.Send(System.Byte[],System.Action,System.Action{System.Exception})">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="callback"></param>
+            <param name="error"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XSockets.Owin.Host.WebSocketWrapper.ReceiveAsync(System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="P:XSockets.Owin.Host.WebSocketWrapper.Env">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XSockets.Owin.Host.WebSocketWrapper.Connected">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
