@@ -15,7 +15,6 @@
         this.removeTodo = function(id) {
             var index = -1;
             for (var i = 0; i < this.todos.length; i++) {
-                console.log(this.todos[i], this.todos[i].id === id);
                 if (this.todos[i].id === id) {
                     index = i;                  
                 }
