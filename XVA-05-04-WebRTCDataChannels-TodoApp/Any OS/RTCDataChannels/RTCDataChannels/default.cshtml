@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>XSockets WebRTC - Basic DataChannels (RTCDataChannels)</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="page-header">XVA - Basic WebRTC DataChannels</h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <h2>New todo</h2>
+                <form id="todo-form">
+                    <div class="form-group">
+                        <label for="topic">Topic</label>
+                        <input type="text" id="topic" name="topic" placeholder="What is the topic?" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea id="description" placeholder="What todo?" name="description" class="form-control"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn bt-default">Save</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h2>Todos</h2>
+                <table id="todos" class="table table-striped">
+                    <tr data-repeat="todos">
+                        <td style="vertical-align: middle">
+                            <span data-bind="text id"></span>
+                        </td>
+                        <td><input data-bind="value topic" class="form-control"></td>
+                        <td><input data-bind="value description" class="form-control"></td>
+                        <td>
+                            <button class="btn btn-danger">
+                                <i data-bind="click remove" class="glyphicon glyphicon-remove"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="//rawgit.com/XSockets/XSockets.Clients/master/src/XSockets.Clients/XSockets.JavaScript/XSockets.latest.min.js"></script>
+    <script src="//rawgit.com/XSockets/XSockets.WebRTC/master/src/js/XSockets.WebRTC.latest.min.js"></script>
+    <script src="~/js/bob.0.1.min.js"></script>
+    <script src="~/js/todo.js"></script>
+    <script>
+        var webRTC, ws, broker,p2p2;
+        var dc;
+        var todo;
+        $(function (e) {
+
+            todo = new TodoApp();
+            ws = new XSockets.WebSocket("ws://127.0.0.1:4502", ["connectionbroker"], {
+                ctx: "3e6b8004-fd60-45b5-b231-060e7c87417e"
+            });
+
+            dc = new XSockets.WebRTC.DataChannel("todoApp");
+
+            dc.subscribe("todoAdd", function(obj) {
+                todo.addTodo(obj);
+            }).subscribe("todoUpdate", function(obj) {
+                todo.updateTodo(obj.id, obj.key, obj.val);
+            }).subscribe("todoRemove", function(obj) {
+                todo.removeTodo(obj.id);
+            });
+
+         
+            var callbacks = {
+                update: function(a, b) {
+                    dc.publish("todoUpdate", {
+                        id:  b.object.id,
+                        key: b.name,
+                        val: b.object[b.name]
+                    });
+                },
+                remove: function(a) {
+                    dc.publish("todoRemove", {
+                        id: a.id
+                        }
+                    );
+                }
+            };
+
+            // Bind the todoModel (todo) to the "template" definded in #todos
+            Bob.apply(Bob.binders, callbacks).bind($("#todos"), todo);
+
+
+            ws.onconnected = function() {
+                broker = ws.controller("connectionbroker");
+                webRTC = new XSockets.WebRTC(broker);
+                webRTC.addDataChannel(dc);
+                webRTC.oncontextcreated = function() {
+                    webRTC.connectToContext();
+                };
+            };
+
+
+            $("#todo-form").addEventListener("submit", function (evt) {
+                evt.preventDefault();
+                var obj = Bob.serializeForm(this);
+                var t  = todo.createTodo(obj.topic, obj.description);
+                todo.addTodo(t);
+                dc.publish("todoAdd", t);
+            });
+
+
+        });
+
+    </script>
+</body>
+</html>
