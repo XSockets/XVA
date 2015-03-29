@@ -10,6 +10,7 @@
     <label>Message</label><br />
     <input type="text" value="Hello World" id="message" /><button id="send">send</button>
     <hr />
+    <h5 id="tick"></h5>
     <div data-bind="foreach:messages">
         <div>
             <span data-bind="text:username"></span>: <span data-bind="text:message"></span>
@@ -32,6 +33,10 @@
         //Setup a subscription for the topic "chatmessage"
         controller.subscribe('chatmessage', function (d) {
             vm.messages.unshift(d);
+        });
+
+        controller.on('tick', function(d) {
+            $('#tick').text(d);
         });
 
         //When button is clicked, publish a chat-message

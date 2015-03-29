@@ -30,6 +30,5 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessag
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\bin\XSockets.Protocol.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\bin\XSockets.Serialization.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\bin\XSockets.Server.xml
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\obj\Debug\SimpleMessaging.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\obj\Debug\SimpleMessaging.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\obj\Debug\SimpleMessaging.pdb
