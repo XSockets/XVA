@@ -80,3 +80,5 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSo
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\obj\Debug\XSocketsFallback.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-04-01-Fallback\AnyOS\XSocketsFallback\XSocketsFallback\bin\XSockets.Protocol.xml
