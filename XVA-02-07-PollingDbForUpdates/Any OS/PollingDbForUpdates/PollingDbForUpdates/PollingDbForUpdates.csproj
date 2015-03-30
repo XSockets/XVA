@@ -133,57 +133,57 @@
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Client40, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Client40, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Fallback.4.1.0\lib\net45\XSockets.Client40.dll</HintPath>
+      <HintPath>..\packages\XSockets.Fallback.4.2.0\lib\net45\XSockets.Client40.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Controllers, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Controllers, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.4.1.0\lib\net45\XSockets.Controllers.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.4.2.0\lib\net45\XSockets.Controllers.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Core.4.1.0\lib\net45\XSockets.Core.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.4.2.0\lib\net45\XSockets.Core.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core.Common, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Core.4.1.0\lib\net45\XSockets.Core.Common.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.4.2.0\lib\net45\XSockets.Core.Common.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core.Communication, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core.Communication, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.4.1.0\lib\net45\XSockets.Core.Communication.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.4.2.0\lib\net45\XSockets.Core.Communication.dll</HintPath>
     </Reference>
     <Reference Include="XSockets.CustomProtocol, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Core.4.1.0\lib\net45\XSockets.CustomProtocol.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.4.2.0\lib\net45\XSockets.CustomProtocol.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Enterprise, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Enterprise, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.4.1.0\lib\net45\XSockets.Enterprise.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.4.2.0\lib\net45\XSockets.Enterprise.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Logger, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Logger, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.4.1.0\lib\net45\XSockets.Logger.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.4.2.0\lib\net45\XSockets.Logger.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Plugin.Framework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Plugin.Framework, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Plugin.Framework.4.1.0\lib\net45\XSockets.Plugin.Framework.dll</HintPath>
+      <HintPath>..\packages\XSockets.Plugin.Framework.4.2.0\lib\net45\XSockets.Plugin.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Protocol, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Protocol, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Core.4.1.0\lib\net45\XSockets.Protocol.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.4.2.0\lib\net45\XSockets.Protocol.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Serialization, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Serialization, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Core.4.1.0\lib\net45\XSockets.Serialization.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.4.2.0\lib\net45\XSockets.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Server, Version=4.1.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Server, Version=4.2.0.0, Culture=neutral, PublicKeyToken=7cffcdaa4200be7b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.4.1.0\lib\net45\XSockets.Server.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.4.2.0\lib\net45\XSockets.Server.dll</HintPath>
     </Reference>
     <Reference Include="XSockets.WebAPI.Fallback, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Fallback.4.1.0\lib\net45\XSockets.WebAPI.Fallback.dll</HintPath>
+      <HintPath>..\packages\XSockets.Fallback.4.2.0\lib\net45\XSockets.WebAPI.Fallback.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -310,6 +310,8 @@
     <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IDataContext.cs.t4" />
     <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\IDatabaseFactory.cs.t4" />
     <Content Include="CodeTemplates\Scaffolders\Architecture\Core\Bob.Core.Interfaces\Bob.Core.Interfaces.ps1" />
+    <Content Include="Scripts\XSockets.latest.js" />
+    <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="XSocketsNET\ServerExample\ReadMe.txt" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -322,8 +324,6 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\XSockets.latest.js" />
-    <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
