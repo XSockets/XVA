@@ -41,9 +41,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncBasic\D
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncBasic\DataSyncNoSql\bin\XSockets.Protocol.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncBasic\DataSyncNoSql\bin\XSockets.Serialization.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncBasic\DataSyncNoSql\bin\XSockets.Server.xml
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncBasic.dll.config
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncBasic.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncBasic.pdb
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\Microsoft.Owin.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\Newtonsoft.Json.dll
@@ -82,5 +79,8 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\D
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\XSockets.Serialization.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\XSockets.Server.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\obj\Debug\DataSyncNoSql.csprojResolveAssemblyReference.cache
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\obj\Debug\DataSyncBasic.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\obj\Debug\DataSyncBasic.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncNoSql.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncNoSql.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\bin\DataSyncNoSql.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\obj\Debug\DataSyncNoSql.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-03-DataSyncNoSql\Win8+\DataSyncNoSql\DataSyncNoSql\obj\Debug\DataSyncNoSql.pdb
