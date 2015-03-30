@@ -69,3 +69,4 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-06-DataSyncNoSql2\Any OS\DataSyncNoSql
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-06-DataSyncNoSql2\Any OS\DataSyncNoSql2\DataSyncNoSql2\bin\XSockets.Server.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-06-DataSyncNoSql2\Any OS\DataSyncNoSql2\DataSyncNoSql2\obj\Debug\DataSyncNoSql2.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-06-DataSyncNoSql2\Any OS\DataSyncNoSql2\DataSyncNoSql2\obj\Debug\DataSyncNoSql2.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-06-DataSyncNoSql2\Any OS\DataSyncNoSql2\DataSyncNoSql2\obj\Debug\DataSyncNoSql2.csprojResolveAssemblyReference.cache
