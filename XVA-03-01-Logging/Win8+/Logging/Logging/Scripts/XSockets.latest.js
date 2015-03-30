@@ -82,22 +82,23 @@ if (forceFallback === true) {
 
             var that = this;
             this.persistentId = localStorage.getItem(that._url);
+            this.pollingId = XSockets.Utils.guid(); 
             this.http = new XSockets.HttpFallback();
-            this.startListener = function (persistentId) {
+            this.startListener = function () {
                 if (that.readyState === 0) {
                     window.setTimeout(function () {
                         that.readyState = 1;
-                        that.listener(
-                        that.persistentId);
-                        that.onopen(persistentId);
+                        that.listener(that.pollingId);
+                        that.onopen(that.persistentId);
                     }, 500);
                 }
             };
             this.initialize = function () {
-                var tryConnect = that.http.getJSON("/API/XSocketsWebApi?url=" + encodeURIComponent(arguments[0]) + "&controllers=" + arguments[1], {},
-                    function (persistentId) {
-                        that.persistentId = persistentId;
-                        that.startListener(persistentId);
+                var tryConnect = that.http.getJSON("/API/XSocketsWebApi?url=" + encodeURIComponent(arguments[0]) + "&controllers=" + arguments[1] + "&pollingId=" + that.pollingId, {},
+                    function (connInfo) {                        
+                        that.persistentId = connInfo.persistentId;
+                        that.pollingId = connInfo.pollingId;                        
+                        that.startListener();
                     });
                 if (tryConnect.hasOwnProperty("error")) {
                     tryConnect.error(function (error) {
@@ -109,14 +110,14 @@ if (forceFallback === true) {
             this.initialize(url, controllers.join(","));
 
         };
-        WebSocket.prototype.listener = function (persistentId) {
+        WebSocket.prototype.listener = function (pollingId) {
             var that = this;
-            this.http.getJSON("/API/XSocketsWebApi?persistentId=" + persistentId, {}, function (result) {
+            this.http.getJSON("/API/XSocketsWebApi?pollingId=" + pollingId, {}, function (result) {
                 (JSON.parse(result) || []).forEach(function (message) {
                     that.onmessage(new that.MessageWrapper(message));
                 });
                 if (that.readyState === 1)
-                    that.listener(that.persistentId);
+                    that.listener(that.pollingId);
             });
         };
         WebSocket.prototype.MessageWrapper = function (data) {
@@ -132,7 +133,7 @@ if (forceFallback === true) {
             if (data instanceof XSockets.Message) data = data.toString();
             var that = this;
             var result = this.http.post("/API/XSocketsWebApi", {
-                persistentId: this.persistentId,
+                pollingId: that.pollingId,
                 data: data
             }, function (err) {
                 that.onerror(err);
@@ -151,7 +152,7 @@ if (forceFallback === true) {
     })();
 }
 var XSockets = {
-    Version: "4.1",
+    Version: "4.1.1",
     Events: {
         onError: "0x1f4",
         onOpen: "0xc8",
@@ -775,6 +776,7 @@ XSockets.WebSocket = (function () {
         this.getInstace = function (a, b, c, d) {
             return XSockets.Communcation.getInstance(a, {
                 onmessage: function (messageEvent) {
+               
                     if (typeof messageEvent.data === "string") {
                         var msg = (new XSockets.Message()).parse(messageEvent.data);
                         if (msg.topic === XSockets.Events.onError) {
@@ -785,6 +787,7 @@ XSockets.WebSocket = (function () {
                         }
                     } else {
                         if (typeof (messageEvent.data) === "object") {
+                            
                             var bm = new XSockets.BinaryMessage();
                             bm.extractMessage(messageEvent.data, function (message) {
                                 self.dispatchMessage(message.topic, message, message.controller.toLowerCase());
@@ -839,14 +842,15 @@ XSockets.WebSocket = (function () {
         };
         this.controller = function (name, alias) {
             var ctrl = name.toLowerCase();
-            var isRegistred = self.controllerFactory.find(name, alias).length > 0;
+            var isRegistred = self.controllerFactory.find(ctrl, alias).length > 0;
+
             if (!isRegistred) {
                 var controllerWrapper = (function (_name, _obj, _alias) {
                     this.alias = _alias || "";
-                    this.name = name,
+                    this.name = _name,
                     this.ctrl = _obj;
                 });
-                var registeredController = new controllerWrapper(ctrl, new XSockets.Controller(name, self.webSocket), alias);
+                var registeredController = new controllerWrapper(ctrl, new XSockets.Controller(ctrl, self.webSocket), alias);
                 self.controllerFactory.add(registeredController);
 
                 self.webSocket.send(new XSockets.Message(XSockets.Events.init, {

@@ -758,6 +758,12 @@
             
             </summary>
         </member>
+        <member name="P:XSockets.Core.XSocket.ConnectionContext.Environment">
+            <summary>
+            Environment (for example Owin information)
+            but can be any string,object that you want to set on the ConnectionContext
+            </summary>
+        </member>
         <member name="P:XSockets.Core.XSocket.ConnectionContext.CookieCollection">
             <summary>
             Cookies from the connection
@@ -1514,7 +1520,7 @@
         </member>
         <member name="M:XSockets.Core.XSocket.Helpers.XSocketHelper.PublishToAllExceptMe``1(``0,System.Object,System.String)">
             <summary>
-            Sends a message to everyone listening, but the one one triggering the message
+            Sends a message to everyone listening, but the one triggering the message
             </summary>
             <typeparam name="T">The IXSocketController T to target</typeparam>
             <param name="controller">IXSocketController that invokes the extension</param>
@@ -2343,6 +2349,12 @@
             Handshakes with the connecting socket
             </summary>
             <param name="socket">The socket to send the handshake to</param>
+        </member>
+        <member name="M:XSockets.Core.XSocket.ProtocolHandshakeHandler.HandShake(System.Collections.Generic.IList{System.Byte})">
+            <summary>
+            
+            </summary>
+            <param name="ar"></param>
         </member>
         <member name="P:XSockets.Core.XSocket.ProtocolHandshakeHandler.XSocketFactory">
             <summary>
