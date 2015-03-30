@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCDataChannels", "RTCDataChannels\RTCDataChannels.csproj", "{055DDCF4-64A2-4021-B69C-F4B5F7B0DCAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTCDataChannelsAnyOS", "RTCDataChannels\RTCDataChannelsAnyOS.csproj", "{055DDCF4-64A2-4021-B69C-F4B5F7B0DCAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

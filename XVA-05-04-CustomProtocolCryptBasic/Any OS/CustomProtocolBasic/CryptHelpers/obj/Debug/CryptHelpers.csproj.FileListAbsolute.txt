@@ -1,5 +1,0 @@
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-04-CustomProtocolCryptBasic\Any OS\CustomProtocolBasic\CryptHelpers\bin\Debug\CryptHelpers.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-04-CustomProtocolCryptBasic\Any OS\CustomProtocolBasic\CryptHelpers\bin\Debug\CryptHelpers.pdb
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-04-CustomProtocolCryptBasic\Any OS\CustomProtocolBasic\CryptHelpers\obj\Debug\CryptHelpers.csprojResolveAssemblyReference.cache
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-04-CustomProtocolCryptBasic\Any OS\CustomProtocolBasic\CryptHelpers\obj\Debug\CryptHelpers.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-04-CustomProtocolCryptBasic\Any OS\CustomProtocolBasic\CryptHelpers\obj\Debug\CryptHelpers.pdb
