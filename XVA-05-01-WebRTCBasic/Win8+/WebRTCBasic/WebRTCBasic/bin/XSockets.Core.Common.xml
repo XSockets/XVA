@@ -409,6 +409,12 @@
             Information about the connection
             </summary>
         </member>
+        <member name="P:XSockets.Core.Common.Protocol.IConnectionContext.Environment">
+            <summary>
+            Environment (for example Owin information)
+            but can be any pair of string,object that you want to set on the ConnectionContext
+            </summary>
+        </member>
         <member name="P:XSockets.Core.Common.Protocol.IConnectionContext.CookieCollection">
             <summary>
             Cookies from the connection
@@ -1556,6 +1562,11 @@
         <member name="P:XSockets.Core.Common.Socket.ISocketWrapper.Stream">
             <summary>
             Communication stream
+            </summary>
+        </member>
+        <member name="P:XSockets.Core.Common.Socket.ISocketWrapper.DataAvailable">
+            <summary>
+            To know if there are any more data to read on the stream
             </summary>
         </member>
         <member name="P:XSockets.Core.Common.Socket.ISocketWrapper.Socket">
