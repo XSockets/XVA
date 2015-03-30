@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSocketsAzureWorkerRole" generation="1" functional="0" release="0" Id="e3ecfcd1-b366-4285-9b94-1adeda7c75a4" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSocketsAzureWorkerRole" generation="1" functional="0" release="0" Id="1ce64daf-297a-4e1c-b7eb-ace94f6b670a" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="XSocketsAzureWorkerRoleGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -92,14 +92,14 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="c561fcbb-256c-43fc-96e1-ec6077fdbefe" ref="Microsoft.RedDog.Contract\ServiceContract\XSocketsAzureWorkerRoleContract@ServiceDefinition">
+    <implementation Id="b457f2d6-be09-4603-a8f7-adcbb5a79a3e" ref="Microsoft.RedDog.Contract\ServiceContract\XSocketsAzureWorkerRoleContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="e45ef5f6-42db-4f74-a9e3-a0ee02c9212f" ref="Microsoft.RedDog.Contract\Interface\XSocketsWorker:endpoint1@ServiceDefinition">
+        <interfaceReference Id="c2b2e06c-05a6-4351-8e0c-b2378ad8209a" ref="Microsoft.RedDog.Contract\Interface\XSocketsWorker:endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/XSocketsAzureWorkerRole/XSocketsAzureWorkerRoleGroup/XSocketsWorker:endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="b8ea4e7c-48b2-4266-a6cc-ccf362590b93" ref="Microsoft.RedDog.Contract\Interface\XSocketsWorker:endpoint2@ServiceDefinition">
+        <interfaceReference Id="218a0e43-b1eb-4518-bbdb-47b3e07b4393" ref="Microsoft.RedDog.Contract\Interface\XSocketsWorker:endpoint2@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/XSocketsAzureWorkerRole/XSocketsAzureWorkerRoleGroup/XSocketsWorker:endpoint2" />
           </inPort>
