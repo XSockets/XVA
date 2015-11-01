@@ -68,3 +68,15 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRP
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\xsockets.license.dat
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Razor.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.xml

@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using XSockets.Core.Common.Socket.Event.Attributes;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
@@ -11,7 +12,7 @@ namespace StatePuSub
         public Gender Gender { get; set; }
         public string City { get; set; }
 
-        public override void OnOpened()
+        public override async Task OnOpened()
         {
             if (this.HasParameterKey("city"))
             {
@@ -21,6 +22,7 @@ namespace StatePuSub
             {
                 this.Gender = this.GetParameter("gender").ToEnum<Gender>();
             }
+            await base.OnOpened();
         }
 
         /// <summary>
@@ -28,10 +30,10 @@ namespace StatePuSub
         /// We can build a message on the server as well as target a subsset of subscribers with PublishTo
         /// </summary>
         /// <param name="message"></param>
-        public void Message(string message)
+        public async Task Message(string message)
         {            
             //Publish to clients in the same city and with the same gender
-            this.PublishTo(p => p.City == this.City && p.Gender == this.Gender,
+            await this.PublishTo(p => p.City == this.City && p.Gender == this.Gender,
                 new {Message = message, City, Gender = this.Gender.ToString()}, 
                 "message");
         }

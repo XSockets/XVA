@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using WebRTCBasic.RealtimeControllers.Constants;
 using WebRTCBasic.RealtimeControllers.Models;
 using XSockets.Core.Common.Socket.Event.Attributes;
@@ -53,7 +54,7 @@ namespace WebRTCBasic.RealtimeControllers
         /// <summary>
         /// When a client connects create a new PeerConnection and send the information the the client
         /// </summary>
-        public override void OnOpened()
+        public override async Task OnOpened()
         {
             IPresence user = new Presence {Online = true, UserName = "Unknown", Id = this.PersistentId};
             //Update user
@@ -66,7 +67,7 @@ namespace WebRTCBasic.RealtimeControllers
             SavePresence(user);
             var others = XSockets.Core.Utility.Storage.Repository<Guid, IPresence>.Find(p => p.Id != user.Id);
             Composable.GetExport<IXLogger>().Information("Others {@a}",others);
-            this.Invoke(others,"allusers");
+            await this.Invoke(others,"allusers");
 
             // Get the context from a parameter if it exists
             var context = Guid.NewGuid();
@@ -83,7 +84,7 @@ namespace WebRTCBasic.RealtimeControllers
                 PeerId = ConnectionId
             };
 
-            this.Invoke(Peer, Events.Context.Created);                        
+            await this.Invoke(Peer, Events.Context.Created);                        
         }
 
         public void GetContext()
@@ -94,7 +95,7 @@ namespace WebRTCBasic.RealtimeControllers
         /// <summary>
         /// When a client disconnects tell the other clients about the Peer being lost
         /// </summary>
-        public override void OnClosed()
+        public override async Task OnClosed()
         {
             this.NotifyPeerLost();
             Thread.Sleep(1000);
@@ -102,6 +103,7 @@ namespace WebRTCBasic.RealtimeControllers
             var user = XSockets.Core.Utility.Storage.Repository<Guid, IPresence>.GetById(this.PersistentId);
             user.Online = false;
             SavePresence(user);
+            await base.OnClosed();
         }
 
         private void NotifyPeerLost()

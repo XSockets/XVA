@@ -9,8 +9,8 @@ namespace StateRPC
         private static IXSocketServerContainer container;
         public static void Start()
         {
-            container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>();
-            container.Start();
+            //container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>();
+            //container.Start();
         }
     }
 }

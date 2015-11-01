@@ -1,0 +1,6 @@
+﻿2015-09-28 09:52:07.625 +02:00 [Information] License Information: LicenseTerms { LicenseType: Evaluation, Scaling: True, ConnectionLimit: -1, StartDate: 09/20/2015 19:38:52, EndDate: 10/04/2015 19:38:52, OwnerName: "MBA-WIN8\uffe", Corporate: "N/A", Address: "N/A", PostalCode: "N/A", City: "N/A", Country: "N/A", ProductName: null, Id: 404f64d4-27c5-404d-8706-df7d6d878ca0, IsValid: True }
+2015-09-28 09:52:07.719 +02:00 [Warning] The XSockets.NET Evaluation license will let the server run for 1 days per start, but will have all features enabled
+2015-09-28 09:52:07.721 +02:00 [Information] Get a free developer license at "http://xsockets.net/"
+2015-09-28 09:52:07.727 +02:00 [Warning] Server will shut down in 0 days 23:59:59
+2015-09-28 09:52:07.732 +02:00 [Information] Server starting at 09/28/2015 09:52:07 with interceptors True
+2015-09-28 09:52:07.757 +02:00 [Information] "Starting Endpoint with" { Origin: ["*"], Host: "localhost", Port: 8080, IsLoopback: True, IsSecure: False, BacklogSize: 20, ThreadPoolSize: 200, CompletionPortThreads: 2, Certificate: null, CertificateLocation: LocalMachine, CertificateSubjectDistinguishedName: "cn=localhost", ForceClientCertificate: False }

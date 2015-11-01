@@ -4,6 +4,75 @@
         <name>Serilog.FullNetFx</name>
     </assembly>
     <members>
+        <member name="T:Serilog.Context.LogContext">
+            <summary>
+            Holds ambient properties that can be attached to log events. To
+            configure, use the <see cref="M:Serilog.LoggerConfigurationFullNetFxExtensions.FromLogContext(Serilog.Configuration.LoggerEnrichmentConfiguration)"/>
+            extension method.
+            </summary>
+            <example>
+            Configuration:
+            <code lang="C#">
+            var log = new LoggerConfiguration()
+                .Enrich.FromLogContext()
+                ...
+            </code>
+            Usage:
+            <code lang="C#">
+            using (LogContext.PushProperty("MessageId", message.Id))
+            {
+                Log.Information("The MessageId property will be attached to this event");
+            }
+            </code>
+            </example>
+            <remarks>The scope of the context is the current logical thread, using
+            <see cref="M:System.Runtime.Remoting.Messaging.CallContext.LogicalGetData(System.String)"/> (and so is
+            preserved across async/await calls).</remarks>
+        </member>
+        <member name="P:Serilog.Context.LogContext.PermitCrossAppDomainCalls">
+            <summary>
+            When calling into appdomains without Serilog loaded, e.g. via remoting or during unit testing,
+            it may be necesary to set this value to true so that serialization exceptions are avoided. When possible,
+            using the <see cref="M:Serilog.Context.LogContext.Suspend"/> method in a using block around the call has a lower overhead and
+            should be preferred.
+            </summary>
+        </member>
+        <member name="M:Serilog.Context.LogContext.PushProperty(System.String,System.Object,System.Boolean)">
+            <summary>
+            Push a property onto the context, returning an <see cref="T:System.IDisposable"/>
+            that can later be used to remove the property, along with any others that
+            may have been pushed on top of it and not yet popped. The property must
+            be popped from the same thread/logical call context.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="value">The value of the property.</param>
+            <returns>A handle to later remove the property from the context.</returns>
+            <param name="destructureObjects">If true, and the value is a non-primitive, non-array type,
+            then the value will be converted to a structure; otherwise, unknown types will
+            be converted to scalars, which are generally stored as strings.</param>
+            <returns>A token that must be disposed, in order, to pop properties back off the stack.</returns>
+        </member>
+        <member name="M:Serilog.Context.LogContext.PushProperties(Serilog.Core.ILogEventEnricher[])">
+            <summary>
+            Push multiple properties onto the context, returning an <see cref="T:System.IDisposable"/>
+            that can later be used to remove the properties. The properties must
+            be popped from the same thread/logical call context.
+            </summary>
+            <param name="properties">Log Properties to push onto the log context</param>
+            <returns>A token that must be disposed, in order, to pop properties back off the stack.</returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Serilog.Context.LogContext.Suspend">
+            <summary>
+            Remove all data from the context so that
+            cross-<see cref="T:System.AppDomain"/> calls can be made without requiring
+            Serilog assemblies to be present in the remote domain.
+            </summary>
+            <returns>A token that will restore the suspended log context data, if any.</returns>
+            <remarks>The <see cref="T:Serilog.Context.LogContext"/> should not be manipulated further
+            until the return value from this method has been disposed.</remarks>
+            <returns></returns>
+        </member>
         <member name="T:Serilog.Enrichers.ProcessIdEnricher">
             <summary>
             Enriches log events with a ProcessId property containing the current <see cref="P:System.Diagnostics.Process.Id"/>.
@@ -54,75 +123,6 @@
             </summary>
             <param name="logEvent">The log event to enrich.</param>
             <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
-        </member>
-        <member name="T:Serilog.Context.LogContext">
-            <summary>
-            Holds ambient properties that can be attached to log events. To
-            configure, use the <see cref="M:Serilog.LoggerConfigurationFullNetFxExtensions.FromLogContext(Serilog.Configuration.LoggerEnrichmentConfiguration)"/>
-            extension method.
-            </summary>
-            <example>
-            Configuration:
-            <code lang="C#">
-            var log = new LoggerConfiguration()
-                .Enrich.FromLogContext()
-                ...
-            </code>
-            Usage:
-            <code lang="C#">
-            using (LogContext.PushProperty("MessageId", message.Id))
-            {
-                Log.Information("The MessageId property will be attached to this event");
-            }
-            </code>
-            </example>
-            <remarks>The scope of the context is the current logical thread, using
-            <see cref="M:System.Runtime.Remoting.Messaging.CallContext.LogicalGetData(System.String)"/> (and so is
-            preserved across async/await calls).</remarks>
-        </member>
-        <member name="M:Serilog.Context.LogContext.PushProperty(System.String,System.Object,System.Boolean)">
-            <summary>
-            Push a property onto the context, returning an <see cref="T:System.IDisposable"/>
-            that can later be used to remove the property, along with any others that
-            may have been pushed on top of it and not yet popped. The property must
-            be popped from the same thread/logical call context.
-            </summary>
-            <param name="name">The name of the property.</param>
-            <param name="value">The value of the property.</param>
-            <returns>A handle to later remove the property from the context.</returns>
-            <param name="destructureObjects">If true, and the value is a non-primitive, non-array type,
-            then the value will be converted to a structure; otherwise, unknown types will
-            be converted to scalars, which are generally stored as strings.</param>
-            <returns>A token that must be disposed, in order, to pop properties back off the stack.</returns>
-        </member>
-        <member name="M:Serilog.Context.LogContext.PushProperties(Serilog.Core.ILogEventEnricher[])">
-            <summary>
-            Push multiple properties onto the context, returning an <see cref="T:System.IDisposable"/>
-            that can later be used to remove the properties. The properties must
-            be popped from the same thread/logical call context.
-            </summary>
-            <param name="properties">Log Properties to push onto the log context</param>
-            <returns>A token that must be disposed, in order, to pop properties back off the stack.</returns>
-            <exception cref="T:System.ArgumentNullException"></exception>
-        </member>
-        <member name="M:Serilog.Context.LogContext.Suspend">
-            <summary>
-            Remove all data from the context so that
-            cross-<see cref="T:System.AppDomain"/> calls can be made without requiring
-            Serilog assemblies to be present in the remote domain.
-            </summary>
-            <returns>A token that will restore the suspended log context data, if any.</returns>
-            <remarks>The <see cref="T:Serilog.Context.LogContext"/> should not be manipulated further
-            until the return value from this method has been disposed.</remarks>
-            <returns></returns>
-        </member>
-        <member name="P:Serilog.Context.LogContext.PermitCrossAppDomainCalls">
-            <summary>
-            When calling into appdomains without Serilog loaded, e.g. via remoting or during unit testing,
-            it may be necesary to set this value to true so that serialization exceptions are avoided. When possible,
-            using the <see cref="M:Serilog.Context.LogContext.Suspend"/> method in a using block around the call has a lower overhead and
-            should be preferred.
-            </summary>
         </member>
         <member name="T:Serilog.LoggerConfigurationFullNetFxExtensions">
             <summary>
@@ -245,6 +245,18 @@
             <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
             <returns>Configuration object allowing method chaining.</returns>
         </member>
+        <member name="M:Serilog.LoggerConfigurationFullNetFxExtensions.AppSettings(Serilog.Configuration.LoggerSettingsConfiguration)">
+            <summary>
+            Reads the &lt;appSettings&gt; element of App.config or Web.config, searching for for keys
+            that look like: <code>serilog:*</code>, which are used to configure
+            the logger. To add a sink, use a key like <code>serilog:write-to:File.path</code> for
+            each parameter to the sink's configuration method. To add an additional assembly
+            containing sinks, use <code>serilog:using</code>. To set the level use 
+            <code>serilog:minimum-level</code>.
+            </summary>
+            <param name="settingConfiguration">Logger setting configuration</param>
+            <returns>An object allowing configuration to continue.</returns>
+        </member>
         <member name="T:Serilog.Sinks.IOFile.FileSink">
             <summary>
             Write log events to a disk file.
@@ -365,6 +377,12 @@
             </summary>
             <param name="evt"></param>
             <returns></returns>
+        </member>
+        <member name="M:Serilog.Sinks.PeriodicBatching.PeriodicBatchingSink.OnEmptyBatch">
+            <summary>
+            Allows derived sinks to perform periodic work without requiring additional threads
+            or timers (thus avoiding additional flush/shut-down complexity).
+            </summary>
         </member>
         <member name="T:Serilog.Sinks.RollingFile.RollingFileSink">
             <summary>

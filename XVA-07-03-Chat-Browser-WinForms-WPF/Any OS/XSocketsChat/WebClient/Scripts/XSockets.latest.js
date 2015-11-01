@@ -18,7 +18,7 @@ if (!Array.prototype.forEach) {
         while (k < len) {
             var kValue;
             if (k in O) {
-                kValue = O[k]; 
+                kValue = O[k];
                 callback.call(T, kValue, k, O);
             }
             k++;
@@ -82,7 +82,7 @@ if (forceFallback === true) {
 
             var that = this;
             this.persistentId = localStorage.getItem(that._url);
-            this.pollingId = XSockets.Utils.guid(); 
+            this.pollingId = XSockets.Utils.guid();
             this.http = new XSockets.HttpFallback();
             this.startListener = function () {
                 if (that.readyState === 0) {
@@ -95,9 +95,9 @@ if (forceFallback === true) {
             };
             this.initialize = function () {
                 var tryConnect = that.http.getJSON("/API/XSocketsWebApi?url=" + encodeURIComponent(arguments[0]) + "&controllers=" + arguments[1] + "&pollingId=" + that.pollingId, {},
-                    function (connInfo) {                        
+                    function (connInfo) {
                         that.persistentId = connInfo.persistentId;
-                        that.pollingId = connInfo.pollingId;                        
+                        that.pollingId = connInfo.pollingId;
                         that.startListener();
                     });
                 if (tryConnect.hasOwnProperty("error")) {
@@ -152,26 +152,28 @@ if (forceFallback === true) {
     })();
 }
 var XSockets = {
-    Version: "4.1.1",
+    Version: "5.0.0",
     Events: {
-        onError: "0x1f4",
-        onOpen: "0xc8",
-        onClose: "0xcb",
-        init: "0xcc",
+        //onError: "0x1f4",
+        //onOpen: "0xc8",
+        //onClose: "0xcb",
+        init: "1",//"0xcc",
+        ping: "7",
+        pong: "8",
         controller: {
-            onError: "0x1f4",
-            onOpen: "0x14",
-            onClose: "0x15",
+            onError: "4",//"0x1f4",
+            onOpen: "2",//"0x14",
+            onClose: "3",//"0x15",
         },
         storage: {
-            set: "0x190",
-            get: "0x191",
-            clear: "0x192",
-            remove: "0x193"
+            set: "s1",//"0x190",
+            get: "s2",//"0x191",
+            clear: "s4",//"0x192",
+            remove: "s3",//"0x193"
         },
         pubSub: {
-            subscribe: "0x12c",
-            unsubscribe: "0x12d"
+            subscribe: "5",//"0x12c",
+            unsubscribe: "6",//"0x12d"
         }
     },
     Utils: {
@@ -430,7 +432,9 @@ XSockets.Communcation = (function () {
         var queue = [];
         var webSocket;
         // detect if we are running on a native WebSocket.
-        if (window.WebSocket.toString().indexOf('[native code]') > -1) {
+        // Looking for '[native code]' in most browsers and for [object WebSocketConstructor] in Safari and on iOS
+        var websocketTest = window.WebSocket.toString();
+        if (websocketTest.indexOf('[native code]') > -1 || websocketTest.indexOf('[object WebSocketConstructor]') > -1) {
             webSocket = new window.WebSocket(url, subprotocol);
         } else {
 
@@ -776,9 +780,15 @@ XSockets.WebSocket = (function () {
         this.getInstace = function (a, b, c, d) {
             return XSockets.Communcation.getInstance(a, {
                 onmessage: function (messageEvent) {
-               
+
                     if (typeof messageEvent.data === "string") {
                         var msg = (new XSockets.Message()).parse(messageEvent.data);
+
+                        if (msg.topic == XSockets.Events.ping) {                            
+                            self.webSocket.send("{'T':'"+XSockets.Events.pong+"','D':'" + msg.data + "','C':''}")
+                            return;
+                        }
+
                         if (msg.topic === XSockets.Events.onError) {
                             if (self.onerror) self.onerror(msg.data);
                             self.dispatchMessage(XSockets.Events.onError, msg, msg.controller);
@@ -787,7 +797,7 @@ XSockets.WebSocket = (function () {
                         }
                     } else {
                         if (typeof (messageEvent.data) === "object") {
-                            
+
                             var bm = new XSockets.BinaryMessage();
                             bm.extractMessage(messageEvent.data, function (message) {
                                 self.dispatchMessage(message.topic, message, message.controller.toLowerCase());
@@ -831,12 +841,12 @@ XSockets.WebSocket = (function () {
                 return c;
             });
             self.webSocket = self.getInstace(this.uri.absoluteUrl + this.settings.queryString(), this.settings.subprotocol, true, controllersRegistred);
-
+            var temp = self.controllerFactory.registeredControllers;
             self.controllerFactory.registeredControllers = [];
-            controllersRegistred.forEach(function (a) {
-                self.controllerFactory.registeredControllers.push(a);
-                a.ctrl.addSubscriptions(subscriptions[a.name]);
-                a.ctrl.webSocket = self.webSocket;
+            temp.forEach(function (a) {
+                var b = self.controller(a.name);
+                b.addSubscriptions(subscriptions[a.name]);
+                b.webSocket = self.webSocket;
             });
             if (fn) fn.apply(this);
         };

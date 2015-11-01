@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using WebRTCBasic.RealtimeControllers.Models;
 using XSockets.Core.Common.Socket.Event.Interface;
 
@@ -28,7 +29,7 @@ namespace WebRTCBasic.RealtimeControllers
         /// Give this controller a "Generic" behavior
         /// </summary>
         /// <param name="message"></param>
-        void OnMessage(IMessage message);
+        Task  OnMessage(IMessage message);
         /// <summary>
         /// Leave a context
         /// </summary>

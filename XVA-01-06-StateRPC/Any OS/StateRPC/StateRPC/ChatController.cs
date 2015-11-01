@@ -1,5 +1,9 @@
+using System.Threading.Tasks;
+using XSockets.Core.Common.Socket.Event.Arguments;
+using XSockets.Core.Common.Utility.Logging;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
+using XSockets.Plugin.Framework;
 using XSockets.Plugin.Framework.Attributes;
 
 namespace StateRPC
@@ -10,7 +14,7 @@ namespace StateRPC
         public Gender Gender { get; set; }
         public string City { get; set; }
         
-        public override void OnOpened()
+        public override async Task OnOpened()
         {
             if (this.HasParameterKey("city"))
             {
@@ -20,6 +24,11 @@ namespace StateRPC
             {
                 this.Gender = this.GetParameter("gender").ToEnum<Gender>();
             }
+        }
+
+        public override void HandleError(object sender, OnErrorArgs e)
+        {
+            Composable.GetExport<IXLogger>().Information("Foo");
         }
 
         /// <summary>

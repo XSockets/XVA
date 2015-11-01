@@ -1,6 +1,13 @@
 ﻿Showing howto start a XSockets.NET server
 
-//1: WebApplication, use PreApplicationStartMethod
+//1: Console Application
+using (var container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>())
+{
+    container.Start();
+    Console.ReadLine();
+}
+
+//2: WebApplication, use PreApplicationStartMethod
 
 using System.Web;
 [assembly: PreApplicationStartMethod(typeof(YourWebApp.App_Start.XSocketsBootstrap), "Start")]
@@ -18,11 +25,4 @@ public static class XSocketsBootstrap
         container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>();
         container.Start();        
     }        
-}
-
-//2: Console Application
-using (var container = XSockets.Plugin.Framework.Composable.GetExport<IXSocketServerContainer>())
-{
-    container.Start();
-    Console.ReadLine();
 }
