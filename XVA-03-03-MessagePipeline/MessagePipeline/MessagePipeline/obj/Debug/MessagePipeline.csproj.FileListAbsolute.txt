@@ -1,0 +1,99 @@
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll.config
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Logger.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Server.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Server.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\MessagePipeline.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Logger.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\bin\XSockets.Server.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\Any OS\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\xsockets.license.x
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll.config
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\MessagePipeline.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\MessagePipeline.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Controllers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Core.Common.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Core.Communication.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Core.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Enterprise.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Logger.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Plugin.Framework.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.Mqtt.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.Putty.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Protocol.Rfc6455.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Serialization.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\XSockets.Server.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Newtonsoft.Json.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\bin\Serilog.FullNetFx.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.csprojResolveAssemblyReference.cache
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-03-03-MessagePipeline\MessagePipeline\MessagePipeline\obj\Debug\MessagePipeline.pdb
