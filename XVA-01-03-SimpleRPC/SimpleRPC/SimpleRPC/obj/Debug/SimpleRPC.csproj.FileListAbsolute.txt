@@ -1,0 +1,122 @@
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll.config
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Logger.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Server.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Server.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\SimpleRPC.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Logger.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\XSockets.Server.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\xsockets.license.dat
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.Razor.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\xsockets.license.x
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll.config
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Controllers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Core.Common.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Core.Communication.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Core.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Enterprise.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Logger.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Plugin.Framework.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Serialization.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Server.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Newtonsoft.Json.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\Serilog.FullNetFx.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.Helpers.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.Razor.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.csprojResolveAssemblyReference.cache
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Mqtt.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Putty.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Rfc6455.dll
