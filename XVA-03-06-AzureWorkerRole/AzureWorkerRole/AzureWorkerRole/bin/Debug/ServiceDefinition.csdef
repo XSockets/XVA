@@ -8,11 +8,12 @@
 
   **********************************************************************************************
 -->
-<ServiceDefinition name="XSocketsAzureWorkerRole" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+<ServiceDefinition name="XSocketsAzureWorkerRole" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
   <WorkerRole name="XSocketsWorker" vmsize="Small">
     <ConfigurationSettings>
       <Setting name="Origin" />
       <Setting name="Uri" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="endpoint2" protocol="tcp" port="8080" localPort="8080" />
@@ -20,8 +21,14 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\rcf\Debug\XSocketsWorkerContent\" />
+        <SourceDirectory path="C:\Users\uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\rcf\Debug\XSocketsWorkerContent\" />
+      </Content>
+      <Content destination=".\">
+        <SourceDirectory path="C:\Users\uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\ecf\XSocketsWorkerContent\" />
       </Content>
     </Contents>
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
   </WorkerRole>
 </ServiceDefinition>

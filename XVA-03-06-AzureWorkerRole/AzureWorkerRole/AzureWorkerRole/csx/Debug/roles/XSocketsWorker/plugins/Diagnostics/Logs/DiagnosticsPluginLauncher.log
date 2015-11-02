@@ -1,0 +1,14 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Emulator config file set to C:\Users\uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\csx\Debug\roles\XSocketsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] DiagnosticsStoreRootPath set to: C:\Users\uffe\AppData\Local\dftmp\Resources\914641b9-5fa8-4964-b2ee-b81e6a625fe0
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Loading config file: C:\Users\uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\csx\Debug\roles\XSocketsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Emulator config file set to C:\Users\uffe\Documents\GitHub\XVA\XVA-03-06-AzureWorkerRole\AzureWorkerRole\AzureWorkerRole\csx\Debug\roles\XSocketsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-11-02 19:33:32] Resetting DiagnosticPlugin

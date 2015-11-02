@@ -4,7 +4,6 @@ using Microsoft.WindowsAzure.ServiceRuntime;
 using XSockets.Core.Common.Socket;
 using XSockets.Core.Common.Utility.Logging;
 using XSockets.Plugin.Framework;
-using XSocketsWorker.ConfigurationHelper;
 
 namespace XSocketsWorker
 {
