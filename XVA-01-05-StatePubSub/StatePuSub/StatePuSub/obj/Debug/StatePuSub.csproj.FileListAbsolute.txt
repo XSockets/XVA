@@ -1,0 +1,92 @@
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.dll.config
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.CustomProtocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Logger.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Server.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Controllers.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Common.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Communication.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.CustomProtocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Enterprise.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Plugin.Framework.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Serialization.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Server.xml
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.dll
+C:\Users\Uffe\Dropbox\Documentation\XSocketsVirtualAcademy\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.dll.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\StatePuSub.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Controllers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Common.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.Communication.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Core.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Enterprise.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Logger.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Plugin.Framework.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Serialization.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Server.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Newtonsoft.Json.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\obj\Debug\StatePuSub.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.Mqtt.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.Putty.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\Any OS\StatePuSub\StatePuSub\bin\XSockets.Protocol.Rfc6455.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\xsockets.license.x
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\StatePuSub.dll.config
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\StatePuSub.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\StatePuSub.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Newtonsoft.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Controllers.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Core.Common.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Core.Communication.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Core.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Enterprise.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Logger.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Plugin.Framework.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Protocol.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Protocol.Json.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Protocol.Mqtt.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Protocol.Putty.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Protocol.Rfc6455.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Serialization.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\XSockets.Server.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Newtonsoft.Json.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\bin\Serilog.FullNetFx.xml
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\obj\Debug\StatePuSub.csprojResolveAssemblyReference.cache
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\obj\Debug\StatePuSub.dll
+C:\Users\uffe\Documents\GitHub\XVA\XVA-01-05-StatePubSub\StatePuSub\StatePuSub\obj\Debug\StatePuSub.pdb
