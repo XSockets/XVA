@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XVA-02-04 DataSync Basic 2</title>
+    <link href="/resources/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/resources/Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-xs-12">
+                <h3>
+                    My Zoo<small> - but do not keep real animals in a cage please</small>
+                </h3>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-xs-12">
+                
+                <div class="tab-content" id="tabs-640612">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#panel-64657" data-toggle="tab">Animals</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="panel-64657">
+                            <h3>
+                                New Animal<small> <i>- make sure the name is cool</i></small>
+                            </h3>
+                            <!-- ADD NEW ANIMAL -->
+                            <form role="form">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-animal-name">Name</label>
+                                    <input type="text" class="form-control" id="input-animal-name" placeholder="Enter a name for the animal" />                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="input-animal-age">Age</label>
+                                    <input type="number" min="1" max="99" step="1" value="5" class="form-control" id="input-animal-age" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="input-animal-cage">Cage</label>
+                                    <select id="input-animal-cage">
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                    </select>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="input-animal-hungry" /> Need Food</label>
+                                </div>
+                                <button type="button" id="btn-animal-add" class="btn btn-default">Create</button>
+                            </form>
+                            
+                            <!-- LIST ANIMALS -->
+                            <table class="table table-condensed">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Name
+                                        </th>
+                                        <th>
+                                            Age
+                                        </th>
+                                        <th>
+                                            Cage
+                                        </th>
+                                        <th>
+                                            Hungry
+                                        </th>
+                                        <th>
+
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:Animals">
+                                    <tr data-bind="css: Hungry()==true ? 'danger':'success'">
+                                        <td>
+                                            <input type="text" data-bind="value:Name" style="width:160px;" />
+                                        </td>
+                                        <td>
+                                            <input type="number" data-bind="value:Age" style="width:50px;" />
+                                        </td>
+                                        <td>
+                                            <input type="text" data-bind="value:Cage" style="width:50px;" list="cagelist" />
+                                            <datalist id="cagelist">
+                                                <option value="A">A</option>
+                                                <option value="B">B</option>
+                                                <option value="C">C</option>
+                                                <option value="D">D</option>
+                                            </datalist>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" data-bind="checked:Hungry" />
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-warning btn-xs" data-bind="click:function(){myApp.view.addOrUpdate(ko.toJS($data));}">update</button>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-danger btn-xs" data-bind="click:function(){myApp.view.remove($data);}">delete</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Resources -->
+    <script src="/resources/Scripts/knockout-3.3.0.js"></script>
+    <script src="/resources/Scripts/XSockets.latest.min.js"></script>
+    <script src="/resources/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/resources/Scripts/bootstrap.min.js"></script>
+
+    <!-- My model, service, controller, view and app -->
+    <script src="/js/app/model/animalViewModel.js"></script>
+    <script src="/js/app/service/animalService.js"></script>
+    <script src="/js/app/controller/animalController.js"></script>
+    <script src="/js/app/view/animalView.js"></script>
+    <script src="/js/app/myApp.js"></script>
+</body>
+</html>
