@@ -1,0 +1,14 @@
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\bin\Release\WinFormsClient.exe.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\bin\Release\WinFormsClient.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\bin\Release\WinFormsClient.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\bin\Release\Newtonsoft.Json.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\bin\Release\XSockets.Client40.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.Properties.Resources.resources
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.WinFormsClient.resources
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.csproj.GenerateResource.Cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.pdb
+C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WinFormsClient\bin\Release\WinFormsClient.exe.config
+C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.exe
+C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WinFormsClient\obj\Release\WinFormsClient.pdb

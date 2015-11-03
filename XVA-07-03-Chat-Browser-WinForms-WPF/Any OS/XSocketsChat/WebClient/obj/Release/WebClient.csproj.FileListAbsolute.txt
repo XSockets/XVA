@@ -1,5 +1,0 @@
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.dll.config
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\bin\WebClient.pdb
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\obj\Release\WebClient.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\Any OS\XSocketsChat\WebClient\obj\Release\WebClient.pdb
