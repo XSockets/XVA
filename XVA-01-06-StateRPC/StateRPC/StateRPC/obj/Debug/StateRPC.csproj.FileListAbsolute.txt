@@ -77,7 +77,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSoc
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Serialization.dll
