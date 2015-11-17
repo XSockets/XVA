@@ -84,7 +84,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\X
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Serialization.dll
