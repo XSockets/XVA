@@ -49,7 +49,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyn
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Serialization.dll
@@ -62,3 +61,16 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyn
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\obj\Release\DataSyncBasic.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\obj\Release\DataSyncBasic.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\obj\Release\DataSyncBasic.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.ControllerProxy.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-02-DataSyncBasic\DataSyncBasic\DataSyncBasic\bin\System.Web.WebPages.Razor.xml

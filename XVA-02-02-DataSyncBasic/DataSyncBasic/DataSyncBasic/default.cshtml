@@ -21,7 +21,7 @@
         </div>
     </div>
     <script src="/Scripts/XSockets.latest.min.js"></script>
-    <script src="/Scripts/knockout-3.3.0.js"></script>
+    <script src="/Scripts/knockout-3.4.0.js"></script>
     <script src="/Scripts/viewmodel.js"></script>
     <script>
         // RealTime connection
@@ -32,8 +32,8 @@
         //Enable knockoutjs
         ko.applyBindings(vm);
 
-        //Open a full-duplex connection to the data-sync controller and pass in the topics (only one here, but could be several)
-        conn = new XSockets.WebSocket('ws://localhost:4502', [syncName], { topics: syncName });
+        //Open a full-duplex connection to the data-sync controller and pass in the topics (only one here, but could be several)  
+        conn = new XSockets.WebSocket('ws://localhost:4502', [syncName], { topics: syncName, persistentid: XSockets.Utils.guid() });
 
         //Loads oll persisted data when connected
         conn.controller(syncName).on("init:" + syncName, function (d) {

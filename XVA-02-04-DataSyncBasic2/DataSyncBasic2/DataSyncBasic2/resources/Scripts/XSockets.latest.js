@@ -81,6 +81,9 @@ if (forceFallback === true) {
         function WebSocket(url, controllers) {
 
             var that = this;
+            // To always get a new PersistenId, just in this sample...
+            localStorage.setItem(that._url, XSockets.Utils.guid());
+            this.persistentId = localStorage.getItem(that._url);
             this.persistentId = localStorage.getItem(that._url);
             this.pollingId = XSockets.Utils.guid();
             this.http = new XSockets.HttpFallback();
