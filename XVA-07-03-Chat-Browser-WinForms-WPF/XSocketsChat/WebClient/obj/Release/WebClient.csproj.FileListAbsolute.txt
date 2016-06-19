@@ -9,3 +9,14 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsC
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\obj\Release\WebClient.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\obj\Release\WebClient.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\obj\Release\WebClient.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\WebClient\bin\System.Web.WebPages.Razor.xml

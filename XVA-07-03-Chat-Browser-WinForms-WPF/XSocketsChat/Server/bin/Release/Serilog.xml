@@ -1068,6 +1068,13 @@
             <param name="logEvent">The event to format.</param>
             <param name="output">The output.</param>
         </member>
+        <member name="M:Serilog.Formatting.Json.JsonFormatter.AddLiteralWriter(System.Type,System.Action{System.Object,System.IO.TextWriter})">
+            <summary>
+            Adds a writer function for a given type.
+            </summary>
+            <param name="type">The type of values, which <paramref name="writer" /> handles.</param>
+            <param name="writer">The function, which writes the values.</param>
+        </member>
         <member name="M:Serilog.Formatting.Json.JsonFormatter.WriteRenderings(System.Linq.IGrouping{System.String,Serilog.Parsing.PropertyToken}[],System.Collections.Generic.IReadOnlyDictionary{System.String,Serilog.Events.LogEventPropertyValue},System.IO.TextWriter)">
             <summary>
             Writes out individual renderings of attached properties

@@ -153,6 +153,7 @@
     <Content Include="default.cshtml" />
     <Content Include="packages.config" />
     <Content Include="RealtimeControllers\readme.md" />
+    <Content Include="Scripts\webRTC.js" />
     <Content Include="Scripts\XSockets.latest.js" />
     <Content Include="Scripts\XSockets.latest.min.js" />
     <Content Include="XSocketsNET\ServerExample\ReadMe.txt" />

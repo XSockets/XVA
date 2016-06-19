@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using XSockets.Client40;
-using XSockets.Client40.Common.Interfaces;
+using XSockets;
+using XSockets.Common.Interfaces;
 
 namespace WinFormsClient
 {
@@ -54,10 +54,10 @@ namespace WinFormsClient
             
             try
             {
-                Connection.Open();
+                await Connection.Open();
                 comboBoxLocation.SelectedIndex = 0;
                 //Set username
-                chatController.SetProperty("username", UserName);
+                await chatController.SetProperty("username", UserName);
             }
             catch
             {

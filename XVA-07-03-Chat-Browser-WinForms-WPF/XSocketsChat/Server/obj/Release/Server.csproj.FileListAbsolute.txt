@@ -43,7 +43,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsC
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Serialization.dll
@@ -54,3 +53,7 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsC
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\Serilog.FullNetFx.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\Serilog.FullNetFx.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-07-03-Chat-Browser-WinForms-WPF\XSocketsChat\Server\bin\Release\System.Web.Razor.xml

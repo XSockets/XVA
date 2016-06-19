@@ -29,7 +29,7 @@
         </ul>
     </div>
     <script src="/Scripts/jquery-2.1.4.min.js"></script>
-    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/XSockets/XSockets.latest.min.js"></script>
     <script src="/Scripts/knockout-3.3.0.debug.js"></script>
     <script type="text/javascript">
         //ViewModel
@@ -37,21 +37,27 @@
         ko.applyBindings(vm);        
 
         //Setup the connections to the chat controller
-        var conn = new XSockets.WebSocket("ws://localhost:8080", ['chat']);
+        var conn = new xsockets.client("ws://localhost:8080", ['chat']);
 
         //Extract the chat controller.
         var chat = conn.controller('chat');
 
-        chat.onopen = function () {
+        chat.onOpen = function () {
             // Get the user name and store it to prepend to messages.
             var username = prompt('Enter your name:', '');
             chat.setProperty('username', username);
+
         };
 
         // Create a function that the controller can call to broadcast messages.
-        chat.addmessage = function (message) {
+        chat.on('addmessage',function (message) {
             vm.messages.push(message);
-        };
+        });
+
+        $('#location').on('change', function (e) {
+            e.preventDefault();
+            chat.setProperty('location', $(this).val());
+        });
 
         // Set initial focus to message input box.
         $('#message').focus();
@@ -63,11 +69,7 @@
             $('#message').val('').focus();
         });
 
-        $('#location').on('change',function(e) {
-            e.preventDefault();
-            chat.setEnum('location', $(this).val());
-        });
-
+        conn.open();
     </script>
 
 </body>

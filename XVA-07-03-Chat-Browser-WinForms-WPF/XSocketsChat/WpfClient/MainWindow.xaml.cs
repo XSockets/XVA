@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using XSockets.Client40;
-using XSockets.Client40.Common.Interfaces;
+using XSockets;
+using XSockets.Common.Interfaces;
 
 namespace WpfClient
 {
@@ -54,10 +54,10 @@ namespace WpfClient
 
             try
             {
-                Connection.Open();
+                await Connection.Open();
 
                 //Set username
-                chatController.SetProperty("username", UserName);
+                await chatController.SetProperty("username", UserName);
             }
             catch
             {
