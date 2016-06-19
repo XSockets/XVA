@@ -83,7 +83,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\Any OS\SimplePubSub\Si
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\SimplePubSub.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\SimplePubSub.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\SimplePubSub.pdb
@@ -105,7 +104,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePub
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Serialization.dll
@@ -120,3 +118,5 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePub
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.Deployment.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\XSockets.Protocol.Rfc6455Native.dll
