@@ -68,7 +68,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\Any OS\MoveShape\MoveShap
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\Any OS\MoveShape\MoveShape\obj\Debug\MoveShape.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\Any OS\MoveShape\MoveShape\obj\Debug\MoveShape.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\Any OS\MoveShape\MoveShape\obj\Debug\MoveShape.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\MoveShape.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\MoveShape.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\MoveShape.pdb
@@ -96,3 +95,16 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\S
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\obj\Debug\MoveShape.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\obj\Debug\MoveShape.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\obj\Debug\MoveShape.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-01-MoveShape\MoveShape\MoveShape\bin\System.Web.WebPages.Razor.xml

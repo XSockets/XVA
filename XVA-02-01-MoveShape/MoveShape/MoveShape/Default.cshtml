@@ -13,19 +13,20 @@
         }
     </style>
 </head>
-<body onmousemove="onMove(event)">
+<body>
     <div id="status">Disconnected</div>
     <div id="shape"></div>
 
     <script src="Scripts/jquery-1.6.4.js"></script>
     <script src="Scripts/jquery-ui-1.10.4.js"></script>
-    <script src="Scripts/XSockets.latest.js"></script>
+    <script src="Scripts/XSockets/xsockets.latest.js"></script>
 
     <script type="text/javascript">
         $(function () {
             var shape = $("#shape");
 
-            var conn = new XSockets.WebSocket('ws://localhost:4502', ['moveshape']);
+            var conn = new xsockets.client('ws://localhost:4502', ['moveshape']);
+            conn.setPersistentId(xsockets.utils.guid());
             var controller = conn.controller('moveshape');
 
             controller.onopen = function () {
@@ -47,6 +48,7 @@
                     controller.invoke("move", { x: x, y: y });
                 }
             });
+            conn.open();
         });
     </script>
 
