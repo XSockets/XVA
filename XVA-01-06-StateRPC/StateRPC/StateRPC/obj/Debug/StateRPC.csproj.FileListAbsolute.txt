@@ -61,7 +61,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\Any OS\StateRPC\StateRPC\b
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\Any OS\StateRPC\StateRPC\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\Any OS\StateRPC\StateRPC\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\Any OS\StateRPC\StateRPC\bin\XSockets.Protocol.Rfc6455.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\StateRPC.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\StateRPC.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\StateRPC.pdb
@@ -89,3 +88,16 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\Seri
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\obj\Debug\StateRPC.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\obj\Debug\StateRPC.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\obj\Debug\StateRPC.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-06-StateRPC\StateRPC\StateRPC\bin\System.Web.WebPages.Razor.xml
