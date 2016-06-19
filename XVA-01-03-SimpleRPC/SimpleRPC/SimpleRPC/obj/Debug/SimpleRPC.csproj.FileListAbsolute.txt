@@ -80,7 +80,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRP
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Deployment.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\Any OS\SimpleRPC\SimpleRPC\bin\System.Web.WebPages.Razor.xml
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\SimpleRPC.pdb
@@ -117,6 +116,7 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\D
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\obj\Debug\SimpleRPC.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Rfc6455.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-03-SimpleRPC\SimpleRPC\SimpleRPC\bin\XSockets.Protocol.Rfc6455Native.dll
