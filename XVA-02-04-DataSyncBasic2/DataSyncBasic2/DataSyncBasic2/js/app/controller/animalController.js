@@ -12,15 +12,20 @@ var AnimalController = (function () {
         service.AnimalController.on('init:animalmodel', function (animals) {
             onInit(animals);
         });
-        service.AnimalController.subscribe('update:animalmodel', function (animal) {
-            onAddOrUpdate(animal);
-        });
-        service.AnimalController.subscribe('add:animalmodel', function (animal) {
-            onAddOrUpdate(animal);
-        });
-        service.AnimalController.subscribe('delete:animalmodel', function (animal) {
-            onDelete(animal);
-        });
+        service.AnimalController.onOpen = function() {
+            service.AnimalController.subscribe('update:animalmodel',
+                function(animal) {
+                    onAddOrUpdate(animal);
+                });
+            service.AnimalController.subscribe('add:animalmodel',
+                function(animal) {
+                    onAddOrUpdate(animal);
+                });
+            service.AnimalController.subscribe('delete:animalmodel',
+                function(animal) {
+                    onDelete(animal);
+                });
+        };
 
         //Exposed methods
         this.addOrUpdate = function (animal) {

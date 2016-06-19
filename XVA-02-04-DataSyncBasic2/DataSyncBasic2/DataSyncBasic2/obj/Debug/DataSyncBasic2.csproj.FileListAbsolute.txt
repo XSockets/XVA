@@ -103,7 +103,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\Any OS\DataSyncBasic
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\Any OS\DataSyncBasic2\DataSyncBasic2\obj\Debug\DataSyncBasic2.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\Any OS\DataSyncBasic2\DataSyncBasic2\obj\Debug\DataSyncBasic2.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\Any OS\DataSyncBasic2\DataSyncBasic2\obj\Debug\DataSyncBasic2.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\DataSyncBasic2.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\DataSyncBasic2.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\DataSyncBasic2.pdb
@@ -137,10 +136,10 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataS
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.Razor.dll
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\XSockets.Protocol.ControllerProxy.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\XSockets.Protocol.Rfc6455Native.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.Helpers.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.Razor.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-04-DataSyncBasic2\DataSyncBasic2\DataSyncBasic2\bin\XSockets.Protocol.Http.dll
