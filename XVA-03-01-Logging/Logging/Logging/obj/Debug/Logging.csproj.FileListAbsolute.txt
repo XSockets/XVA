@@ -68,7 +68,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Any OS\Logging\Logging\bin\
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Any OS\Logging\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Any OS\Logging\Logging\obj\Debug\Logging.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Any OS\Logging\Logging\obj\Debug\Logging.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\Logging.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\Logging.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\Logging.pdb
@@ -84,7 +83,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSocket
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Serialization.dll
@@ -97,3 +95,16 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\Serilog
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\obj\Debug\Logging.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\obj\Debug\Logging.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-03-01-Logging\Logging\Logging\bin\System.Web.WebPages.Razor.xml
