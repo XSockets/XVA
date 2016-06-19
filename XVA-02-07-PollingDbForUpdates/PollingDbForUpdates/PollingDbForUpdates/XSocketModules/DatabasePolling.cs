@@ -1,14 +1,12 @@
 using System;
 using System.Linq;
 using System.Timers;
-using Microsoft.Ajax.Utilities;
 using Ninject;
 using PollingDbForUpdates.Core.Interfaces.Service;
 using PollingDbForUpdates.Core.ViewModel;
 using PollingDbForUpdates.NinjectModules;
 using XSockets.Core.XSocket;
 using XSockets.Core.XSocket.Helpers;
-using XSockets.Core.Common.Socket.Event.Interface;
 using XSockets.Plugin.Framework;
 using XSockets.Plugin.Framework.Attributes;
 

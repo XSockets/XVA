@@ -24,7 +24,7 @@
     <script src="http://cdn.wijmo.com/external/knockout.wijmo.js" type="text/javascript"></script>
 
     <!-- JXSOCKETS JS //-->
-    <script src="/Scripts/XSockets.latest.js"></script>
+    <script src="/Scripts/XSockets/xsockets.latest.js"></script>
     <script>
 
         function randomFromInterval(from, to) {
@@ -132,7 +132,8 @@
 
             ko.applyBindings(barchartViewModel);
 
-            ws = new XSockets.WebSocket("ws://localhost:4502", ['sales']);
+            ws = new xsockets.client("ws://localhost:4502", ['sales']);
+            ws.setPersistentId(xsockets.utils.guid());
             sales = ws.controller('sales');
 
             sales.on('sales-updated', function (d) {
@@ -173,6 +174,7 @@
                     }
                 });
             });
+            ws.open();
         });
     </script>
 }

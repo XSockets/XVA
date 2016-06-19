@@ -197,7 +197,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\Any OS\PollingD
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\obj\Debug\PollingDbForUpdates.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\obj\Debug\PollingDbForUpdates.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\obj\Debug\PollingDbForUpdates.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.pdb
@@ -247,12 +246,10 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpd
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Serialization.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Server.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.WebAPI.Fallback.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.Core.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.Data.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\PollingDbForUpdates.Service.pdb
@@ -288,3 +285,5 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpd
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\System.Web.WebPages.Deployment.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\System.Web.WebPages.Razor.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\System.Web.Optimization.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-07-PollingDbForUpdates\PollingDbForUpdates\PollingDbForUpdates\bin\XSockets.Protocol.Rfc6455Native.dll
