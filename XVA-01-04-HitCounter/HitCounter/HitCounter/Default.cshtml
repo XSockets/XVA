@@ -7,10 +7,11 @@
 <body>
     <div id="counter" style="margin: auto; font-size:220px; font-family:'Segoe UI Light';"></div>
 
-    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/XSockets/xsockets.latest.min.js"></script>
     <script type="text/javascript">
         // create a xsockets connection
-        var conn = new XSockets.WebSocket('ws://localhost:4502', ['hitcounter']);
+        var conn = new xsockets.client('ws://localhost:4502', ['hitcounter']);
+        conn.setPersistentId(xsockets.utils.guid());
 
         //Get the controller for the hitcounter
         var controller = conn.controller('hitcounter');
@@ -19,6 +20,8 @@
         controller.on('updateCount', function (count) {
             document.querySelector('#counter').innerText = count;
         });
+
+        conn.open();
     </script>
 </body>
 </html>

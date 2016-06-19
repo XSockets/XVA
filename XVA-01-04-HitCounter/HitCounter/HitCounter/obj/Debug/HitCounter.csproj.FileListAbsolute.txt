@@ -106,7 +106,6 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\Any OS\HitCounter\HitCou
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\obj\Debug\HitCounter.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\obj\Debug\HitCounter.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\obj\Debug\HitCounter.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\HitCounter.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\HitCounter.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\HitCounter.pdb
@@ -122,7 +121,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bi
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Serialization.dll
@@ -132,3 +130,16 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bi
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\Serilog.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\Serilog.FullNetFx.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\Serilog.FullNetFx.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.Helpers.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.Razor.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\XSockets.Protocol.Rfc6455Native.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.Helpers.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.Razor.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-04-HitCounter\HitCounter\HitCounter\bin\System.Web.WebPages.Razor.xml
