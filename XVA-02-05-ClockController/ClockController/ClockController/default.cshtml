@@ -5,13 +5,15 @@
 </head>
 <body>
     <div id="clock"></div>
-    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/XSockets/xsockets.latest.min.js"></script>
     <script>
-        var conn = new XSockets.WebSocket('ws://localhost:4502', ['clock']);
+        var conn = new xsockets.client('ws://localhost:4502', ['clock']);
+        conn.setPersistentId(xsockets.utils.guid());
         var clock = conn.controller('clock');
         clock.on('tick', function (t) {
             document.querySelector('#clock').innerText = t;
         });
+        conn.open();
     </script>
 </body>
 </html>

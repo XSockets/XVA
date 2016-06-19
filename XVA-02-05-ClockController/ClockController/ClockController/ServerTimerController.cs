@@ -17,7 +17,7 @@ namespace ClockController
         public ServerTimerController()
         {
             var t = new Timer(100);
-            t.Elapsed += (s, e) => this.InvokeToAll<ClockController>(DateTime.Now.ToString("hh:mm:ss.fff"), "tick");
+            t.Elapsed += async (s, e) => await this.InvokeToAll<ClockController>(DateTime.Now.ToString("hh:mm:ss.fff"), "tick");
             t.Start();
         }
     }

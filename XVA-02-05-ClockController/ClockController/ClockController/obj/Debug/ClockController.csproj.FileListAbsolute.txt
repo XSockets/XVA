@@ -72,7 +72,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\Any OS\ClockControl
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\Any OS\ClockController\ClockController\bin\System.Web.WebPages.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\Any OS\ClockController\ClockController\bin\System.Web.WebPages.Deployment.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\Any OS\ClockController\ClockController\bin\System.Web.WebPages.Razor.xml
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\xsockets.license.x
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\ClockController.dll.config
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\ClockController.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\ClockController.pdb
@@ -94,7 +93,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\Clo
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Plugin.Framework.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Json.dll
-C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Mqtt.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Serialization.dll
@@ -112,3 +110,5 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\Clo
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\obj\Debug\ClockController.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\obj\Debug\ClockController.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\obj\Debug\ClockController.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Http.dll
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-02-05-ClockController\ClockController\ClockController\bin\XSockets.Protocol.Rfc6455Native.dll
