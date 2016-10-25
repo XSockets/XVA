@@ -36,7 +36,7 @@
         conn = new xsockets.client('ws://localhost:4502', [syncName]);
         conn.setPersistentId(xsockets.utils.guid());
         conn.setParameters({ topics: syncName });
-        //Loads oll persisted data when connected
+        //Loads all persisted data when connected
         conn.controller(syncName).on("init:" + syncName, function (d) {
             for (var i = 0; i < d.length; i++) {
                 vm.updatedItem(d[i]);
