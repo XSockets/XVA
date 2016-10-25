@@ -10,5 +10,7 @@
       <InputEndpoint name="endpoint2" protocol="tcp" port="8080" localPort="8080" />
       <InputEndpoint name="endpoint1" protocol="tcp" port="8181" localPort="8181" />
     </Endpoints>
+    <Certificates>
+    </Certificates>
   </WorkerRole>
 </ServiceDefinition>

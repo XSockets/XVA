@@ -32,7 +32,7 @@ namespace XSocketsWorker
             var uriStr = RoleEnvironment.GetConfigurationSettingValue("uri");
             var origins = new HashSet<string>(RoleEnvironment.GetConfigurationSettingValue("origin").Split(',').ToList());
             var instanceEndpoints =
-                RoleEnvironment.CurrentRoleInstance.InstanceEndpoints.Values.Where(p => p.Protocol.Equals("tcp"));
+                RoleEnvironment.CurrentRoleInstance.InstanceEndpoints.Values.Where(p => p.Protocol.Equals("tcp"));           
 
             //Create endpoints
             foreach (var endpoint in instanceEndpoints)
@@ -41,6 +41,8 @@ namespace XSocketsWorker
                 configs.Add(new ConfigurationSetting(uri, origins) { Endpoint = endpoint.IPEndpoint });
                 Composable.GetExport<IXLogger>().Information("Endpoint {@endpoint}", endpoint);
             }
+
+           
 
             if (!configs.Any())
             {
