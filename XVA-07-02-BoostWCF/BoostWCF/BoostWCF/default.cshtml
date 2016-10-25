@@ -14,10 +14,11 @@
     <div id="info"></div>
 
     <script src="/Scripts/jquery-2.1.4.min.js"></script>
-    <script src="/Scripts/XSockets.latest.min.js"></script>
+    <script src="/Scripts/XSockets/XSockets.latest.min.js"></script>
     <script>
         /// XSOCKETS
-        var conn = new XSockets.WebSocket("ws://127.0.0.1:4502", ['zoo']);
+        var conn = new xsockets.client("ws://127.0.0.1:4502", ['zoo']);
+        conn.setPersistentId(xsockets.utils.guid());
         var zoo = conn.controller('zoo');
 
         //When XSockets distributes the messages from WCF to all clients...
@@ -32,6 +33,7 @@
                 $('#info').prepend($("<p>").text(d));
             });
         });
+        conn.open();
     </script>
 </body>
 </html>

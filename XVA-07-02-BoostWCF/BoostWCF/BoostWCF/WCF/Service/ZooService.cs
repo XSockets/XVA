@@ -1,6 +1,6 @@
 ﻿using System.ServiceModel.Activation;
 using BoostWCF.WCF.Contract;
-using XSockets.Client40;
+using XSockets;
 
 namespace BoostWCF.WCF.Service
 {
@@ -23,7 +23,7 @@ namespace BoostWCF.WCF.Service
         private void SendToAll(object obj, string topic, string controller)
         {
             //Get existing or create a new instance, then call the controller
-            ClientPool.GetInstance("ws://127.0.0.1:4502", "http://localhost").Send(obj, topic, controller);
+            ClientPool.GetInstance("ws://127.0.0.1","4502", "http://localhost").Send(obj, topic, controller);
         }
     }
 
