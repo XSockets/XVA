@@ -80,7 +80,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\Any OS\SimplePubSub\Si
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\Any OS\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\Any OS\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.Deployment.xml
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\Any OS\SimplePubSub\SimplePubSub\bin\System.Web.WebPages.Razor.xml
-C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.csprojResolveAssemblyReference.cache
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\obj\Debug\SimplePubSub.pdb
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-02-SimplePubSub\SimplePubSub\SimplePubSub\bin\SimplePubSub.dll.config
