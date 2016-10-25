@@ -5,7 +5,7 @@ var xsockets;
 (function (xsockets) {
     var controller = (function () {
         /**
-         * Ctor for client side controller
+         * Ctor for client side controller.
          * @param itransport - the communication layer
          * @param _name - the name of the controller
          */
@@ -32,16 +32,25 @@ var xsockets;
         /**
          * Dispatches a message to the promise or subscription for the topic.
          * If no promise/subscription is found the onmessage event on the controller will be fired
-         * @param message - the message object received from the server
+         * @param message - the imessage object received from the server
          */
         controller.prototype.dispatchEvent = function (message) {
+            // Acknowledge if qos equals atleastonce
+            if (message.Q == xsockets.qos.atleastOnce) {
+                if (this._transport.isConnected() && this._isOpen) {
+                    //var m = new xsockets.message(message.C, events.ack);
+                    //m.I = message.I;
+                    //("{'T':'" + XSockets.Events.msgAck + "','I':'" + msg.id + "','C':'" + msg.controller + "','Q':'" + 1 + "'}")
+                    this._transport.socket.send("{'T':'" + xsockets.events.ack + "','I':'" + message.I + "','C':'" + message.C + "','Q':'" + 1 + "'}");
+                }
+            }
             switch (message.T) {
                 case xsockets.events.open:
                     this._isOpen = true;
                     var clientInfo = JSON.parse(message.D);
                     this._controllerId = clientInfo.CI;
                     this._transport.setPersistentId(clientInfo.PI);
-                    this.onOpen(message.D);
+                    this.onOpen(clientInfo);
                     break;
                 case xsockets.events.close:
                     this._isOpen = false;
@@ -56,7 +65,7 @@ var xsockets;
         /**
          * If there is a promise for the topic on the message it wil be fired.
          * Return true if a promise was fired, otherwise false
-         * @param message - the received message
+         * @param message - the received imessage
          */
         controller.prototype.firePromise = function (message) {
             //Check promises
@@ -76,13 +85,13 @@ var xsockets;
         /**
          * If there is a subscription for the topic on the message it wil be fired.
          * Return true if a subscription was fired, otherwise false
-         * @param message - the received message
+         * @param message - the received imessage
          */
         controller.prototype.fireSubscription = function (message) {
             //Check pub/sub and rpc
             var cb = this._subscriptions[message.T];
             if (cb !== undefined) {
-                if (message.messageType == xsockets.messageType.text) {
+                if (message.messageType === xsockets.messageType.text) {
                     cb(JSON.parse(message.D));
                 }
                 else {
@@ -124,10 +133,10 @@ var xsockets;
          */
         controller.prototype.on = function (topic, callback) {
             topic = topic.toLowerCase();
-            if (typeof callback === 'function') {
+            if (typeof callback === "function") {
                 this._subscriptions[topic] = callback;
             }
-            if (typeof callback === 'undefined') {
+            if (typeof callback === "undefined") {
                 delete this._subscriptions[topic];
             }
         };
@@ -147,8 +156,9 @@ var xsockets;
         controller.prototype.invoke = function (topic, data) {
             topic = topic.toLowerCase();
             if (this._transport.isConnected()) {
-                if (data === undefined)
-                    data = '';
+                if (data === undefined) {
+                    data = "";
+                }
                 var m = new xsockets.message(this.name, topic, data);
                 this._transport.socket.send(m);
             }
@@ -163,8 +173,10 @@ var xsockets;
         controller.prototype.invokeBinary = function (topic, arrayBuffer, data) {
             if (data === void 0) { data = undefined; }
             topic = topic.toLowerCase();
-            var bm = new xsockets.message(this.name, topic, data, arrayBuffer);
-            this._transport.socket.send(bm.createBuffer());
+            if (this._transport.isConnected()) {
+                var bm = new xsockets.message(this.name, topic, data, arrayBuffer);
+                this._transport.socket.send(bm.createBuffer());
+            }
             return this;
         };
         /**
@@ -185,7 +197,7 @@ var xsockets;
         controller.prototype.subscribe = function (topic, callback) {
             topic = topic.toLowerCase();
             this.on(topic, callback);
-            if (this._transport.isConnected() && typeof callback === 'function') {
+            if (this._transport.isConnected() && typeof callback === "function") {
                 var m = new xsockets.message(this.name, xsockets.events.subscribe, {
                     T: topic,
                     A: false //cb ? true : false
@@ -215,18 +227,18 @@ var xsockets;
          */
         controller.prototype.publish = function (topic, data) {
             topic = topic.toLowerCase();
-            this.invoke(topic, data);
+            return this.invoke(topic, data);
         };
         controller.prototype.setProperty = function (name, value) {
-            this.invoke('set_' + name, value);
+            return this.invoke('set_' + name, value);
         };
         controller.prototype.getProperty = function (name, callback) {
-            var that = this;
+            var _this = this;
             this.on('get_' + name, function (d) {
-                that.off('get_' + name);
+                _this.off('get_' + name);
                 callback(d);
             });
-            this.invoke('get_' + name, undefined);
+            return this.invoke('get_' + name, undefined);
         };
         return controller;
     }());
@@ -239,6 +251,11 @@ var xsockets;
         messageType[messageType["binary"] = 1] = "binary";
     })(xsockets.messageType || (xsockets.messageType = {}));
     var messageType = xsockets.messageType;
+    (function (qos) {
+        qos[qos["fireAndForget"] = 0] = "fireAndForget";
+        qos[qos["atleastOnce"] = 1] = "atleastOnce";
+    })(xsockets.qos || (xsockets.qos = {}));
+    var qos = xsockets.qos;
 })(xsockets || (xsockets = {}));
 var xsockets;
 (function (xsockets) {
@@ -281,9 +298,7 @@ var xsockets;
          * Extract a message from binary data received from the server
          */
         message.prototype.extractMessage = function () {
-            var ab2str = function (buf) {
-                return String.fromCharCode.apply(null, new Uint16Array(buf));
-            };
+            var ab2str = function (buf) { return String.fromCharCode.apply(null, new Uint16Array(buf)); };
             var byteArrayToLong = function (byteArray) {
                 var value = 0;
                 for (var i = byteArray.byteLength - 1; i >= 0; i--) {
@@ -318,8 +333,8 @@ var xsockets;
             return c.buffer;
         };
         message.prototype.stringToBuffer = function (str) {
-            var i, len = str.length, arr = new Array(len);
-            for (i = 0; i < len; i++) {
+            var len = str.length, arr = new Array(len);
+            for (var i = 0; i < len; i++) {
                 arr[i] = str.charCodeAt(i) & 0xFF;
             }
             return new Uint8Array(arr).buffer;
@@ -342,7 +357,7 @@ var xsockets;
  */
 var xsockets;
 (function (xsockets) {
-    xsockets.version = '6.0.1';
+    xsockets.version = '6.2.0';
     var events = (function () {
         function events() {
         }
@@ -355,6 +370,7 @@ var xsockets;
         events.unsubscribe = '6';
         events.ping = '7';
         events.pong = '8';
+        events.ack = '9';
         return events;
     }());
     xsockets.events = events;
@@ -431,6 +447,7 @@ var xsockets;
             if (controllers === void 0) { controllers = []; }
             this._autoReconnect = false;
             this._autoReconnectTimeout = 5000;
+            this._qos = false;
             this._readyState = WebSocket.CLOSED;
             this.onOpen = function (event) { };
             this.onAuthenticationFailed = function (event) { };
@@ -474,6 +491,13 @@ var xsockets;
             localStorage.setItem(this._server, this._persistentId);
         };
         /**
+         * Call before calling open.
+         * If set the server will use QoS for this connection
+         */
+        client.prototype.enableQoS = function () {
+            this._qos = true;
+        };
+        /**
          * Opens the transport (socket) and setup all basic events (open, close, onmessage, onerror)
          */
         client.prototype.open = function () {
@@ -481,7 +505,9 @@ var xsockets;
             var that = this;
             if (this._persistentId)
                 this._parameters["persistentid"] = this._persistentId;
-            if (this.socket !== undefined && this.socket.readyState == WebSocket.OPEN)
+            if (this._qos)
+                this._parameters["qos"] = '1';
+            if (this.socket !== undefined && this.socket.readyState === WebSocket.OPEN)
                 return;
             this.socket = new WebSocket(this._server + this.querystring(), [this.subprotocol]);
             this.socket.binaryType = "arraybuffer";
@@ -496,7 +522,7 @@ var xsockets;
             this.socket.onclose = function (event) {
                 _this.socket = undefined;
                 //Fire close if it was ever opened
-                if (_this._readyState == WebSocket.OPEN) {
+                if (_this._readyState === WebSocket.OPEN) {
                     _this.onClose(event);
                     //Close all controllers
                     for (var c in _this._controllers) {
@@ -513,8 +539,14 @@ var xsockets;
                 if (typeof event.data === "string") {
                     // TextMessage                
                     var d = JSON.parse(event.data);
-                    // TODO: if owin sends a fake ping respond with fake pong. Microsoft did not implement ping/pong following RFC6455
                     var m = new xsockets.message(d.C, d.T, d.D, undefined);
+                    m.Q = d.Q;
+                    m.I = d.I;
+                    if (m.T === xsockets.events.ping) {
+                        m.T = xsockets.events.pong;
+                        _this.sendtext(m);
+                        return;
+                    }
                     if (m.T === xsockets.events.open) {
                         _this.setPersistentId(JSON.parse(m.D).PI);
                     }
@@ -527,7 +559,7 @@ var xsockets;
                         _this.close(false);
                         return;
                     }
-                    var c = _this.controller(m.C, false);
+                    var c = _this.controller(m.C, false); // as xsockets.controller;
                     if (c == undefined) {
                         _this.onMessage(d);
                     }
@@ -539,7 +571,7 @@ var xsockets;
                     // BinaryMessage                
                     var bm = new xsockets.message("", "", "", event.data);
                     var bd = bm.extractMessage();
-                    var c = _this.controller(bd.C, false);
+                    var c = _this.controller(bd.C, false); // as xsockets.controller;
                     if (c == undefined) {
                         _this.onMessage(event.data);
                     }
@@ -579,7 +611,7 @@ var xsockets;
             if (instance === undefined && createNewInstanceIfMissing) {
                 instance = new xsockets.controller(this, name.toLocaleLowerCase());
                 this._controllers.push(instance);
-                this.sendtext(new xsockets.message(instance.name, xsockets.events.init));
+                instance.open();
             }
             return instance;
         };
@@ -594,7 +626,7 @@ var xsockets;
             }
         };
         client.prototype.sendtext = function (data) {
-            if (this.socket != undefined) {
+            if (this.isConnected()) {
                 this.socket.send(data);
             }
         };
@@ -607,7 +639,7 @@ var xsockets;
         client.prototype.querystring = function () {
             var str = "?";
             for (var key in this._parameters) {
-                str += key + '=' + encodeURIComponent(this._parameters[key]) + '&';
+                str += key + "=" + encodeURIComponent(this._parameters[key]) + "&";
             }
             str = str.slice(0, str.length - 1);
             return str;

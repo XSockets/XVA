@@ -27,7 +27,6 @@ C:\Users\uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessag
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\bin\XSockets.Protocol.Putty.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\bin\XSockets.Protocol.Rfc6455.dll
 C:\Users\uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\Any OS\SimpleMessaging\SimpleMessaging\obj\Debug\SimpleMessaging.csprojResolveAssemblyReference.cache
-C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\SimpleMessaging\SimpleMessaging\bin\xsockets.license.dat
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\SimpleMessaging\SimpleMessaging\bin\SimpleMessaging.dll.config
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\SimpleMessaging\SimpleMessaging\bin\SimpleMessaging.dll
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-01-01-SimpleMessaging\SimpleMessaging\SimpleMessaging\bin\SimpleMessaging.pdb

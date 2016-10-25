@@ -12,7 +12,7 @@
         <div data-bind="text:message"></div>
     </div>
 
-    <script src="/Scripts/XSockets/xsockets.latest.min.js" type="text/javascript"></script>
+    <script src="/Scripts/XSockets/xsockets.latest.js" type="text/javascript"></script>
     <script src="/Scripts/knockout-3.2.0.js"></script>
     <script type="text/javascript">
         //VM
@@ -20,8 +20,9 @@
         ko.applyBindings(vm);
 
         //Connect to the built in "Generic" controller
-        var conn = new xsockets.client('ws://localhost:4502',['generic']);
-        var controller = conn.controller('generic');
+        var conn = new xsockets.client('ws://localhost:4502', ['chat']);
+        conn.enableQoS();
+        var controller = conn.controller('chat');
 
         //Method that will be invoked when a message with topic "simple" is sent
         controller.on('simple',function(d) {
