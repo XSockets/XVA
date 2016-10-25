@@ -39,9 +39,9 @@ namespace SimpleRPC
         /// This will broadcast any message to the client being connected to the controller
         /// </summary>
         /// <param name="message"></param>
-        //public override async Task OnMessage(IMessage message)
-        //{
-        //    await this.InvokeToAll(message);
-        //}
+        public override async Task OnMessage(IMessage message)
+        {
+            await this.InvokeToAll(message);
+        }
     }
 }

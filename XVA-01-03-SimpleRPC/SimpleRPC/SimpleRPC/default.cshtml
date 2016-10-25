@@ -28,7 +28,7 @@
 
         //Connect to the built in "Generic" controller
         var conn = new xsockets.client('ws://localhost:4502', ['chat']);
-        conn.autoHeartbeat(true,20);
+        conn.autoHeartbeat(true, 3000);
         conn.autoReconnect();
         conn.setPersistentId(xsockets.utils.guid());
         conn.setParameters({ uid: 'abc123' });
