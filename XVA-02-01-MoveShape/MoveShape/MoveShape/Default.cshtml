@@ -29,8 +29,11 @@
             conn.setPersistentId(xsockets.utils.guid());
             var controller = conn.controller('moveshape');
 
-            controller.onopen = function () {
+            controller.onOpen = function () {
                 $('#status').text("Connected");
+            };
+            controller.onClose = function () {
+                $('#status').text("Disconnected");
             };
 
             controller.on("move", function (d) {
