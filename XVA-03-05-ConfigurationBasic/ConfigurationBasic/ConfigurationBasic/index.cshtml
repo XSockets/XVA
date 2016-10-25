@@ -11,7 +11,7 @@
         <div data-bind="foreach:messages">
             <div data-bind="text:say"></div>          
         </div>
-        <script src="/Scripts/XSockets.latest.min.js"></script>
+        <script src="/Scripts/XSockets/XSockets.latest.min.js"></script>
         <script src="/Scripts/knockout-3.3.0.js"></script>
         <script>
             var openWindow = function (url) {
@@ -22,7 +22,7 @@
 
             ko.applyBindings(vm);
 
-            var conn = new XSockets.WebSocket('ws://127.0.0.1:81', ['generic']);
+            var conn = new xsockets.client('ws://127.0.0.1:81', ['generic']);
             var g = conn.controller('generic');
 
             //When messages arrive on the foo method/topic
@@ -34,6 +34,7 @@
             document.querySelector('#btn-send').onclick = function() {
                 g.invoke('foo', { say: 'Hello from a client on endpoint 127.0.0.1:81' });
             };
+            conn.open();
         </script>
     </body>
 </html>
