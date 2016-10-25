@@ -38,6 +38,7 @@
 
         //Setup the connections to the chat controller
         var conn = new xsockets.client("ws://localhost:8080", ['chat']);
+        conn.setPersistentId(xsockets.utils.guid());
 
         //Extract the chat controller.
         var chat = conn.controller('chat');
