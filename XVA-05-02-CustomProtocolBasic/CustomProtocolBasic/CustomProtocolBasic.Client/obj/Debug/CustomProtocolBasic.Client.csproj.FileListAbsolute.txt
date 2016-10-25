@@ -10,9 +10,9 @@ C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\Any OS\CustomPr
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\Any OS\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.csprojResolveAssemblyReference.cache
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\Any OS\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.exe
 C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\Any OS\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.exe.config
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.exe
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.pdb
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.csprojResolveAssemblyReference.cache
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.exe
-C:\Users\uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.exe.config
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\bin\Debug\CustomProtocolBasic.Client.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.exe
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.pdb
+C:\Users\Uffe\Documents\GitHub\XVA\XVA-05-02-CustomProtocolBasic\CustomProtocolBasic\CustomProtocolBasic.Client\obj\Debug\CustomProtocolBasic.Client.csprojResolveAssemblyReference.cache
